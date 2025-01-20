@@ -1,8 +1,8 @@
-from django.shortcuts import render
+from django.shortcuts import render, HttpResponse
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from .models import UserData
-from .serializers import UserDataSerializer
+from .models import UserData, UserWishlist
+from .serializers import UserDataSerializer, UserWishlistSerializer
 from rest_framework_simplejwt.tokens import AccessToken
 # Create your views here.
 class userDetail(APIView):
@@ -30,9 +30,8 @@ class userDetail(APIView):
         })
 
 #Using serializer
-
 class UserDetailAPI(APIView):
-    def get(self, request):
+    def get( request):
         users = UserData.objects.all()
         serializer = UserDataSerializer(users, many=True)
         return Response({
@@ -41,14 +40,14 @@ class UserDetailAPI(APIView):
             "data": serializer.data
         })
         
+#token
 class generateUserToken(APIView):
-    def post(self, request):
-        
+    def post( request):
         email = request.data.get('email')
         print("Email:", email)
         
         if not UserData.objects.filter(email=email).exists():
-            return Response({"status":400, "message": "User not found"})
+            return Response({"status":404,"message": "User not found"})
         
         token = AccessToken() 
         token['email'] = email
@@ -58,3 +57,20 @@ class generateUserToken(APIView):
             "message": "Token generated successfully",
             "token": str(token)
         })
+    
+
+class UserWishlistApi(APIView):
+    def get(request,userID):
+        
+        user = UserData.objects.get(id= userID)
+        wishlistData = user.wishlist.all()
+        wishlistSerializer = UserWishlistSerializer(wishlistData, many = True)
+
+        return Response({
+                "status": 200,
+                "message": "User wishlist fetched successfully",
+                "user": UserDataSerializer(user).data,
+                "wishlist": wishlistSerializer.data
+            })
+
+
