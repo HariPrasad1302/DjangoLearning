@@ -4,7 +4,9 @@ from rest_framework.response import Response
 from .models import UserData, UserWishlist
 from .serializers import UserDataSerializer, UserWishlistSerializer
 from rest_framework_simplejwt.tokens import AccessToken
+
 # Create your views here.
+
 class userDetail(APIView):
     def get(self, request):
         user_data = [
@@ -81,3 +83,23 @@ class UserWishlistApi(APIView):
             })
 
 
+#using prefetch_related method
+
+class prefetch_wishlistData(APIView):
+    def get(self, request):
+        users = UserData.objects.prefetch_related('wishlist')
+        response_data = []
+        for user in users:
+            userSerializer = UserDataSerializer(user).data
+            wishlistSerializer = UserWishlistSerializer(user.wishlist.all(), many="True").data
+
+            response_data.append({
+                "user": userSerializer,
+                "wishlist": wishlistSerializer
+            })
+
+        return Response({
+            "status": 200,
+            "message":"Wishlist Data fetched using prefetch_related",
+            "data": response_data
+        })
