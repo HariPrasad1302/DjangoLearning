@@ -31,7 +31,7 @@ class userDetail(APIView):
 
 #Using serializer
 class UserDetailAPI(APIView):
-    def get( request):
+    def get(self, request):
         users = UserData.objects.all()
         serializer = UserDataSerializer(users, many=True)
         return Response({
@@ -60,17 +60,24 @@ class generateUserToken(APIView):
     
 
 class UserWishlistApi(APIView):
-    def get(request,userID):
+    def get(self, request):     
+        users = UserData.objects.all()
+        responseData = []
+        for user in users: 
+            wishlistData = user.wishlist.all()
+            userDatas = UserDataSerializer(user).data
+            wishlistSerializer = UserWishlistSerializer(wishlistData, many = True).data
+            
+            responseData.append({
+                "user": userDatas,
+                "wishlistData": wishlistSerializer
+            })
+            
         
-        user = UserData.objects.get(id= userID)
-        wishlistData = user.wishlist.all()
-        wishlistSerializer = UserWishlistSerializer(wishlistData, many = True)
-
         return Response({
                 "status": 200,
-                "message": "User wishlist fetched successfully",
-                "user": UserDataSerializer(user).data,
-                "wishlist": wishlistSerializer.data
+                "message": "Fetched all users with wishlist data successfully",
+                "data": responseData
             })
 
 
