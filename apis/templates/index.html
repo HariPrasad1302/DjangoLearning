@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Demo</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        
+        <h1>Hello Everyone</h1>
+        <p>Welcome to the Django Development</p>
+
+        {% if user_data %}
+        <h2>User Information</h2>
+        <ul >
+            {% for user in user_data  %}
+            <li>ID: {{user.id }}</li>
+            <li>Username: {{ user.name }}</li>
+            <li>Email: {{ user.email }}</li>
+            <li>First Name: {{ user.age }}</li>
+            <br></br>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+    </body>
+</html>

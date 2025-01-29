@@ -6,6 +6,13 @@ from .models import UserData, UserWishlist
 from .serializers import UserDataSerializer, UserWishlistSerializer, GenerateTokenSerializer
 from rest_framework_simplejwt.tokens import AccessToken
 from drf_spectacular.utils import extend_schema
+from django.utils.translation import gettext as _
+from datetime import datetime
+import locale
+from django.utils.formats import localize
+from django.utils import timezone
+from django.conf import settings
+import pytz
 
 # Create your views here.
 
@@ -13,25 +20,22 @@ class userDetail(APIView):
     def get(self, request):
         user_data = [
             {
+                "id": 1,
                 "mobile_number": "1234556789",
                 "email": "abc@gamil.com",
-                "name": "Thamizh"
+                "name": "John"
             },
             {
+                "id": 2,
                 "mobile_number": "1234556788",
-                "email": "abcd@gamil.com",
-                "name": "Arasi"
+                "email": "mic@gamil.com",
+                "name": "Micheal"
             }
         ]
+        render_template = render(request, 'index.html')
 
-        return Response({
-            "status":200,
-            "message": "success",
-            "data": {
-                "count": len(user_data),
-                "result": user_data
-            }
-        })
+        return render(request, 'index.html', {"user_data": user_data})
+        
 
 #Using serializer
 class UserDetailAPI(APIView):
@@ -136,3 +140,25 @@ class select_related_wishlistData(APIView):
             "data": response_data
         })
         
+
+# Example for internalization and lcoalization
+
+def translation(request):
+    locale.setlocale(locale.LC_ALL, request.LANGUAGE_CODE)
+    language_code = request.LANGUAGE_CODE
+    timezone_str = settings.LANGUAGE_TIMEZONE_MAP.get(language_code, 'UTC')
+    print(timezone_str)
+    tz = pytz.timezone(timezone_str)
+    print(tz)
+    timezone.activate(tz)
+    
+    today = datetime.now(tz)
+    Date = today.strftime('%B %d, %Y')
+    amount = 3412.23
+    response = {
+        "message": _("Welcome to the Django Development"),
+        "current_date": today,
+        "price": locale.currency(amount, grouping=True)
+    }
+    return render(request, 'translation.html', response)
+    

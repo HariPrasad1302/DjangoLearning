@@ -1,0 +1,26 @@
+{% load i18n %}
+<!DOCTYPE html>
+<html lang={{LANGUAGE_CODE}}>
+    <head>
+        <meta charset="utf-8">
+        <title>{% trans "Demo Translation" %}</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        {{ response }}
+        <h1>{% trans "Hello Everyone" %}</h1>
+        <p>{{ message }}</p>
+        <p>{% trans "Current Date: " %}{{ current_date }}</p>
+        <p>{% trans "Price: " %} {{price}}</p>
+        
+        <form action="{% url 'set_language' %}" method="post" >
+            {% csrf_token %}
+            <select name="language">
+                <option value="en">English</option>
+                <option value="fr">French</option>
+            </select>
+            <button type="submit">{% trans "Switch Language" %} </button>
+        </form>
+    </body>
+</html>
