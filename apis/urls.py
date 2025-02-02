@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import userDetail, UserDetailAPI, generateUserToken, UserWishlistApi, prefetch_wishlistData, select_related_wishlistData, translation
+from .views import userDetail, UserDetailAPI, generateUserToken, UserWishlistApi, prefetch_wishlistData, select_related_wishlistData, translation, logging_example
 from django.conf.urls.i18n import set_language
 
 urlpatterns = [
@@ -11,4 +11,5 @@ urlpatterns = [
     path('userWishlist/select_related/', select_related_wishlistData.as_view(), name='selectRelatedWishlist'),
     path('translationDemo/', translation, name='translation'),
     path('set_language/', set_language, name='set_language'),
+    path('logs/', logging_example, name='logs'),
 ]

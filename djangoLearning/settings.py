@@ -1,5 +1,13 @@
 from datetime import timedelta
 from django.utils.translation import gettext_lazy as _
+import environ, os
+
+env = environ.Env(
+    # set casting, default value
+    DEBUG=(bool, False)
+)
+
+
 
 """
 Django settings for djangoLearning project.
@@ -18,6 +26,8 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+# Take environment variables from .env file
+environ.Env.read_env(BASE_DIR / '.env')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
@@ -161,3 +171,40 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+LOGGING = {
+    "version": 1,  # the dictConfig format version
+    "disable_existing_loggers": False,  # retain the default loggers
+    
+    "handlers":{
+        "file":{
+            "class": "logging.FileHandler",
+            "filename": env("LOG_FILE"),
+            "level": env("LOG_LEVEL"),
+            "formatter": "simple"
+        },
+        "console":{
+            "class": "logging.StreamHandler",
+            "level": env("LOG_LEVEL"),
+            "formatter": "simple"
+        }
+    },
+    
+    "loggers":{
+        "":{
+            "level": env("LOG_LEVEL"),
+            "handlers": ["file", "console"],
+        }
+    },
+    
+    "formatters":{
+        "verbose": {
+            "format": "{name} - {levelname}: {asctime}, {module}.py - (func: {funcName}) - (line: {lineno:d}). {message}",
+            "style": "{",
+        },
+        "simple":{
+            "format": "{name}: {asctime} - {levelname} - {message}",
+            "style": "{"
+        }
+    }
+}

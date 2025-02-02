@@ -13,6 +13,7 @@ from django.utils.formats import localize
 from django.utils import timezone
 from django.conf import settings
 import pytz
+import logging
 
 # Create your views here.
 
@@ -161,4 +162,14 @@ def translation(request):
         "price": locale.currency(amount, grouping=True)
     }
     return render(request, 'translation.html', response)
-    
+
+
+logger = logging.getLogger(__name__)
+
+def logging_example(request):
+    logger.info("This is an info log")
+    try:
+        UserData.objects.get(id=8)
+    except UserData.DoesNotExist:
+        logger.error("Employee with id %s does not exist", 8)
+    return HttpResponse("Logging example")

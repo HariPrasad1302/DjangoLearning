@@ -1,0 +1,4 @@
+django.utils.autoreload: 2025-02-02 21:46:22,399 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-02 21:46:25,269 - WARNING - Not Found: /
+apis.views: 2025-02-02 21:46:35,371 - INFO - This is an info log
+apis.views: 2025-02-02 21:46:35,373 - ERROR - Employee with id 8 does not exist
