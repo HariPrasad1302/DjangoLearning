@@ -413,3 +413,16 @@ django.utils.autoreload: 2025-02-03 17:01:39,429 - INFO - Watching for file chan
 django.utils.autoreload: 2025-02-04 09:22:17,489 - INFO - Watching for file changes with StatReloader
 django.request: 2025-02-04 09:23:16,128 - WARNING - Not Found: /
 django.request: 2025-02-04 09:23:16,196 - WARNING - Not Found: /favicon.ico
+django.utils.autoreload: 2025-02-04 09:43:46,387 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-04 09:43:55,666 - WARNING - Not Found: /
+django.request: 2025-02-04 09:43:57,205 - WARNING - Not Found: /favicon.ico
+django.utils.autoreload: 2025-02-04 09:47:45,139 - INFO - E:\Django Training SK\Django\DjangoLearning\products\views.py changed, reloading.
+django.utils.autoreload: 2025-02-04 09:47:48,056 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-04 09:48:11,089 - INFO - E:\Django Training SK\Django\DjangoLearning\products\views.py changed, reloading.
+django.utils.autoreload: 2025-02-04 09:48:13,820 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-04 09:48:43,546 - INFO - E:\Django Training SK\Django\DjangoLearning\products\views.py changed, reloading.
+django.utils.autoreload: 2025-02-04 09:48:45,966 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-04 09:52:52,728 - INFO - E:\Django Training SK\Django\DjangoLearning\products\serializers.py changed, reloading.
+django.utils.autoreload: 2025-02-04 09:52:54,116 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-04 09:53:19,489 - INFO - E:\Django Training SK\Django\DjangoLearning\products\views.py changed, reloading.
+django.utils.autoreload: 2025-02-04 09:53:20,633 - INFO - Watching for file changes with StatReloader
