@@ -53,7 +53,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
     'drf_spectacular',
-    'apis'
+    'apis',
+    'products'
 ]
 
 REST_FRAMEWORK = {
@@ -111,8 +112,15 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
+    },
+    'productdb':{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'products.sqlite3',
     }
 }
+
+DATABASE_ROUTERS = ['djangoLearning.database_router.DatabaseRouter']
+
 
 
 # Password validation

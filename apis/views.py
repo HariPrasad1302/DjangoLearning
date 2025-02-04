@@ -164,6 +164,8 @@ def translation(request):
     return render(request, 'translation.html', response)
 
 
+# Logging in Django
+
 logger = logging.getLogger(__name__)
 
 def logging_example(request):

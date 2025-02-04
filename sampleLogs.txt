@@ -2,3 +2,414 @@ django.utils.autoreload: 2025-02-02 21:46:22,399 - INFO - Watching for file chan
 django.request: 2025-02-02 21:46:25,269 - WARNING - Not Found: /
 apis.views: 2025-02-02 21:46:35,371 - INFO - This is an info log
 apis.views: 2025-02-02 21:46:35,373 - ERROR - Employee with id 8 does not exist
+django.utils.autoreload: 2025-02-03 15:51:30,167 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-03 15:51:32,146 - WARNING - Not Found: /
+django.request: 2025-02-03 15:51:32,202 - WARNING - Not Found: /favicon.ico
+django.request: 2025-02-03 15:51:40,133 - WARNING - Not Found: /product
+django.request: 2025-02-03 15:51:45,268 - WARNING - Not Found: /product/
+django.request: 2025-02-03 15:51:51,346 - ERROR - Internal Server Error: /product/sample/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: product_data
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\views.py", line 10, in multidb
+    return render(request, {'products': products, 'users': users})
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\cached.py", line 47, in get_template
+    key = self.cache_key(template_name, skip)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\cached.py", line 93, in cache_key
+    return "-".join(s for s in (str(template_name), skip_prefix) if s)
+                                ~~~^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 376, in __repr__
+    data = list(self[: REPR_OUTPUT_SIZE + 1])
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: product_data
+django.utils.autoreload: 2025-02-03 15:52:30,471 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\views.py changed, reloading.
+django.utils.autoreload: 2025-02-03 15:52:31,410 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-03 15:52:33,938 - ERROR - Internal Server Error: /product/sample/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\views.py", line 10, in multidb
+    return render(request, {'products': products, 'users': users})
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\base.py", line 17, in get_template
+    for origin in self.get_template_sources(template_name):
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\cached.py", line 70, in get_template_sources
+    yield from loader.get_template_sources(template_name)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\filesystem.py", line 35, in get_template_sources
+    name = safe_join(template_dir, template_name)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\utils\_os.py", line 17, in safe_join
+    final_path = abspath(join(base, *paths))
+                         ~~~~^^^^^^^^^^^^^^
+  File "<frozen ntpath>", line 139, in join
+  File "<frozen genericpath>", line 188, in _check_arg_types
+TypeError: join() argument must be str, bytes, or os.PathLike object, not 'dict'
+django.utils.autoreload: 2025-02-03 15:53:03,794 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\views.py changed, reloading.
+django.utils.autoreload: 2025-02-03 15:53:04,745 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-03 15:53:06,310 - ERROR - Internal Server Error: /product/sample/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: multidb() missing 1 required positional argument: 'request'
+django.utils.autoreload: 2025-02-03 15:53:09,734 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\views.py changed, reloading.
+django.utils.autoreload: 2025-02-03 15:53:10,529 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-03 15:53:25,910 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\views.py changed, reloading.
+django.utils.autoreload: 2025-02-03 15:53:26,886 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-03 15:53:28,507 - ERROR - Internal Server Error: /product/sample/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<7 lines>...
+        update_join_types=update_join_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1488, in build_filter
+    arg, value = filter_expr
+    ^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+django.utils.autoreload: 2025-02-03 15:54:21,856 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\views.py changed, reloading.
+django.utils.autoreload: 2025-02-03 15:54:22,600 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-03 15:55:00,616 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\views.py changed, reloading.
+django.utils.autoreload: 2025-02-03 15:55:01,575 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-03 15:58:10,821 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\views.py changed, reloading.
+django.utils.autoreload: 2025-02-03 15:58:11,838 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-03 15:58:57,017 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-03 16:00:28,536 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\views.py changed, reloading.
+django.utils.autoreload: 2025-02-03 16:00:29,303 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-03 16:01:30,239 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\views.py changed, reloading.
+django.utils.autoreload: 2025-02-03 16:01:31,302 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-03 16:03:51,563 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\djangoLearning\settings.py changed, reloading.
+django.utils.autoreload: 2025-02-03 16:03:52,478 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-03 16:08:56,517 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\views.py changed, reloading.
+django.utils.autoreload: 2025-02-03 16:08:57,373 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-03 16:09:12,804 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\views.py changed, reloading.
+django.utils.autoreload: 2025-02-03 16:09:13,687 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-03 16:09:32,198 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\views.py changed, reloading.
+django.utils.autoreload: 2025-02-03 16:09:33,150 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-03 16:09:47,639 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\views.py changed, reloading.
+django.utils.autoreload: 2025-02-03 16:09:48,500 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-03 16:10:20,770 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\views.py changed, reloading.
+django.utils.autoreload: 2025-02-03 16:10:21,523 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-03 16:10:23,981 - ERROR - Internal Server Error: /product/sample/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\views.py", line 15, in multidb
+    response = {
+               ^
+    ...<2 lines>...
+    }
+    ^
+TypeError: unhashable type: 'list'
+django.utils.autoreload: 2025-02-03 16:10:41,196 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\views.py changed, reloading.
+django.utils.autoreload: 2025-02-03 16:10:42,071 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-03 16:11:19,082 - WARNING - Not Found: /favicon.ico
+django.utils.autoreload: 2025-02-03 16:12:01,231 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\views.py changed, reloading.
+django.utils.autoreload: 2025-02-03 16:12:02,116 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-03 16:13:03,031 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\views.py changed, reloading.
+django.utils.autoreload: 2025-02-03 16:13:03,899 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-03 16:13:37,142 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\djangoLearning\settings.py changed, reloading.
+django.utils.autoreload: 2025-02-03 16:13:38,108 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-03 16:13:56,705 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\views.py changed, reloading.
+django.utils.autoreload: 2025-02-03 16:13:57,543 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-03 16:27:13,570 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\djangoLearning\settings.py changed, reloading.
+django.utils.autoreload: 2025-02-03 16:27:14,503 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-03 16:27:36,122 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\views.py changed, reloading.
+django.utils.autoreload: 2025-02-03 16:27:37,011 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-03 16:27:45,435 - ERROR - Internal Server Error: /product/sample/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: product_data
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\views.py", line 9, in multidb
+    products = list(ProductData.objects.all() )
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: product_data
+django.utils.autoreload: 2025-02-03 16:32:30,756 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-03 16:32:31,673 - ERROR - Internal Server Error: /product/sample/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: product_data
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\views.py", line 9, in multidb
+    products = list(ProductData.objects.all() )
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: product_data
+django.request: 2025-02-03 16:32:34,477 - ERROR - Internal Server Error: /product/sample/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: product_data
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\views.py", line 9, in multidb
+    products = list(ProductData.objects.all() )
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: product_data
+django.utils.autoreload: 2025-02-03 16:34:07,456 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\models.py changed, reloading.
+django.utils.autoreload: 2025-02-03 16:34:08,381 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-03 16:35:04,821 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-03 16:57:04,063 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-03 16:57:06,256 - WARNING - Not Found: /
+django.utils.autoreload: 2025-02-03 16:59:41,344 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\admin.py changed, reloading.
+django.utils.autoreload: 2025-02-03 16:59:42,249 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-03 16:59:58,588 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\admin.py changed, reloading.
+django.utils.autoreload: 2025-02-03 16:59:59,442 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-03 17:00:03,127 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\admin.py changed, reloading.
+django.utils.autoreload: 2025-02-03 17:00:03,990 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-03 17:00:34,879 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\admin.py changed, reloading.
+django.utils.autoreload: 2025-02-03 17:00:35,799 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-03 17:01:39,429 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-04 09:22:17,489 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-04 09:23:16,128 - WARNING - Not Found: /
+django.request: 2025-02-04 09:23:16,196 - WARNING - Not Found: /favicon.ico
