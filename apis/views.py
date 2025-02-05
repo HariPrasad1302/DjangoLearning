@@ -14,7 +14,7 @@ from django.utils import timezone
 from django.conf import settings
 import pytz
 import logging
-from .forms import user_reg
+from .forms import user_reg, modelUser_reg
 
 # Create your views here.
 
@@ -189,6 +189,20 @@ def form_validation(request):
             print(f'Name: {nm}, Email: {em}, Mobile Number: {mb}')
     else:
         user_fm = user_reg()
-            
-
     return render(request, 'forms.html', {'form': user_fm})
+
+def modelForm_val(request):
+    if request.method == 'POST':
+        form = modelUser_reg(request.POST)
+        if form.is_valid():
+            nm = form.cleaned_data['name']
+            em = form.cleaned_data['email']
+            mb = form.cleaned_data['mobile_number']
+
+            form.save()
+            print("form saved successfully")
+            
+            print(f'Name: {nm}, Email: {em}, Mobile Number: {mb}')
+    else:
+        form = modelUser_reg()
+    return render(request, 'forms.html', {'form': form})

@@ -1353,3 +1353,29 @@ django.utils.autoreload: 2025-02-04 23:06:55,136 - INFO - H:\Learnings\Secureklo
 django.utils.autoreload: 2025-02-04 23:06:55,887 - INFO - Watching for file changes with StatReloader
 django.utils.autoreload: 2025-02-04 23:08:24,415 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
 django.utils.autoreload: 2025-02-04 23:08:25,131 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-05 09:26:34,708 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-05 09:26:45,522 - WARNING - Not Found: /
+django.request: 2025-02-05 09:26:54,740 - WARNING - Not Found: /api/
+django.utils.autoreload: 2025-02-05 09:28:40,090 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-05 09:28:42,648 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-05 09:33:05,757 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-05 09:33:08,399 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-05 09:44:22,926 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-05 09:44:26,678 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-05 09:45:23,345 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-05 09:45:25,772 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-05 09:46:39,204 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-05 09:46:41,048 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-05 09:46:57,608 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-05 09:46:59,318 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-05 09:48:28,914 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-05 09:48:30,536 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-05 09:48:48,723 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-05 09:48:50,397 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-05 09:49:30,423 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-05 09:49:32,692 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-05 09:49:37,275 - WARNING - Not Found: /api/
+django.utils.autoreload: 2025-02-05 09:50:22,995 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-05 09:50:24,734 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-05 09:52:16,677 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-05 09:52:19,021 - INFO - Watching for file changes with StatReloader

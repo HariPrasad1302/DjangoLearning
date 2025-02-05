@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import userDetail, UserDetailAPI, generateUserToken, UserWishlistApi, prefetch_wishlistData, select_related_wishlistData, translation, logging_example, form_validation
+from .views import userDetail, UserDetailAPI, generateUserToken, UserWishlistApi, prefetch_wishlistData, select_related_wishlistData, translation, logging_example, form_validation, modelForm_val
 from django.conf.urls.i18n import set_language
 
 urlpatterns = [
@@ -12,5 +12,6 @@ urlpatterns = [
     path('translationDemo/', translation, name='translation'),
     path('set_language/', set_language, name='set_language'),
     path('logs/', logging_example, name='logs'),
-    path('userReg/', form_validation)
+    path('userReg/', form_validation),
+    path('modelForm_user/', modelForm_val)
 ]
