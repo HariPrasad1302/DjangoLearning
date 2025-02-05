@@ -426,3 +426,930 @@ django.utils.autoreload: 2025-02-04 09:52:52,728 - INFO - E:\Django Training SK\
 django.utils.autoreload: 2025-02-04 09:52:54,116 - INFO - Watching for file changes with StatReloader
 django.utils.autoreload: 2025-02-04 09:53:19,489 - INFO - E:\Django Training SK\Django\DjangoLearning\products\views.py changed, reloading.
 django.utils.autoreload: 2025-02-04 09:53:20,633 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-04 10:04:55,878 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-04 10:04:58,295 - WARNING - Not Found: /
+django.request: 2025-02-04 10:04:58,622 - WARNING - Not Found: /favicon.ico
+django.utils.autoreload: 2025-02-04 22:47:29,592 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-04 22:47:30,894 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-04 22:47:42,074 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\models.py changed, reloading.
+django.utils.autoreload: 2025-02-04 22:47:42,879 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-04 22:51:10,167 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-04 22:51:11,063 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-04 22:53:18,556 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-04 22:53:19,377 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-04 22:53:23,348 - WARNING - Not Found: /
+django.request: 2025-02-04 22:53:35,079 - WARNING - Not Found: /api/
+django.request: 2025-02-04 22:53:44,805 - ERROR - Internal Server Error: /api/userReg/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\utils.py", line 54, in render
+    context = context or self.get_context()
+                         ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 250, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 325, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 333, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\fields.py", line 265, in _clean_bound_field
+    value = bf.initial if self.disabled else bf.data
+                                             ^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\widgets.py", line 295, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+django.request: 2025-02-04 22:54:12,978 - ERROR - Internal Server Error: /api/userReg/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\utils.py", line 54, in render
+    context = context or self.get_context()
+                         ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 250, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 325, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 333, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\fields.py", line 265, in _clean_bound_field
+    value = bf.initial if self.disabled else bf.data
+                                             ^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\widgets.py", line 295, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+django.request: 2025-02-04 22:54:16,192 - ERROR - Internal Server Error: /api/userReg/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\utils.py", line 54, in render
+    context = context or self.get_context()
+                         ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 250, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 325, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 333, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\fields.py", line 265, in _clean_bound_field
+    value = bf.initial if self.disabled else bf.data
+                                             ^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\widgets.py", line 295, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+django.request: 2025-02-04 22:55:16,608 - ERROR - Internal Server Error: /api/userReg/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\utils.py", line 54, in render
+    context = context or self.get_context()
+                         ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 250, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 325, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 333, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\fields.py", line 265, in _clean_bound_field
+    value = bf.initial if self.disabled else bf.data
+                                             ^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\widgets.py", line 295, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+django.utils.autoreload: 2025-02-04 22:55:45,465 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-04 22:55:46,418 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-04 22:55:46,773 - ERROR - Internal Server Error: /api/userReg/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\utils.py", line 54, in render
+    context = context or self.get_context()
+                         ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 250, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 325, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 333, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\fields.py", line 265, in _clean_bound_field
+    value = bf.initial if self.disabled else bf.data
+                                             ^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\widgets.py", line 295, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+django.request: 2025-02-04 22:55:48,575 - ERROR - Internal Server Error: /api/userReg/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\utils.py", line 54, in render
+    context = context or self.get_context()
+                         ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 250, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 325, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 333, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\fields.py", line 265, in _clean_bound_field
+    value = bf.initial if self.disabled else bf.data
+                                             ^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\widgets.py", line 295, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+django.request: 2025-02-04 22:55:48,756 - ERROR - Internal Server Error: /api/userReg/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\utils.py", line 54, in render
+    context = context or self.get_context()
+                         ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 250, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 325, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 333, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\fields.py", line 265, in _clean_bound_field
+    value = bf.initial if self.disabled else bf.data
+                                             ^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\widgets.py", line 295, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+django.request: 2025-02-04 22:55:48,941 - ERROR - Internal Server Error: /api/userReg/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\utils.py", line 54, in render
+    context = context or self.get_context()
+                         ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 250, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 325, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 333, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\fields.py", line 265, in _clean_bound_field
+    value = bf.initial if self.disabled else bf.data
+                                             ^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\widgets.py", line 295, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+django.request: 2025-02-04 22:55:49,116 - ERROR - Internal Server Error: /api/userReg/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\utils.py", line 54, in render
+    context = context or self.get_context()
+                         ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 250, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 325, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 333, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\fields.py", line 265, in _clean_bound_field
+    value = bf.initial if self.disabled else bf.data
+                                             ^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\widgets.py", line 295, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+django.request: 2025-02-04 22:55:49,286 - ERROR - Internal Server Error: /api/userReg/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\utils.py", line 54, in render
+    context = context or self.get_context()
+                         ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 250, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 325, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 333, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\fields.py", line 265, in _clean_bound_field
+    value = bf.initial if self.disabled else bf.data
+                                             ^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\widgets.py", line 295, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+django.request: 2025-02-04 22:55:49,461 - ERROR - Internal Server Error: /api/userReg/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\utils.py", line 54, in render
+    context = context or self.get_context()
+                         ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 250, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 325, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 333, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\fields.py", line 265, in _clean_bound_field
+    value = bf.initial if self.disabled else bf.data
+                                             ^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\widgets.py", line 295, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+django.utils.autoreload: 2025-02-04 22:56:37,895 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-04 22:56:38,835 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-04 22:56:39,241 - ERROR - Internal Server Error: /api/userReg/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\utils.py", line 54, in render
+    context = context or self.get_context()
+                         ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 250, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 325, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 333, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\fields.py", line 265, in _clean_bound_field
+    value = bf.initial if self.disabled else bf.data
+                                             ^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\widgets.py", line 295, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+django.request: 2025-02-04 22:56:39,814 - ERROR - Internal Server Error: /api/userReg/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\utils.py", line 54, in render
+    context = context or self.get_context()
+                         ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 250, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 325, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 333, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\fields.py", line 265, in _clean_bound_field
+    value = bf.initial if self.disabled else bf.data
+                                             ^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\widgets.py", line 295, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+django.request: 2025-02-04 22:56:40,047 - ERROR - Internal Server Error: /api/userReg/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\utils.py", line 54, in render
+    context = context or self.get_context()
+                         ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 250, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 325, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 333, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\fields.py", line 265, in _clean_bound_field
+    value = bf.initial if self.disabled else bf.data
+                                             ^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\widgets.py", line 295, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+django.request: 2025-02-04 22:56:40,278 - ERROR - Internal Server Error: /api/userReg/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\utils.py", line 54, in render
+    context = context or self.get_context()
+                         ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 250, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 325, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 333, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\fields.py", line 265, in _clean_bound_field
+    value = bf.initial if self.disabled else bf.data
+                                             ^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\widgets.py", line 295, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+django.request: 2025-02-04 22:56:40,469 - ERROR - Internal Server Error: /api/userReg/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\utils.py", line 54, in render
+    context = context or self.get_context()
+                         ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 250, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 325, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 333, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\fields.py", line 265, in _clean_bound_field
+    value = bf.initial if self.disabled else bf.data
+                                             ^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\widgets.py", line 295, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+django.request: 2025-02-04 22:56:40,670 - ERROR - Internal Server Error: /api/userReg/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\utils.py", line 54, in render
+    context = context or self.get_context()
+                         ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 250, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 325, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 333, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\fields.py", line 265, in _clean_bound_field
+    value = bf.initial if self.disabled else bf.data
+                                             ^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\widgets.py", line 295, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+django.request: 2025-02-04 22:56:40,871 - ERROR - Internal Server Error: /api/userReg/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\utils.py", line 54, in render
+    context = context or self.get_context()
+                         ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 250, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 325, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 333, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\fields.py", line 265, in _clean_bound_field
+    value = bf.initial if self.disabled else bf.data
+                                             ^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\widgets.py", line 295, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+django.request: 2025-02-04 22:56:42,841 - WARNING - Not Found: /api/
+django.request: 2025-02-04 22:57:02,180 - ERROR - Internal Server Error: /api/userReg/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\utils.py", line 54, in render
+    context = context or self.get_context()
+                         ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 250, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 325, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 333, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\fields.py", line 265, in _clean_bound_field
+    value = bf.initial if self.disabled else bf.data
+                                             ^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\widgets.py", line 295, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+django.utils.autoreload: 2025-02-04 22:57:10,040 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-04 22:57:14,369 - ERROR - Internal Server Error: /api/userReg/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\utils.py", line 54, in render
+    context = context or self.get_context()
+                         ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 250, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 325, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 333, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\fields.py", line 265, in _clean_bound_field
+    value = bf.initial if self.disabled else bf.data
+                                             ^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\widgets.py", line 295, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+django.request: 2025-02-04 22:57:15,070 - ERROR - Internal Server Error: /api/userReg/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\utils.py", line 54, in render
+    context = context or self.get_context()
+                         ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 250, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 325, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 333, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\fields.py", line 265, in _clean_bound_field
+    value = bf.initial if self.disabled else bf.data
+                                             ^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\widgets.py", line 295, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+django.request: 2025-02-04 22:57:15,277 - ERROR - Internal Server Error: /api/userReg/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\utils.py", line 54, in render
+    context = context or self.get_context()
+                         ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 250, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 325, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 333, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\fields.py", line 265, in _clean_bound_field
+    value = bf.initial if self.disabled else bf.data
+                                             ^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\widgets.py", line 295, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+django.request: 2025-02-04 22:57:15,461 - ERROR - Internal Server Error: /api/userReg/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\utils.py", line 54, in render
+    context = context or self.get_context()
+                         ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 250, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 325, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 333, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\fields.py", line 265, in _clean_bound_field
+    value = bf.initial if self.disabled else bf.data
+                                             ^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\widgets.py", line 295, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+django.request: 2025-02-04 22:57:15,637 - ERROR - Internal Server Error: /api/userReg/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\utils.py", line 54, in render
+    context = context or self.get_context()
+                         ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 225, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 250, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 325, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 333, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\fields.py", line 265, in _clean_bound_field
+    value = bf.initial if self.disabled else bf.data
+                                             ^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\boundfield.py", line 136, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\widgets.py", line 295, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+django.utils.autoreload: 2025-02-04 22:57:30,792 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-04 22:57:31,783 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-04 22:57:52,448 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-04 22:57:53,195 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-04 22:58:54,372 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-04 22:58:55,368 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-04 23:00:43,867 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-04 23:00:44,638 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-04 23:01:48,553 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-04 23:01:49,337 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-04 23:02:52,425 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-04 23:02:53,167 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-04 23:03:03,310 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-04 23:03:04,139 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-04 23:06:39,088 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-04 23:06:39,806 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-04 23:06:55,136 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-04 23:06:55,887 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-04 23:08:24,415 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-04 23:08:25,131 - INFO - Watching for file changes with StatReloader

@@ -14,6 +14,7 @@ from django.utils import timezone
 from django.conf import settings
 import pytz
 import logging
+from .forms import user_reg
 
 # Create your views here.
 
@@ -33,7 +34,6 @@ class userDetail(APIView):
                 "name": "Micheal"
             }
         ]
-        render_template = render(request, 'index.html')
 
         return render(request, 'index.html', {"user_data": user_data})
         
@@ -175,3 +175,20 @@ def logging_example(request):
     except UserData.DoesNotExist:
         logger.error("Employee with id %s does not exist", 8)
     return HttpResponse("Logging example")
+
+# Forms and validation
+
+def form_validation(request):
+    if request.method == 'POST':
+        user_fm = user_reg(request.POST)
+        if user_fm.is_valid():
+            nm = user_fm.cleaned_data['name']
+            em = user_fm.cleaned_data['email']
+            mb = user_fm.cleaned_data['mobile_number']
+            
+            print(f'Name: {nm}, Email: {em}, Mobile Number: {mb}')
+    else:
+        user_fm = user_reg()
+            
+
+    return render(request, 'forms.html', {'form': user_fm})
