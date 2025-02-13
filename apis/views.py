@@ -1,10 +1,10 @@
 from django.shortcuts import render, HttpResponse
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from rest_framework import status
+from rest_framework import status, permissions
 from .models import UserData, UserWishlist
 from .serializers import UserDataSerializer, UserWishlistSerializer, GenerateTokenSerializer
-from rest_framework_simplejwt.tokens import AccessToken
+from rest_framework_simplejwt.tokens import RefreshToken
 from drf_spectacular.utils import extend_schema
 from django.utils.translation import gettext as _
 from datetime import datetime
@@ -12,12 +12,17 @@ import locale
 from django.utils.formats import localize
 from django.utils import timezone
 from django.conf import settings
+from oauth2_provider.contrib.rest_framework import TokenHasReadWriteScope, TokenHasScope
+
 import pytz
 import logging
+import concurrent.futures
 from .forms import user_reg, modelUser_reg
+from asgiref.sync import sync_to_async
+import time, asyncio
+
 
 # Create your views here.
-
 class userDetail(APIView):
     def get(self, request):
         user_data = [
@@ -40,13 +45,17 @@ class userDetail(APIView):
 
 #Using serializer
 class UserDetailAPI(APIView):
+    permission_classes = [permissions.IsAuthenticated, TokenHasReadWriteScope]
+
     def get(self, request):
         users = UserData.objects.all()
         serializer = UserDataSerializer(users, many=True)
+        user_names = map(lambda user: user.name, users) #lambda functions
         return Response({
             "status":200,
             "message": "success",
-            "data": serializer.data
+            "data": serializer.data,
+            "user_name": user_names
         })
         
 #token
@@ -60,16 +69,24 @@ class generateUserToken(APIView):
         if serializer.is_valid():
             email = serializer.validated_data.get('email')
 
-            if not UserData.objects.filter(email=email).exists():
-                return Response({"status": 404, "message": "User not found"}, status=status.HTTP_404_NOT_FOUND)
+            try:
+                user = UserData.objects.get(email=email)  # Validate if user exists
+            except UserData.DoesNotExist:
+                return Response(
+                    {"status": 404, "message": "User not found"},
+                    status=status.HTTP_404_NOT_FOUND,
+                )
 
-            token = AccessToken()
-            token['email'] = email
+            refresh = RefreshToken()
+            refresh["email"] = user.email  # Embed user email in token
+            refresh["user_name"] = user.name
+            access = refresh.access_token
 
             return Response({
                 "status": 200,
                 "message": "Token generated successfully",
-                "token": str(token)
+                "access_token": str(access),
+                "refresh_token": str(refresh),
             }, status=status.HTTP_200_OK)
 
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
@@ -95,6 +112,8 @@ class UserWishlistApi(APIView):
                 "message": "Fetched all users with wishlist data successfully",
                 "data": responseData
             })
+
+
 
 
 #using prefetch_related method
@@ -191,6 +210,7 @@ def form_validation(request):
         user_fm = user_reg()
     return render(request, 'forms.html', {'form': user_fm})
 
+
 def modelForm_val(request):
     if request.method == 'POST':
         form = modelUser_reg(request.POST)
@@ -206,3 +226,52 @@ def modelForm_val(request):
     else:
         form = modelUser_reg()
     return render(request, 'forms.html', {'form': form})
+
+
+
+#asynchronous function 
+def sync_userData():
+    print("retrieving user data")
+    time.sleep(2)
+    users = UserData.objects.all()
+    print("user data:", users)
+    print("user data retrieved")
+
+def sync_wishlistData():
+    print("retrieving wishlist data")
+    time.sleep(5)
+    wishlists = UserWishlist.objects.all()
+    print("wishlist data:", wishlists)
+    print("wishlist data retrieved")
+
+async def async_userData():
+    print("retrieving user data")
+    await asyncio.sleep(2)
+    users = sync_to_async(list)(UserData.objects.all())
+    print("user data:", users)
+    print("user data retrieved")
+
+async def async_wishlistData():
+    print("retrieving wishlist data")
+    await asyncio.sleep(5)
+    wishlists = sync_to_async(list)(UserWishlist.objects.all())
+    print("wishlist data:", wishlists)
+    print("wishlist data retrieved")
+
+def sync_func(request):
+    start_time = time.time()
+    sync_userData()
+    sync_wishlistData()
+    total_time = time.time() - start_time
+    print("total time", total_time)
+    return HttpResponse("Both user data and wishlist data retrieved successfully")
+
+async def async_func(request):
+    start_time = time.time()
+    task1 = asyncio.ensure_future(async_userData())
+    task2 = asyncio.ensure_future(async_wishlistData())
+    await asyncio.gather(task1, task2)
+    total_time = time.time() - start_time
+    print("total time", total_time)
+    return HttpResponse("Both user data and wishlist data retrieved successfully")
+    
