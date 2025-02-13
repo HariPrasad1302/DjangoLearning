@@ -1,9 +1,9 @@
 from django.shortcuts import render, HttpResponse
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from rest_framework import status, permissions
+from rest_framework import status
 from .models import UserData, UserWishlist
-from .serializers import UserDataSerializer, UserWishlistSerializer, GenerateTokenSerializer
+from .serializers import UserDataSerializer, UserWithWishlistSerializer, GenerateTokenSerializer, UserWishlistSerializer
 from rest_framework_simplejwt.tokens import RefreshToken
 from drf_spectacular.utils import extend_schema
 from django.utils.translation import gettext as _
@@ -12,7 +12,6 @@ import locale
 from django.utils.formats import localize
 from django.utils import timezone
 from django.conf import settings
-from oauth2_provider.contrib.rest_framework import TokenHasReadWriteScope, TokenHasScope
 
 import pytz
 import logging
@@ -25,27 +24,19 @@ import time, asyncio
 # Create your views here.
 class userDetail(APIView):
     def get(self, request):
-        user_data = [
-            {
-                "id": 1,
-                "mobile_number": "1234556789",
-                "email": "abc@gamil.com",
-                "name": "John"
-            },
-            {
-                "id": 2,
-                "mobile_number": "1234556788",
-                "email": "mic@gamil.com",
-                "name": "Micheal"
-            }
-        ]
+        users = UserData.objects.all()
+        serializer = UserDataSerializer(users, many=True)
 
-        return render(request, 'index.html', {"user_data": user_data})
+        return Response({
+            "status":200,
+            "message": "success",
+            "count": len(serializer.data),
+            "user_Data": serializer.data,
+        })
         
 
 #Using serializer
 class UserDetailAPI(APIView):
-    permission_classes = [permissions.IsAuthenticated, TokenHasReadWriteScope]
 
     def get(self, request):
         users = UserData.objects.all()
@@ -70,7 +61,7 @@ class generateUserToken(APIView):
             email = serializer.validated_data.get('email')
 
             try:
-                user = UserData.objects.get(email=email)  # Validate if user exists
+                user = UserData.objects.get(email=email)  
             except UserData.DoesNotExist:
                 return Response(
                     {"status": 404, "message": "User not found"},
@@ -78,7 +69,7 @@ class generateUserToken(APIView):
                 )
 
             refresh = RefreshToken()
-            refresh["email"] = user.email  # Embed user email in token
+            refresh["email"] = user.email  
             refresh["user_name"] = user.name
             access = refresh.access_token
 
@@ -95,45 +86,25 @@ class generateUserToken(APIView):
 class UserWishlistApi(APIView):
     def get(self, request):     
         users = UserData.objects.all()
-        responseData = []
-        for user in users: 
-            wishlistData = user.wishlist.all()
-            userDatas = UserDataSerializer(user).data
-            wishlistSerializer = UserWishlistSerializer(wishlistData, many = True).data
-            
-            responseData.append({
-                "user": userDatas,
-                "wishlistData": wishlistSerializer
-            })
-            
-        
+        serializer = UserWithWishlistSerializer(users, many=True)  # Serialize all users
         return Response({
-                "status": 200,
-                "message": "Fetched all users with wishlist data successfully",
-                "data": responseData
-            })
-
-
+            "status": 200,
+            "message": "Fetched all users with wishlist data successfully",
+            "count": len(serializer.data),  # Count of users
+            "data": serializer.data  # Serialized data
+        })
 
 
 #using prefetch_related method
 
 class prefetch_wishlistData(APIView):
     def get(self, request):
-        users = UserData.objects.prefetch_related('wishlist')
-        response_data = []
-        for user in users:
-            userSerializer = UserDataSerializer(user).data
-            wishlistSerializer = UserWishlistSerializer(user.wishlist.all(), many="True").data
-
-            response_data.append({
-                "user": userSerializer,
-                "wishlist": wishlistSerializer
-            })
-
+        users = UserData.objects.prefetch_related('wishlist')  # Optimized query
+        response_data = UserWithWishlistSerializer(users, many=True).data
+        
         return Response({
             "status": 200,
-            "message":"Wishlist Data fetched using prefetch_related",
+            "message": "Wishlist Data fetched using prefetch_related",
             "data": response_data
         })
 

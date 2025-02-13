@@ -1,264 +1,87 @@
-django.utils.autoreload: 2025-02-12 16:53:30,934 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\djangoLearning\urls.py changed, reloading.
-django.utils.autoreload: 2025-02-12 16:53:31,981 - INFO - Watching for file changes with StatReloader
-django.utils.autoreload: 2025-02-12 16:59:46,400 - INFO - Watching for file changes with StatReloader
-asyncio: 2025-02-12 16:59:52,008 - DEBUG - Using proactor: IocpProactor
-django.request: 2025-02-12 16:59:53,014 - WARNING - Not Found: /api/
-django.request: 2025-02-12 16:59:55,630 - WARNING - Method Not Allowed: /api/token/
-django.request: 2025-02-12 17:00:05,177 - WARNING - Method Not Allowed: /api/token/refresh/
-django.request: 2025-02-12 17:00:12,363 - WARNING - Method Not Allowed: /api/token/
-django.request: 2025-02-12 17:00:18,680 - WARNING - Unauthorized: /api/token/
-django.utils.autoreload: 2025-02-12 17:01:21,248 - INFO - Watching for file changes with StatReloader
-django.request: 2025-02-12 17:01:24,132 - WARNING - Unauthorized: /api/token/
-django.request: 2025-02-12 17:04:56,427 - WARNING - Method Not Allowed: /api/token/refresh/
-django.request: 2025-02-12 17:05:00,055 - WARNING - Unauthorized: /api/token/refresh/
-django.utils.autoreload: 2025-02-12 17:11:23,207 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\serializers.py changed, reloading.
-django.utils.autoreload: 2025-02-12 17:11:24,004 - INFO - Watching for file changes with StatReloader
-django.utils.autoreload: 2025-02-12 17:11:46,783 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
-django.utils.autoreload: 2025-02-12 17:11:47,560 - INFO - Watching for file changes with StatReloader
-django.request: 2025-02-12 17:11:56,668 - WARNING - Method Not Allowed: /api/token/
-asyncio: 2025-02-12 17:12:00,230 - DEBUG - Using proactor: IocpProactor
-django.request: 2025-02-12 17:12:00,959 - WARNING - Not Found: /api/
-django.request: 2025-02-12 17:12:16,819 - WARNING - Bad Request: /api/token/
-django.request: 2025-02-12 17:12:21,673 - WARNING - Unauthorized: /api/token/
-django.utils.autoreload: 2025-02-12 17:12:47,650 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
-django.utils.autoreload: 2025-02-12 17:12:48,638 - INFO - Watching for file changes with StatReloader
-django.utils.autoreload: 2025-02-12 17:12:52,570 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\serializers.py changed, reloading.
-django.utils.autoreload: 2025-02-12 17:12:53,462 - INFO - Watching for file changes with StatReloader
-django.utils.autoreload: 2025-02-12 17:24:04,738 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
-django.utils.autoreload: 2025-02-12 17:24:05,517 - INFO - Watching for file changes with StatReloader
-django.request: 2025-02-12 17:24:17,861 - WARNING - Not Found: /api/
-django.request: 2025-02-12 17:24:18,169 - WARNING - Not Found: /api/
-django.request: 2025-02-12 17:24:29,630 - WARNING - Method Not Allowed: /api/validateUser/
-django.request: 2025-02-12 17:24:49,097 - WARNING - Not Found: /api/
-django.utils.autoreload: 2025-02-12 17:29:41,920 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
-django.utils.autoreload: 2025-02-12 17:29:42,950 - INFO - Watching for file changes with StatReloader
-django.request: 2025-02-12 20:31:35,200 - WARNING - Not Found: /o/applications/register/
-django.utils.autoreload: 2025-02-12 20:36:17,690 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\djangoLearning\settings.py changed, reloading.
-django.utils.autoreload: 2025-02-12 20:36:19,201 - INFO - Watching for file changes with StatReloader
-django.utils.autoreload: 2025-02-12 20:36:50,062 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\djangoLearning\urls.py changed, reloading.
-django.utils.autoreload: 2025-02-12 20:36:51,154 - INFO - Watching for file changes with StatReloader
-django.utils.autoreload: 2025-02-12 20:46:12,871 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\djangoLearning\settings.py changed, reloading.
-django.utils.autoreload: 2025-02-12 20:46:14,128 - INFO - Watching for file changes with StatReloader
-django.request: 2025-02-12 20:46:52,703 - WARNING - Not Found: /
-oauth2_provider.models: 2025-02-12 20:50:24,502 - DEBUG - LBzcDIL8McgqrhBbZGRPDW2K50PnasxFPm6sZ2iC: client_secret is not hashed; hashing it now.
-oauth2_provider: 2025-02-12 20:51:08,062 - DEBUG - Failed body authentication: Application 'vW1RcAl7Mb0d5gyHNQIAcH110lWoOW2BmWJIero8' does not exist
-django.request: 2025-02-12 20:51:08,076 - WARNING - Bad Request: /o/authorize/
-oauthlib.oauth2.rfc6749.grant_types.authorization_code: 2025-02-12 20:51:57,781 - DEBUG - Validating redirection uri http://localhost:8000/noexist/callback for client LBzcDIL8McgqrhBbZGRPDW2K50PnasxFPm6sZ2iC.
-oauthlib.oauth2.rfc6749.grant_types.base: 2025-02-12 20:51:57,781 - DEBUG - Using provided redirect_uri http://localhost:8000/noexist/callback
-oauthlib.oauth2.rfc6749.grant_types.base: 2025-02-12 20:51:57,785 - DEBUG - Validating access to scopes ['read', 'write'] for client 'LBzcDIL8McgqrhBbZGRPDW2K50PnasxFPm6sZ2iC' (<Application: LBzcDIL8McgqrhBbZGRPDW2K50PnasxFPm6sZ2iC>).
-oauthlib.oauth2.rfc6749.grant_types.authorization_code: 2025-02-12 20:53:51,080 - DEBUG - Validating redirection uri http://localhost:8000/noexist/callback for client LBzcDIL8McgqrhBbZGRPDW2K50PnasxFPm6sZ2iC.
-oauthlib.oauth2.rfc6749.grant_types.base: 2025-02-12 20:53:51,081 - DEBUG - Using provided redirect_uri http://localhost:8000/noexist/callback
-oauthlib.oauth2.rfc6749.grant_types.base: 2025-02-12 20:53:51,082 - DEBUG - Validating access to scopes ['read', 'write'] for client 'LBzcDIL8McgqrhBbZGRPDW2K50PnasxFPm6sZ2iC' (<Application: LBzcDIL8McgqrhBbZGRPDW2K50PnasxFPm6sZ2iC>).
-oauthlib.oauth2.rfc6749.endpoints.authorization: 2025-02-12 20:54:27,730 - DEBUG - Dispatching response_type code request to <oauthlib.oauth2.rfc6749.grant_types.authorization_code.AuthorizationCodeGrant object at 0x00000272117C6CF0>.
-oauthlib.oauth2.rfc6749.grant_types.authorization_code: 2025-02-12 20:54:27,731 - DEBUG - Validating redirection uri http://localhost:8000/noexist/callback for client LBzcDIL8McgqrhBbZGRPDW2K50PnasxFPm6sZ2iC.
-oauthlib.oauth2.rfc6749.grant_types.base: 2025-02-12 20:54:27,732 - DEBUG - Using provided redirect_uri http://localhost:8000/noexist/callback
-oauthlib.oauth2.rfc6749.grant_types.base: 2025-02-12 20:54:27,732 - DEBUG - Validating access to scopes ['read', 'write'] for client 'LBzcDIL8McgqrhBbZGRPDW2K50PnasxFPm6sZ2iC' (<Application: LBzcDIL8McgqrhBbZGRPDW2K50PnasxFPm6sZ2iC>).
-oauthlib.oauth2.rfc6749.grant_types.authorization_code: 2025-02-12 20:54:27,732 - DEBUG - Pre resource owner authorization validation ok for <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.authorization_code: 2025-02-12 20:54:27,733 - DEBUG - Created authorization code grant {'code': 'bdP2YfMBLOurpGoDBmWrUwEO4MHnwK'} for request <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.authorization_code: 2025-02-12 20:54:27,733 - DEBUG - Saving grant {'code': 'bdP2YfMBLOurpGoDBmWrUwEO4MHnwK'} for <oauthlib.Request SANITIZED>.
-oauth2_provider: 2025-02-12 20:54:28,231 - DEBUG - Success url for the request: http://localhost:8000/noexist/callback?code=bdP2YfMBLOurpGoDBmWrUwEO4MHnwK
-django.request: 2025-02-12 20:54:28,553 - WARNING - Not Found: /noexist/callback
-django.request: 2025-02-12 21:01:32,727 - WARNING - Not Found: /o/
-django.request: 2025-02-12 21:01:42,904 - WARNING - Method Not Allowed (GET): /o/token/
-django.request: 2025-02-12 21:01:42,905 - WARNING - Method Not Allowed: /o/token/
-django.request: 2025-02-12 21:01:45,820 - WARNING - Method Not Allowed (GET): /o/token/
-django.request: 2025-02-12 21:01:45,821 - WARNING - Method Not Allowed: /o/token/
-django.request: 2025-02-12 21:01:57,479 - WARNING - Method Not Allowed (GET): /o/token/
-django.request: 2025-02-12 21:01:57,480 - WARNING - Method Not Allowed: /o/token/
-django.request: 2025-02-12 21:02:01,266 - WARNING - Not Found: /o/
-django.request: 2025-02-12 21:02:11,612 - WARNING - Bad Request: /o/authorize/
-django.request: 2025-02-12 21:02:18,782 - WARNING - Method Not Allowed (GET): /o/token/
-django.request: 2025-02-12 21:02:18,783 - WARNING - Method Not Allowed: /o/token/
-django.request: 2025-02-12 21:02:22,162 - WARNING - Not Found: /o/
-oauthlib.oauth2.rfc6749.endpoints.token: 2025-02-12 21:06:37,483 - DEBUG - Dispatching grant_type authorization_code request to <oauthlib.oauth2.rfc6749.grant_types.authorization_code.AuthorizationCodeGrant object at 0x0000027211DB8E10>.
-oauthlib.oauth2.rfc6749.grant_types.authorization_code: 2025-02-12 21:06:37,985 - DEBUG - Client, 'LBzcDIL8McgqrhBbZGRPDW2K50PnasxFPm6sZ2iC' (<Application: LBzcDIL8McgqrhBbZGRPDW2K50PnasxFPm6sZ2iC>), is not allowed access to scopes None.
-oauthlib.oauth2.rfc6749.grant_types.authorization_code: 2025-02-12 21:06:37,985 - DEBUG - Client error during validation of <oauthlib.Request SANITIZED>. InvalidGrantError('(invalid_grant)  <oauthlib.Request SANITIZED>').
-django.request: 2025-02-12 21:06:37,986 - WARNING - Bad Request: /o/token/
-oauthlib.oauth2.rfc6749.endpoints.token: 2025-02-12 21:06:59,322 - DEBUG - Dispatching grant_type authorization_code request to <oauthlib.oauth2.rfc6749.grant_types.authorization_code.AuthorizationCodeGrant object at 0x0000027211DB8E10>.
-oauthlib.oauth2.rfc6749.grant_types.authorization_code: 2025-02-12 21:06:59,901 - DEBUG - Client, 'LBzcDIL8McgqrhBbZGRPDW2K50PnasxFPm6sZ2iC' (<Application: LBzcDIL8McgqrhBbZGRPDW2K50PnasxFPm6sZ2iC>), is not allowed access to scopes None.
-oauthlib.oauth2.rfc6749.grant_types.authorization_code: 2025-02-12 21:06:59,901 - DEBUG - Client error during validation of <oauthlib.Request SANITIZED>. InvalidGrantError('(invalid_grant)  <oauthlib.Request SANITIZED>').
-django.request: 2025-02-12 21:06:59,902 - WARNING - Bad Request: /o/token/
-oauthlib.oauth2.rfc6749.grant_types.authorization_code: 2025-02-12 21:07:42,039 - DEBUG - Validating redirection uri http://localhost:8000/noexist/callback for client LBzcDIL8McgqrhBbZGRPDW2K50PnasxFPm6sZ2iC.
-oauthlib.oauth2.rfc6749.grant_types.base: 2025-02-12 21:07:42,039 - DEBUG - Using provided redirect_uri http://localhost:8000/noexist/callback
-oauthlib.oauth2.rfc6749.grant_types.base: 2025-02-12 21:07:42,040 - DEBUG - Validating access to scopes ['read', 'write'] for client 'LBzcDIL8McgqrhBbZGRPDW2K50PnasxFPm6sZ2iC' (<Application: LBzcDIL8McgqrhBbZGRPDW2K50PnasxFPm6sZ2iC>).
-oauthlib.oauth2.rfc6749.endpoints.authorization: 2025-02-12 21:07:43,779 - DEBUG - Dispatching response_type code request to <oauthlib.oauth2.rfc6749.grant_types.authorization_code.AuthorizationCodeGrant object at 0x00000272117C6CF0>.
-oauthlib.oauth2.rfc6749.grant_types.authorization_code: 2025-02-12 21:07:43,780 - DEBUG - Validating redirection uri http://localhost:8000/noexist/callback for client LBzcDIL8McgqrhBbZGRPDW2K50PnasxFPm6sZ2iC.
-oauthlib.oauth2.rfc6749.grant_types.base: 2025-02-12 21:07:43,781 - DEBUG - Using provided redirect_uri http://localhost:8000/noexist/callback
-oauthlib.oauth2.rfc6749.grant_types.base: 2025-02-12 21:07:43,781 - DEBUG - Validating access to scopes ['read', 'write'] for client 'LBzcDIL8McgqrhBbZGRPDW2K50PnasxFPm6sZ2iC' (<Application: LBzcDIL8McgqrhBbZGRPDW2K50PnasxFPm6sZ2iC>).
-oauthlib.oauth2.rfc6749.grant_types.authorization_code: 2025-02-12 21:07:43,782 - DEBUG - Pre resource owner authorization validation ok for <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.authorization_code: 2025-02-12 21:07:43,782 - DEBUG - Created authorization code grant {'code': 'j2R9ci75pQQbJUlNZI3A6M1GOBQgEF'} for request <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.authorization_code: 2025-02-12 21:07:43,782 - DEBUG - Saving grant {'code': 'j2R9ci75pQQbJUlNZI3A6M1GOBQgEF'} for <oauthlib.Request SANITIZED>.
-oauth2_provider: 2025-02-12 21:07:44,273 - DEBUG - Success url for the request: http://localhost:8000/noexist/callback?code=j2R9ci75pQQbJUlNZI3A6M1GOBQgEF
-django.request: 2025-02-12 21:07:44,587 - WARNING - Not Found: /noexist/callback
-oauthlib.oauth2.rfc6749.endpoints.token: 2025-02-12 21:08:10,319 - DEBUG - Dispatching grant_type authorization_code request to <oauthlib.oauth2.rfc6749.grant_types.authorization_code.AuthorizationCodeGrant object at 0x0000027211DB8E10>.
-oauthlib.oauth2.rfc6749.grant_types.authorization_code: 2025-02-12 21:08:10,832 - DEBUG - Using provided redirect_uri http://127.0.0.1:8000/noexist/callback
-oauthlib.oauth2.rfc6749.grant_types.authorization_code: 2025-02-12 21:08:10,833 - DEBUG - Redirect_uri ('http://127.0.0.1:8000/noexist/callback') invalid for client 'LBzcDIL8McgqrhBbZGRPDW2K50PnasxFPm6sZ2iC' (<Application: LBzcDIL8McgqrhBbZGRPDW2K50PnasxFPm6sZ2iC>).
-oauthlib.oauth2.rfc6749.grant_types.authorization_code: 2025-02-12 21:08:10,834 - DEBUG - Client error during validation of <oauthlib.Request SANITIZED>. MismatchingRedirectURIError('(invalid_request) Mismatching redirect URI. <oauthlib.Request SANITIZED>').
-django.request: 2025-02-12 21:08:10,834 - WARNING - Bad Request: /o/token/
-oauthlib.oauth2.rfc6749.endpoints.token: 2025-02-12 21:08:31,157 - DEBUG - Dispatching grant_type authorization_code request to <oauthlib.oauth2.rfc6749.grant_types.authorization_code.AuthorizationCodeGrant object at 0x0000027211DB8E10>.
-oauthlib.oauth2.rfc6749.grant_types.authorization_code: 2025-02-12 21:08:31,679 - DEBUG - Using provided redirect_uri http://localhost:8000/noexist/callback
-oauthlib.oauth2.rfc6749.grant_types.authorization_code: 2025-02-12 21:08:31,680 - DEBUG - Token request validation ok for <oauthlib.Request SANITIZED>.
-django.request: 2025-02-12 21:08:49,463 - WARNING - Not Found: /noexist/callback
-django.request: 2025-02-12 21:08:53,365 - WARNING - Not Found: /o
-django.request: 2025-02-12 21:08:59,174 - WARNING - Not Found: /o/
-django.request: 2025-02-12 21:09:06,007 - WARNING - Method Not Allowed (GET): /o/token/
-django.request: 2025-02-12 21:09:06,008 - WARNING - Method Not Allowed: /o/token/
-django.request: 2025-02-12 21:09:09,108 - WARNING - Not Found: /o/
-django.request: 2025-02-12 21:09:22,963 - WARNING - Not Found: /api/
-django.request: 2025-02-12 21:10:36,304 - WARNING - Not Found: /o/
-django.utils.autoreload: 2025-02-12 21:45:53,870 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\djangoLearning\settings.py changed, reloading.
-django.utils.autoreload: 2025-02-12 21:45:55,033 - INFO - Watching for file changes with StatReloader
-django.utils.autoreload: 2025-02-12 21:47:31,732 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\djangoLearning\settings.py changed, reloading.
-django.utils.autoreload: 2025-02-12 21:47:32,784 - INFO - Watching for file changes with StatReloader
-oauth2_provider.models: 2025-02-12 21:49:47,108 - DEBUG - oauth: client_secret is not hashed; hashing it now.
-oauthlib.oauth2.rfc6749.endpoints.token: 2025-02-12 21:51:32,378 - DEBUG - Dispatching grant_type password request to <oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials.ResourceOwnerPasswordCredentialsGrant object at 0x00000266FEB706E0>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 21:51:32,378 - DEBUG - Authenticating client, <oauthlib.Request SANITIZED>.
-oauth2_provider: 2025-02-12 21:51:32,886 - DEBUG - Failed basic auth: wrong client secret pbkdf2_sha25670000=
-oauth2_provider: 2025-02-12 21:51:33,390 - DEBUG - Failed body auth: wrong client secret 
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 21:51:33,391 - DEBUG - Client authentication failed, <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 21:51:33,391 - DEBUG - Client error in token request, (invalid_client)  <oauthlib.Request SANITIZED>.
-django.request: 2025-02-12 21:51:33,392 - WARNING - Unauthorized: /o/token/
-oauthlib.oauth2.rfc6749.endpoints.token: 2025-02-12 21:52:50,622 - DEBUG - Dispatching grant_type password request to <oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials.ResourceOwnerPasswordCredentialsGrant object at 0x00000266FEB706E0>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 21:52:50,623 - DEBUG - Authenticating client, <oauthlib.Request SANITIZED>.
-oauth2_provider: 2025-02-12 21:52:51,135 - DEBUG - Failed basic auth: wrong client secret pbkdf2_sha25670000=
-oauth2_provider: 2025-02-12 21:52:51,647 - DEBUG - Failed body auth: wrong client secret 
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 21:52:51,647 - DEBUG - Client authentication failed, <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 21:52:51,647 - DEBUG - Client error in token request, (invalid_client)  <oauthlib.Request SANITIZED>.
-django.request: 2025-02-12 21:52:51,648 - WARNING - Unauthorized: /o/token/
-oauthlib.oauth2.rfc6749.endpoints.token: 2025-02-12 21:53:15,147 - DEBUG - Dispatching grant_type password request to <oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials.ResourceOwnerPasswordCredentialsGrant object at 0x00000266FEB706E0>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 21:53:15,147 - DEBUG - Authenticating client, <oauthlib.Request SANITIZED>.
-oauth2_provider: 2025-02-12 21:53:15,655 - DEBUG - Failed basic auth: wrong client secret pbkdf2_sha25670000=
-oauth2_provider: 2025-02-12 21:53:16,159 - DEBUG - Failed body auth: wrong client secret 
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 21:53:16,160 - DEBUG - Client authentication failed, <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 21:53:16,161 - DEBUG - Client error in token request, (invalid_client)  <oauthlib.Request SANITIZED>.
-django.request: 2025-02-12 21:53:16,161 - WARNING - Unauthorized: /o/token/
-oauthlib.oauth2.rfc6749.endpoints.token: 2025-02-12 21:58:12,209 - DEBUG - Dispatching grant_type password request to <oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials.ResourceOwnerPasswordCredentialsGrant object at 0x00000266FEB706E0>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 21:58:12,209 - DEBUG - Authenticating client, <oauthlib.Request SANITIZED>.
-oauth2_provider: 2025-02-12 21:58:12,719 - DEBUG - Failed basic auth: wrong client secret pbkdf2_sha25670000=
-oauth2_provider: 2025-02-12 21:58:13,223 - DEBUG - Failed body auth: wrong client secret 
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 21:58:13,224 - DEBUG - Client authentication failed, <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 21:58:13,224 - DEBUG - Client error in token request, (invalid_client)  <oauthlib.Request SANITIZED>.
-django.request: 2025-02-12 21:58:13,226 - WARNING - Unauthorized: /o/token/
-oauth2_provider.models: 2025-02-12 21:58:30,012 - DEBUG - YyhUs5EOMpuYmxfTK2Jk1lv57G38LJskwEUZgWx3: client_secret is already hashed with <django.contrib.auth.hashers.PBKDF2PasswordHasher object at 0x00000266FE618440>.
-oauthlib.oauth2.rfc6749.endpoints.token: 2025-02-12 21:59:20,453 - DEBUG - Dispatching grant_type password request to <oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials.ResourceOwnerPasswordCredentialsGrant object at 0x00000266FEB706E0>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 21:59:20,453 - DEBUG - Authenticating client, <oauthlib.Request SANITIZED>.
-oauth2_provider: 2025-02-12 21:59:20,954 - DEBUG - Failed basic auth: wrong client secret pbkdf2_sha25670000=
-oauth2_provider: 2025-02-12 21:59:21,463 - DEBUG - Failed body auth: wrong client secret 
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 21:59:21,464 - DEBUG - Client authentication failed, <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 21:59:21,464 - DEBUG - Client error in token request, (invalid_client)  <oauthlib.Request SANITIZED>.
-django.request: 2025-02-12 21:59:21,465 - WARNING - Unauthorized: /o/token/
-oauthlib.oauth2.rfc6749.endpoints.token: 2025-02-12 22:00:12,628 - DEBUG - Dispatching grant_type password request to <oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials.ResourceOwnerPasswordCredentialsGrant object at 0x00000266FEB706E0>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:00:12,628 - DEBUG - Authenticating client, <oauthlib.Request SANITIZED>.
-oauth2_provider: 2025-02-12 22:00:12,630 - DEBUG - Failed body authentication: Application '<YyhUs5EOMpuYmxfTK2Jk1lv57G38LJskwEUZgWx3>' does not exist
-oauth2_provider: 2025-02-12 22:00:12,630 - DEBUG - Failed basic auth: Application <YyhUs5EOMpuYmxfTK2Jk1lv57G38LJskwEUZgWx3> does not exist
-oauth2_provider: 2025-02-12 22:00:12,631 - DEBUG - Failed body authentication: Application None does not exist
-oauth2_provider: 2025-02-12 22:00:12,631 - DEBUG - Failed body auth: Application None does not exists
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:00:12,631 - DEBUG - Client authentication failed, <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:00:12,632 - DEBUG - Client error in token request, (invalid_client)  <oauthlib.Request SANITIZED>.
-django.request: 2025-02-12 22:00:12,632 - WARNING - Unauthorized: /o/token/
-oauthlib.oauth2.rfc6749.endpoints.token: 2025-02-12 22:00:28,411 - DEBUG - Dispatching grant_type password request to <oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials.ResourceOwnerPasswordCredentialsGrant object at 0x00000266FEB706E0>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:00:28,411 - DEBUG - Authenticating client, <oauthlib.Request SANITIZED>.
-oauth2_provider: 2025-02-12 22:00:28,910 - DEBUG - Failed basic auth: wrong client secret pbkdf2_sha25670000=
-oauth2_provider: 2025-02-12 22:00:29,410 - DEBUG - Failed body auth: wrong client secret 
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:00:29,411 - DEBUG - Client authentication failed, <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:00:29,411 - DEBUG - Client error in token request, (invalid_client)  <oauthlib.Request SANITIZED>.
-django.request: 2025-02-12 22:00:29,412 - WARNING - Unauthorized: /o/token/
-oauth2_provider.models: 2025-02-12 22:02:06,579 - DEBUG - YyhUs5EOMpuYmxfTK2Jk1lv57G38LJskwEUZgWx3: client_secret is already hashed with <django.contrib.auth.hashers.PBKDF2PasswordHasher object at 0x00000266FE618440>.
-django.utils.autoreload: 2025-02-12 22:03:22,723 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\djangoLearning\settings.py changed, reloading.
-django.utils.autoreload: 2025-02-12 22:03:23,912 - INFO - Watching for file changes with StatReloader
-oauthlib.oauth2.rfc6749.endpoints.token: 2025-02-12 22:03:27,165 - DEBUG - Dispatching grant_type password request to <oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials.ResourceOwnerPasswordCredentialsGrant object at 0x0000029F54788050>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:03:27,165 - DEBUG - Authenticating client, <oauthlib.Request SANITIZED>.
-oauth2_provider: 2025-02-12 22:03:27,672 - DEBUG - Failed basic auth: wrong client secret pbkdf2_sha25670000=
-oauth2_provider: 2025-02-12 22:03:28,175 - DEBUG - Failed body auth: wrong client secret 
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:03:28,176 - DEBUG - Client authentication failed, <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:03:28,176 - DEBUG - Client error in token request, (invalid_client)  <oauthlib.Request SANITIZED>.
-django.request: 2025-02-12 22:03:28,177 - WARNING - Unauthorized: /o/token/
-django.utils.autoreload: 2025-02-12 22:04:00,642 - INFO - Watching for file changes with StatReloader
-oauthlib.oauth2.rfc6749.endpoints.token: 2025-02-12 22:04:05,045 - DEBUG - Dispatching grant_type password request to <oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials.ResourceOwnerPasswordCredentialsGrant object at 0x0000022B9AC48050>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:04:05,045 - DEBUG - Authenticating client, <oauthlib.Request SANITIZED>.
-oauth2_provider: 2025-02-12 22:04:05,542 - DEBUG - Failed basic auth: wrong client secret pbkdf2_sha25670000=
-oauth2_provider: 2025-02-12 22:04:06,039 - DEBUG - Failed body auth: wrong client secret 
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:04:06,040 - DEBUG - Client authentication failed, <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:04:06,040 - DEBUG - Client error in token request, (invalid_client)  <oauthlib.Request SANITIZED>.
-django.request: 2025-02-12 22:04:06,041 - WARNING - Unauthorized: /o/token/
-oauth2_provider.models: 2025-02-12 22:05:46,428 - DEBUG - NDRz3ME2pJKxjK3B68iCaWpBEyfZiz5mmfEWbc4M: client_secret is not hashed; hashing it now.
-oauthlib.oauth2.rfc6749.endpoints.token: 2025-02-12 22:06:13,662 - DEBUG - Dispatching grant_type password request to <oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials.ResourceOwnerPasswordCredentialsGrant object at 0x0000022B9AC48050>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:06:13,663 - DEBUG - Authenticating client, <oauthlib.Request SANITIZED>.
-oauth2_provider: 2025-02-12 22:06:13,664 - DEBUG - Failed body authentication: Application '<your_client_id>' does not exist
-oauth2_provider: 2025-02-12 22:06:13,665 - DEBUG - Failed basic auth: Application <your_client_id> does not exist
-oauth2_provider: 2025-02-12 22:06:13,666 - DEBUG - Failed body authentication: Application None does not exist
-oauth2_provider: 2025-02-12 22:06:13,666 - DEBUG - Failed body auth: Application None does not exists
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:06:13,666 - DEBUG - Client authentication failed, <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:06:13,667 - DEBUG - Client error in token request, (invalid_client)  <oauthlib.Request SANITIZED>.
-django.request: 2025-02-12 22:06:13,667 - WARNING - Unauthorized: /o/token/
-oauthlib.oauth2.rfc6749.endpoints.token: 2025-02-12 22:06:42,254 - DEBUG - Dispatching grant_type password request to <oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials.ResourceOwnerPasswordCredentialsGrant object at 0x0000022B9AC48050>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:06:42,255 - DEBUG - Authenticating client, <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:06:42,752 - DEBUG - Validating access token request, <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:06:42,753 - DEBUG - Validating username Hari.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:06:43,251 - DEBUG - Authorizing access to user <User: Hari>.
-oauthlib.oauth2.rfc6749.grant_types.base: 2025-02-12 22:06:43,251 - DEBUG - Validating access to scopes ['read', 'write', 'groups'] for client 'NDRz3ME2pJKxjK3B68iCaWpBEyfZiz5mmfEWbc4M' (<Application: NDRz3ME2pJKxjK3B68iCaWpBEyfZiz5mmfEWbc4M>).
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:06:43,657 - DEBUG - Issuing token {'access_token': 'w1sw619DXkLmba2wv5pcqOrLm8tEHU', 'expires_in': 36000, 'token_type': 'Bearer', 'scope': 'read write groups', 'refresh_token': 'sxkNGwIGK91ffk1c2lnh7kgFGiCZ3L'} to client id 'NDRz3ME2pJKxjK3B68iCaWpBEyfZiz5mmfEWbc4M' (<Application: NDRz3ME2pJKxjK3B68iCaWpBEyfZiz5mmfEWbc4M>) and username Hari.
-django.utils.autoreload: 2025-02-12 22:11:46,225 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
-django.utils.autoreload: 2025-02-12 22:11:47,291 - INFO - Watching for file changes with StatReloader
-django.request: 2025-02-12 22:13:08,102 - WARNING - Unauthorized: /api/userData/
-oauthlib.oauth2.rfc6749.endpoints.token: 2025-02-12 22:13:20,378 - DEBUG - Dispatching grant_type password request to <oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials.ResourceOwnerPasswordCredentialsGrant object at 0x0000020C5DA327B0>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:13:20,381 - DEBUG - Authenticating client, <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:13:21,260 - DEBUG - Validating access token request, <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:13:21,261 - DEBUG - Validating username Hari.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:13:22,158 - DEBUG - Authorizing access to user <User: Hari>.
-oauthlib.oauth2.rfc6749.grant_types.base: 2025-02-12 22:13:22,160 - DEBUG - Validating access to scopes ['read', 'write', 'groups'] for client 'NDRz3ME2pJKxjK3B68iCaWpBEyfZiz5mmfEWbc4M' (<Application: NDRz3ME2pJKxjK3B68iCaWpBEyfZiz5mmfEWbc4M>).
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:13:22,308 - DEBUG - Issuing token {'access_token': 'kpH0FQnDyXIZhYo0FIVVh59rxgYZyL', 'expires_in': 36000, 'token_type': 'Bearer', 'scope': 'read write groups', 'refresh_token': '67g3l65htUpdLhBjozgug3rN5ekWto'} to client id 'NDRz3ME2pJKxjK3B68iCaWpBEyfZiz5mmfEWbc4M' (<Application: NDRz3ME2pJKxjK3B68iCaWpBEyfZiz5mmfEWbc4M>) and username Hari.
-django.request: 2025-02-12 22:13:35,680 - WARNING - Unauthorized: /api/userData/
-oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-12 22:14:16,233 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000020C5DE508C0>.
-django.request: 2025-02-12 22:14:16,315 - WARNING - Unauthorized: /api/userData/
-oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-12 22:14:21,322 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000020C5DF6F900>.
-django.request: 2025-02-12 22:14:21,324 - WARNING - Unauthorized: /api/userData/
-oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-12 22:14:30,115 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000020C5E049300>.
-oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-12 22:14:30,315 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000020C5DFB4580>.
-oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-12 22:14:36,691 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000020C5DE6EC40>.
-django.request: 2025-02-12 22:14:36,692 - WARNING - Unauthorized: /api/userData/
-django.request: 2025-02-12 22:15:08,019 - WARNING - Unauthorized: /api/userData/
-django.request: 2025-02-12 22:15:32,366 - WARNING - Unauthorized: /api/userData/
-oauthlib.oauth2.rfc6749.endpoints.token: 2025-02-12 22:18:04,426 - DEBUG - Dispatching grant_type refresh_token request to <oauthlib.oauth2.rfc6749.grant_types.refresh_token.RefreshTokenGrant object at 0x0000020C5DA32A50>.
-oauthlib.oauth2.rfc6749.grant_types.refresh_token: 2025-02-12 22:18:04,427 - DEBUG - Validating refresh token request, <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.refresh_token: 2025-02-12 22:18:04,427 - DEBUG - Authenticating client, <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.refresh_token: 2025-02-12 22:18:05,378 - DEBUG - Validating refresh token 67g3l65htUpdLhBjozgug3rN5ekWto for client <Application: NDRz3ME2pJKxjK3B68iCaWpBEyfZiz5mmfEWbc4M>.
-oauthlib.oauth2.rfc6749.grant_types.refresh_token: 2025-02-12 22:18:05,577 - DEBUG - Issuing new token to client id 'NDRz3ME2pJKxjK3B68iCaWpBEyfZiz5mmfEWbc4M' (<Application: NDRz3ME2pJKxjK3B68iCaWpBEyfZiz5mmfEWbc4M>), {'access_token': 'wzxLRPZLml7Odw60Dr0vKU86WwXN1r', 'expires_in': 36000, 'token_type': 'Bearer', 'scope': 'read write groups', 'refresh_token': 'UgPkeQZNW4YZWbDrel1FKW4s8CDjnC'}.
-django.request: 2025-02-12 22:18:19,348 - WARNING - Unauthorized: /api/userData/
-django.request: 2025-02-12 22:18:30,609 - WARNING - Unauthorized: /api/userData/
-django.request: 2025-02-12 22:18:36,071 - WARNING - Unauthorized: /api/userData/
-django.utils.autoreload: 2025-02-12 22:24:59,397 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
-django.utils.autoreload: 2025-02-12 22:25:00,766 - INFO - Watching for file changes with StatReloader
-django.utils.autoreload: 2025-02-12 22:25:06,075 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
-django.utils.autoreload: 2025-02-12 22:25:07,169 - INFO - Watching for file changes with StatReloader
-django.request: 2025-02-12 22:25:10,820 - WARNING - Unauthorized: /api/userData/
-oauthlib.oauth2.rfc6749.endpoints.token: 2025-02-12 22:25:19,449 - DEBUG - Dispatching grant_type refresh_token request to <oauthlib.oauth2.rfc6749.grant_types.refresh_token.RefreshTokenGrant object at 0x000002441C472A50>.
-oauthlib.oauth2.rfc6749.grant_types.refresh_token: 2025-02-12 22:25:19,450 - DEBUG - Validating refresh token request, <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.refresh_token: 2025-02-12 22:25:19,450 - DEBUG - Authenticating client, <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.refresh_token: 2025-02-12 22:25:19,944 - DEBUG - Validating refresh token 67g3l65htUpdLhBjozgug3rN5ekWto for client <Application: NDRz3ME2pJKxjK3B68iCaWpBEyfZiz5mmfEWbc4M>.
-oauthlib.oauth2.rfc6749.grant_types.refresh_token: 2025-02-12 22:25:19,947 - DEBUG - Invalid refresh token, 67g3l65htUpdLhBjozgug3rN5ekWto, for client <Application: NDRz3ME2pJKxjK3B68iCaWpBEyfZiz5mmfEWbc4M>.
-oauthlib.oauth2.rfc6749.grant_types.refresh_token: 2025-02-12 22:25:19,948 - DEBUG - Client error in token request, (invalid_grant)  <oauthlib.Request SANITIZED>.
-django.request: 2025-02-12 22:25:19,948 - WARNING - Bad Request: /o/token/
-oauthlib.oauth2.rfc6749.endpoints.token: 2025-02-12 22:25:55,705 - DEBUG - Dispatching grant_type refresh_token request to <oauthlib.oauth2.rfc6749.grant_types.refresh_token.RefreshTokenGrant object at 0x000002441C472A50>.
-oauthlib.oauth2.rfc6749.grant_types.refresh_token: 2025-02-12 22:25:55,706 - DEBUG - Validating refresh token request, <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.refresh_token: 2025-02-12 22:25:55,706 - DEBUG - Authenticating client, <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.refresh_token: 2025-02-12 22:25:56,193 - DEBUG - Validating refresh token UgPkeQZNW4YZWbDrel1FKW4s8CDjnC for client <Application: NDRz3ME2pJKxjK3B68iCaWpBEyfZiz5mmfEWbc4M>.
-oauthlib.oauth2.rfc6749.grant_types.refresh_token: 2025-02-12 22:25:56,698 - DEBUG - Issuing new token to client id 'NDRz3ME2pJKxjK3B68iCaWpBEyfZiz5mmfEWbc4M' (<Application: NDRz3ME2pJKxjK3B68iCaWpBEyfZiz5mmfEWbc4M>), {'access_token': 'dYHpkchoIMnxdoUmwwA5WlBaf43AzV', 'expires_in': 36000, 'token_type': 'Bearer', 'scope': 'read write groups', 'refresh_token': 'ogjElYurY8lwhriwiJtu4SjfT90K2q'}.
-django.request: 2025-02-12 22:26:09,399 - WARNING - Unauthorized: /api/userData/
-oauthlib.oauth2.rfc6749.endpoints.token: 2025-02-12 22:34:36,085 - DEBUG - Dispatching grant_type password request to <oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials.ResourceOwnerPasswordCredentialsGrant object at 0x000002441C4727B0>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:34:36,086 - DEBUG - Authenticating client, <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:34:36,582 - DEBUG - Validating access token request, <oauthlib.Request SANITIZED>.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:34:36,583 - DEBUG - Validating username Prasad.
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:34:37,088 - DEBUG - Authorizing access to user <User: Prasad>.
-oauthlib.oauth2.rfc6749.grant_types.base: 2025-02-12 22:34:37,088 - DEBUG - Validating access to scopes ['read', 'write', 'groups'] for client 'NDRz3ME2pJKxjK3B68iCaWpBEyfZiz5mmfEWbc4M' (<Application: NDRz3ME2pJKxjK3B68iCaWpBEyfZiz5mmfEWbc4M>).
-oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials: 2025-02-12 22:34:37,629 - DEBUG - Issuing token {'access_token': 'uVtTT3iSvGHgEwPMiw0U1ceL20tSV0', 'expires_in': 36000, 'token_type': 'Bearer', 'scope': 'read write groups', 'refresh_token': 'LJwkcQdoabFxVN5i5DvrkyxSG1qcVZ'} to client id 'NDRz3ME2pJKxjK3B68iCaWpBEyfZiz5mmfEWbc4M' (<Application: NDRz3ME2pJKxjK3B68iCaWpBEyfZiz5mmfEWbc4M>) and username Prasad.
-django.request: 2025-02-12 22:34:50,687 - WARNING - Unauthorized: /api/userData/
-oauth2_provider: 2025-02-12 22:39:14,419 - DEBUG - Failed body authentication: Application None does not exist
-oauth2_provider: 2025-02-12 22:39:14,419 - DEBUG - Failed body auth: Application None does not exists
-oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-12 22:39:14,420 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000002441C9AFCC0>.
-django.request: 2025-02-12 22:39:14,423 - WARNING - Forbidden: /o/introspect/
-oauth2_provider: 2025-02-12 22:39:19,943 - DEBUG - Failed body authentication: Application None does not exist
-oauth2_provider: 2025-02-12 22:39:19,943 - DEBUG - Failed body auth: Application None does not exists
-oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-12 22:39:19,944 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000002441C9AFCC0>.
-django.request: 2025-02-12 22:39:19,944 - WARNING - Forbidden: /o/introspect/
-django.request: 2025-02-12 22:39:27,897 - WARNING - Unauthorized: /api/userData/
+
+django.request: 2025-02-13 09:14:44,244 - WARNING - Not Found: /api/
+apis.views: 2025-02-13 09:14:49,606 - INFO - This is an info log
+apis.views: 2025-02-13 09:14:49,610 - ERROR - Employee with id 8 does not exist
+django.utils.autoreload: 2025-02-13 09:36:43,405 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-13 09:36:45,980 - WARNING - Not Found: /
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 09:40:56,887 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000020EE00B4A80>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 09:41:30,811 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000020EE00277C0>.
+django.utils.autoreload: 2025-02-13 10:27:28,700 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-13 10:27:31,528 - WARNING - Not Found: /
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 10:27:53,277 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001CFA4351040>.
+MARKDOWN: 2025-02-13 10:27:53,454 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-13 10:27:53,454 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 10:30:36,573 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001CFA46E7580>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 10:32:57,500 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001CFA47A9080>.
+django.request: 2025-02-13 10:32:57,504 - WARNING - Method Not Allowed: /api/validateUser/
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 10:33:45,280 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001CFA4633280>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 10:34:05,122 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001CFA4672480>.
+django.request: 2025-02-13 10:34:05,131 - WARNING - Not Found: /api/validateUser/
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 10:38:03,881 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001CFA48921C0>.
+django.request: 2025-02-13 10:47:23,578 - WARNING - Not Found: /api/
+django.utils.autoreload: 2025-02-13 11:51:25,882 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-13 11:51:28,465 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 11:51:43,350 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001DB2D617AC0>.
+django.utils.autoreload: 2025-02-13 11:57:21,907 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\serializers.py changed, reloading.
+django.utils.autoreload: 2025-02-13 11:57:23,045 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-13 12:08:30,924 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-13 12:08:32,239 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-13 12:15:08,106 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\serializers.py changed, reloading.
+django.utils.autoreload: 2025-02-13 12:15:10,998 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-13 12:18:03,644 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-13 12:18:06,494 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 12:18:13,260 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001C6FCEEBFC0>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 12:18:14,545 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001C6FD141D40>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 12:18:20,356 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001C6FD2CF780>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 12:20:36,807 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001C6FD3E6D00>.
+django.request: 2025-02-13 12:20:36,971 - ERROR - Internal Server Error: /api/userWishlist/prefetch_related/
+Traceback (most recent call last):
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Django Training SK\Django\DjangoLearning\apis\views.py", line 106, in get
+    wishlistSerializer = UserWishlistSerializer(user.wishlist.all(), many="True").data
+NameError: name 'UserWishlistSerializer' is not defined
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 12:20:47,062 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001C6FD2A27C0>.
+django.request: 2025-02-13 12:20:47,140 - ERROR - Internal Server Error: /api/userWishlist/prefetch_related/
+Traceback (most recent call last):
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Django Training SK\Django\DjangoLearning\apis\views.py", line 106, in get
+    wishlistSerializer = UserWishlistSerializer(user.wishlist.all(), many="True").data
+NameError: name 'UserWishlistSerializer' is not defined
+django.utils.autoreload: 2025-02-13 12:21:17,124 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\serializers.py changed, reloading.
+django.utils.autoreload: 2025-02-13 12:21:18,813 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-13 12:21:29,998 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-13 12:21:31,602 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 12:21:36,321 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000020737833C40>.
+django.utils.autoreload: 2025-02-13 12:22:23,137 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-13 12:22:24,923 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 12:22:33,810 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000026FDAF4A040>.

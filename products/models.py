@@ -4,6 +4,7 @@ from django.db import models
 class ProductDatas(models.Model):
     productName = models.CharField(max_length=50)
     productDescription = models.CharField(max_length=200)
+    quantity = models.IntegerField(default=0)
     
     class Meta:
         managed = True
