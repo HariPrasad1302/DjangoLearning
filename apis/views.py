@@ -45,6 +45,7 @@ class UserDetailAPI(APIView):
         return Response({
             "status":200,
             "message": "success",
+            "count": len(serializer.data),
             "data": serializer.data,
             "user_name": user_names
         })
@@ -105,6 +106,7 @@ class prefetch_wishlistData(APIView):
         return Response({
             "status": 200,
             "message": "Wishlist Data fetched using prefetch_related",
+            "count": len(response_data),
             "data": response_data
         })
 
@@ -128,6 +130,7 @@ class select_related_wishlistData(APIView):
         return Response({
             "status": 200,
             "message": "Wishlist Data fetched using select_related",
+            "count": len(userSerializer),
             "data": response_data
         })
         
@@ -248,16 +251,22 @@ async def async_func(request):
     
 
 
-# UserData ViewSet
 class UserDataViewSet(ModelViewSet):
     queryset = UserData.objects.all()
     serializer_class = UserDataSerializer
-
-# UserWishlist ViewSet
-class UserWishlistViewSet(ModelViewSet):
-    queryset = UserWishlist.objects.all()
-    serializer_class = UserWishlistSerializer
     
 class UserWithWishlistViewSet(ModelViewSet):
     queryset = UserData.objects.all()
     serializer_class = UserWithWishlistSerializer
+
+    def list(self, request):
+        queryset = self.get_queryset()
+        serializer = self.get_serializer(queryset, many=True)
+        user_count = queryset.count()  
+
+        return Response({
+            "status": 200,
+            "message": "Fetched all users with wishlist data successfully",
+            "count": user_count,
+            "users": serializer.data
+        })

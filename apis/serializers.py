@@ -14,7 +14,6 @@ class UserWishlistSerializer(serializers.ModelSerializer):
 
 class UserWithWishlistSerializer(serializers.ModelSerializer):
     wishlist = serializers.SerializerMethodField()
-
     class Meta:
         model = UserData  
         fields = ['id', 'name', 'email', 'mobile_number', 'wishlist']
