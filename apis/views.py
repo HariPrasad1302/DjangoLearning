@@ -12,7 +12,7 @@ import locale
 from django.utils.formats import localize
 from django.utils import timezone
 from django.conf import settings
-
+from rest_framework.viewsets import ModelViewSet
 import pytz
 import logging
 import concurrent.futures
@@ -246,3 +246,18 @@ async def async_func(request):
     print("total time", total_time)
     return HttpResponse("Both user data and wishlist data retrieved successfully")
     
+
+
+# UserData ViewSet
+class UserDataViewSet(ModelViewSet):
+    queryset = UserData.objects.all()
+    serializer_class = UserDataSerializer
+
+# UserWishlist ViewSet
+class UserWishlistViewSet(ModelViewSet):
+    queryset = UserWishlist.objects.all()
+    serializer_class = UserWishlistSerializer
+    
+class UserWithWishlistViewSet(ModelViewSet):
+    queryset = UserData.objects.all()
+    serializer_class = UserWithWishlistSerializer

@@ -85,3 +85,38 @@ oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 12:21:36,321 - DEBUG - Di
 django.utils.autoreload: 2025-02-13 12:22:23,137 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
 django.utils.autoreload: 2025-02-13 12:22:24,923 - INFO - Watching for file changes with StatReloader
 oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 12:22:33,810 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000026FDAF4A040>.
+django.utils.autoreload: 2025-02-13 13:21:07,099 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-13 15:08:45,191 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-13 15:10:33,282 - WARNING - Not Found: /
+django.request: 2025-02-13 15:10:33,336 - WARNING - Not Found: /favicon.ico
+django.request: 2025-02-13 15:12:09,207 - WARNING - Not Found: /
+django.utils.autoreload: 2025-02-13 15:32:27,288 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-13 15:32:28,374 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-13 15:38:49,931 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-13 15:38:51,345 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-13 15:39:01,015 - WARNING - Not Found: /users
+django.request: 2025-02-13 15:39:13,277 - WARNING - Not Found: /api/users
+django.utils.autoreload: 2025-02-13 15:42:22,843 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-13 15:42:24,067 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-13 15:42:37,867 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-13 15:42:38,864 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-13 15:42:40,978 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-13 15:42:42,138 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 15:42:46,216 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x00000241B999DB80>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 15:43:09,845 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x00000241B9947E80>.
+django.utils.autoreload: 2025-02-13 15:43:49,742 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-13 15:43:50,931 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-13 15:45:07,756 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-13 15:45:08,758 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 15:45:22,117 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000002547A9E81C0>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 15:45:29,863 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000002547AA03300>.
+django.request: 2025-02-13 15:45:45,407 - WARNING - Not Found: /api/user/1/
+django.request: 2025-02-13 15:45:51,526 - WARNING - Not Found: /api/user/
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 15:45:57,821 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000002547A94F000>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 15:46:00,553 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000002547A9988C0>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 15:46:07,001 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000002547A93AD40>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 15:46:12,753 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000002547A5B8580>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 15:48:29,158 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000002547A9B1B40>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-13 15:48:52,560 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000002547A93B040>.
+django.utils.autoreload: 2025-02-13 15:49:13,119 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-13 15:49:14,286 - INFO - Watching for file changes with StatReloader
