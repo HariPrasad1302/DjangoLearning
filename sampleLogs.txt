@@ -662,3 +662,57 @@ oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 09:22:18,195 - DEBUG - Di
 MARKDOWN: 2025-02-17 09:22:18,230 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
 MARKDOWN: 2025-02-17 09:22:18,231 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
 django.utils.autoreload: 2025-02-17 11:30:05,898 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 19:07:08,815 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-17 19:07:11,154 - WARNING - Not Found: /
+django.request: 2025-02-17 19:07:11,229 - WARNING - Not Found: /favicon.ico
+django.request: 2025-02-17 19:07:20,772 - WARNING - Not Found: /apis/
+django.request: 2025-02-17 19:07:26,747 - WARNING - Not Found: /api/
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 19:07:32,981 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001A4F067AAC0>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 19:07:34,734 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001A4F0BF4080>.
+django.request: 2025-02-17 19:07:50,344 - WARNING - Not Found: /api/
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 19:08:07,072 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001A4F0AD9B00>.
+django.utils.autoreload: 2025-02-17 19:11:52,629 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\models.py changed, reloading.
+django.utils.autoreload: 2025-02-17 19:11:53,694 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 19:12:06,425 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\serializers.py changed, reloading.
+django.utils.autoreload: 2025-02-17 19:12:07,483 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 19:12:20,429 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\admin.py changed, reloading.
+django.utils.autoreload: 2025-02-17 19:12:21,709 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 20:05:49,115 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-17 20:05:50,415 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 20:07:30,349 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-17 20:07:31,580 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 20:09:50,880 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-17 20:09:51,987 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 20:09:58,534 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-17 20:09:59,596 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-17 20:10:03,227 - WARNING - Not Found: /
+django.utils.autoreload: 2025-02-17 20:10:30,111 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-17 20:10:31,242 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 20:11:25,181 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-17 20:11:26,307 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 20:12:26,383 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-17 20:12:27,396 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 20:14:50,769 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-17 20:14:52,056 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 20:18:22,525 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-17 20:18:23,479 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 20:27:56,805 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-17 20:27:58,089 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 20:28:25,698 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-17 20:28:26,861 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 20:29:27,761 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-17 20:29:28,855 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 20:30:40,054 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-17 20:30:41,232 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 20:43:32,095 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-17 20:43:33,420 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 20:43:42,911 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-17 20:43:44,093 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 20:44:00,088 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-17 20:44:01,304 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 20:44:34,091 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-17 20:44:35,289 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 20:44:37,902 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-17 20:44:39,093 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 20:51:32,289 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\forms.py changed, reloading.
+django.utils.autoreload: 2025-02-17 20:51:33,406 - INFO - Watching for file changes with StatReloader
