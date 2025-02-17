@@ -8,6 +8,6 @@ class User(admin.ModelAdmin):
 
 @admin.register(UserWishlist)
 class Wishlists(admin.ModelAdmin):
-    list_display = ('id', 'user', 'productName', 'productDescription', 'productPrice')
-    search_fields = ('productName', 'productDescription')
+    list_display = ('id', 'user', 'product_name', 'product_description', 'product_price')
+    search_fields = ('product_name', 'product_description')
   

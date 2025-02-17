@@ -375,3 +375,280 @@ oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-14 10:54:53,509 - DEBUG - Di
 oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-14 10:55:18,576 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000023994D90680>.
 django.utils.autoreload: 2025-02-14 10:55:54,844 - INFO - E:\Django Training SK\Django\DjangoLearning\products\views.py changed, reloading.
 django.utils.autoreload: 2025-02-14 10:55:57,837 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 07:58:49,270 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-17 07:59:05,103 - WARNING - Not Found: /
+django.request: 2025-02-17 07:59:06,605 - WARNING - Not Found: /favicon.ico
+django.request: 2025-02-17 07:59:22,896 - WARNING - Not Found: /product/
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 07:59:29,697 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x00000216787D3C00>.
+MARKDOWN: 2025-02-17 07:59:30,381 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-17 07:59:30,389 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+django.utils.autoreload: 2025-02-17 08:02:13,926 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\models.py changed, reloading.
+django.utils.autoreload: 2025-02-17 08:02:16,894 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 08:03:17,496 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\models.py changed, reloading.
+django.utils.autoreload: 2025-02-17 08:03:19,725 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 08:03:27,495 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\models.py changed, reloading.
+django.utils.autoreload: 2025-02-17 08:03:29,474 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 08:07:38,320 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 08:07:43,331 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000018A687DC580>.
+MARKDOWN: 2025-02-17 08:07:43,464 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-17 08:07:43,464 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+django.request: 2025-02-17 08:08:05,516 - WARNING - Not Found: /asm
+django.request: 2025-02-17 08:15:07,399 - WARNING - Not Found: /apis/
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 08:15:13,875 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000018A68F58900>.
+MARKDOWN: 2025-02-17 08:15:13,879 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-17 08:15:13,879 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 08:15:18,537 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000018A68B9C7C0>.
+MARKDOWN: 2025-02-17 08:15:18,549 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-17 08:15:18,549 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 08:15:41,900 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000018A69093100>.
+django.request: 2025-02-17 08:15:42,031 - ERROR - Internal Server Error: /api/users-with-wishlist/
+Traceback (most recent call last):
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Django Training SK\Django\DjangoLearning\apis\views.py", line 271, in list
+    "users": serializer.data
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 713, in to_representation
+    return [
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 538, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\fields.py", line 1870, in to_representation
+    return method(value)
+  File "E:\Django Training SK\Django\DjangoLearning\apis\serializers.py", line 23, in get_wishlist
+    return [
+  File "E:\Django Training SK\Django\DjangoLearning\apis\serializers.py", line 26, in <listcomp>
+    "productName": item.productName,
+AttributeError: 'UserWishlist' object has no attribute 'productName'
+django.utils.autoreload: 2025-02-17 08:16:54,533 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\serializers.py changed, reloading.
+django.utils.autoreload: 2025-02-17 08:16:58,078 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 08:17:00,343 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001C5B58FA1C0>.
+MARKDOWN: 2025-02-17 08:17:00,460 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-17 08:17:00,461 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 08:17:40,712 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001C5B59E5A00>.
+MARKDOWN: 2025-02-17 08:17:40,729 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-17 08:17:40,730 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 08:18:52,621 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001C5B5CAD6C0>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 08:19:01,279 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001C5B5C98E40>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 08:19:07,554 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001C5B5C41480>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 08:19:14,373 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001C5B5CAC8C0>.
+django.utils.autoreload: 2025-02-17 08:31:24,080 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\models.py changed, reloading.
+django.utils.autoreload: 2025-02-17 08:31:28,673 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 08:31:32,896 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001F79F7CBDC0>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 08:32:15,501 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001F79FCE2340>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 08:32:20,490 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001F79F9D0BC0>.
+django.utils.autoreload: 2025-02-17 08:33:13,955 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\models.py changed, reloading.
+django.utils.autoreload: 2025-02-17 08:33:18,097 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 08:33:20,068 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000002707835E440>.
+django.utils.autoreload: 2025-02-17 08:33:46,418 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\models.py changed, reloading.
+django.utils.autoreload: 2025-02-17 08:33:49,368 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 08:33:57,545 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001D32E8237C0>.
+django.utils.autoreload: 2025-02-17 08:34:11,151 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\models.py changed, reloading.
+django.utils.autoreload: 2025-02-17 08:34:14,155 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 08:34:18,058 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000020BE80749C0>.
+django.utils.autoreload: 2025-02-17 08:38:30,910 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\models.py changed, reloading.
+django.utils.autoreload: 2025-02-17 08:38:34,014 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 08:38:39,279 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000020876AD1FC0>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 08:42:17,180 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000020876918040>.
+MARKDOWN: 2025-02-17 08:42:17,430 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-17 08:42:17,431 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+django.utils.autoreload: 2025-02-17 08:46:59,694 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-17 08:47:02,609 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-17 08:57:36,415 - WARNING - Not Found: /api/translationDemo/fr/
+django.request: 2025-02-17 09:04:16,562 - WARNING - Not Found: /api/fr
+django.request: 2025-02-17 09:04:20,505 - WARNING - Not Found: /api/fr/
+django.utils.autoreload: 2025-02-17 09:09:20,355 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\models.py changed, reloading.
+django.utils.autoreload: 2025-02-17 09:09:24,736 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 09:09:32,038 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001F47417A380>.
+django.request: 2025-02-17 09:09:32,293 - ERROR - Internal Server Error: /api/userWishlist/
+Traceback (most recent call last):
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: apis_userwishlist._order
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Django Training SK\Django\DjangoLearning\apis\views.py", line 94, in get
+    "count": len(serializer.data),  # Count of users
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 713, in to_representation
+    return [
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 538, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\fields.py", line 1870, in to_representation
+    return method(value)
+  File "E:\Django Training SK\Django\DjangoLearning\apis\serializers.py", line 23, in get_wishlist
+    return [
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: apis_userwishlist._order
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 09:09:44,266 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001F47424AF40>.
+django.request: 2025-02-17 09:09:44,410 - ERROR - Internal Server Error: /api/userWishlist/
+Traceback (most recent call last):
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: apis_userwishlist._order
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Django Training SK\Django\DjangoLearning\apis\views.py", line 94, in get
+    "count": len(serializer.data),  # Count of users
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 713, in to_representation
+    return [
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 538, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\fields.py", line 1870, in to_representation
+    return method(value)
+  File "E:\Django Training SK\Django\DjangoLearning\apis\serializers.py", line 23, in get_wishlist
+    return [
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: apis_userwishlist._order
+django.utils.autoreload: 2025-02-17 09:10:24,748 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\models.py changed, reloading.
+django.utils.autoreload: 2025-02-17 09:10:28,254 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 09:10:34,616 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000019069BC0A80>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 09:10:56,185 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000019069BF7680>.
+django.utils.autoreload: 2025-02-17 09:17:37,388 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-17 09:17:41,365 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 09:17:50,660 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001AE88E95B80>.
+MARKDOWN: 2025-02-17 09:17:50,949 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-17 09:17:50,951 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 09:17:55,509 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001AE88D1BE80>.
+MARKDOWN: 2025-02-17 09:17:55,514 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-17 09:17:55,516 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+django.utils.autoreload: 2025-02-17 09:18:02,374 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-17 09:18:05,418 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 09:18:10,985 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-17 09:18:14,179 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 09:18:18,612 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001D1E3DFCAC0>.
+MARKDOWN: 2025-02-17 09:18:18,730 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-17 09:18:18,731 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+django.utils.autoreload: 2025-02-17 09:19:03,765 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-17 09:19:07,210 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 09:19:11,710 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001EA829C67C0>.
+MARKDOWN: 2025-02-17 09:19:11,832 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-17 09:19:11,832 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 09:19:15,529 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001EA82AABA40>.
+MARKDOWN: 2025-02-17 09:19:15,531 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-17 09:19:15,532 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+django.utils.autoreload: 2025-02-17 09:19:23,898 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-17 09:19:27,289 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 09:19:54,536 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-17 09:19:59,045 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 09:20:06,432 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-17 09:20:09,498 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-17 09:21:19,738 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-17 09:21:22,825 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 09:21:41,209 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000002041649CD00>.
+MARKDOWN: 2025-02-17 09:21:41,389 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-17 09:21:41,391 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+django.utils.autoreload: 2025-02-17 09:21:58,123 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-17 09:22:01,452 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-17 09:22:02,701 - WARNING - Not Found: /api/

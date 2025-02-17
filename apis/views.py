@@ -152,6 +152,7 @@ def translation(request):
     response = {
         "message": _("Welcome to the Django Development"),
         "current_date": today,
+        "Language_code": language_code,
         "price": locale.currency(amount, grouping=True)
     }
     return render(request, 'translation.html', response)

@@ -9,7 +9,7 @@ class UserDataSerializer(serializers.ModelSerializer):
 class UserWishlistSerializer(serializers.ModelSerializer):
     class Meta:
         model = UserWishlist
-        fields = ['id', 'productName', 'productDescription', 'productPrice']
+        fields = ['id', 'product_name', 'product_description', 'product_price']
 
 
 class UserWithWishlistSerializer(serializers.ModelSerializer):
@@ -23,9 +23,9 @@ class UserWithWishlistSerializer(serializers.ModelSerializer):
         return [
             {
                 "id": item.id,
-                "productName": item.productName,
-                "productDescription": item.productDescription,
-                "productPrice": item.productPrice
+                "product_name": item.product_name,
+                "product_description": item.product_description,
+                "product_price": item.product_price
             } for item in wishlist_items
         ]
         

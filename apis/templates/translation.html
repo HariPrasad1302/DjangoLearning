@@ -14,13 +14,14 @@
         <p>{% trans "Current Date: " %}{{ current_date }}</p>
         <p>{% trans "Price: " %} {{price}}</p>
         
-        <form action="{% url 'set_language' %}" method="post" >
+        <form action="{% url 'set_language' %}" method="post">
             {% csrf_token %}
             <select name="language">
-                <option value="en">English</option>
-                <option value="fr">French</option>
+                <option value="en" {% if Language_code == "en" %}selected{% endif %}>English</option>
+                <option value="fr" {% if Language_code == "fr" %}selected{% endif %}>French</option>
             </select>
-            <button type="submit">{% trans "Switch Language" %} </button>
+            <button type="submit">{% trans "Switch Language" %}</button>
         </form>
+        
     </body>
 </html>

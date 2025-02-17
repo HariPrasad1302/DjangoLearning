@@ -21,6 +21,6 @@ urlpatterns = [
     path('modelForm_user/', modelForm_val),
     path('sync/', sync_func, name='sync_func'),
     path('async/', async_func, name='async_func'),
-    path('', include(router.urls))
+    path('router/', include(router.urls))
 ]
 
