@@ -652,3 +652,13 @@ MARKDOWN: 2025-02-17 09:21:41,391 - DEBUG - Successfully loaded extension "markd
 django.utils.autoreload: 2025-02-17 09:21:58,123 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\urls.py changed, reloading.
 django.utils.autoreload: 2025-02-17 09:22:01,452 - INFO - Watching for file changes with StatReloader
 django.request: 2025-02-17 09:22:02,701 - WARNING - Not Found: /api/
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 09:22:09,489 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x00000109E6B86880>.
+MARKDOWN: 2025-02-17 09:22:09,626 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-17 09:22:09,627 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 09:22:15,955 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x00000109E727EAC0>.
+MARKDOWN: 2025-02-17 09:22:15,978 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-17 09:22:15,981 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-17 09:22:18,195 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x00000109E7071AC0>.
+MARKDOWN: 2025-02-17 09:22:18,230 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-17 09:22:18,231 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+django.utils.autoreload: 2025-02-17 11:30:05,898 - INFO - Watching for file changes with StatReloader
