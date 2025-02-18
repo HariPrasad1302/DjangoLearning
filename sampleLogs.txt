@@ -801,3 +801,6 @@ oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-18 10:51:29,720 - DEBUG - Di
 MARKDOWN: 2025-02-18 10:51:29,917 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
 MARKDOWN: 2025-02-18 10:51:29,917 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
 django.utils.autoreload: 2025-02-18 11:08:43,664 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-18 11:08:53,032 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000025E51180680>.
+MARKDOWN: 2025-02-18 11:08:53,204 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-18 11:08:53,205 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
