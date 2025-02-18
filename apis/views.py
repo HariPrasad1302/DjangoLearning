@@ -45,8 +45,10 @@ class UserDetailAPI(APIView):
         return Response({
             "status":200,
             "message": "success",
-            "count": len(serializer.data),
-            "data": serializer.data,
+            "data": {
+                "count": len(serializer.data),
+                "result": serializer.data
+            },
             "user_name": user_names
         })
         
@@ -91,8 +93,10 @@ class UserWishlistApi(APIView):
         return Response({
             "status": 200,
             "message": "Fetched all users with wishlist data successfully",
-            "count": len(serializer.data),  # Count of users
-            "data": serializer.data  # Serialized data
+            "data": {
+                "count": len(serializer.data),
+                "result": serializer.data
+            },
         })
 
 
@@ -106,8 +110,10 @@ class prefetch_wishlistData(APIView):
         return Response({
             "status": 200,
             "message": "Wishlist Data fetched using prefetch_related",
-            "count": len(response_data),
-            "data": response_data
+            "data": {
+                "count": len(response_data),
+                "result": response_data
+            },
         })
 
 
@@ -255,6 +261,20 @@ async def async_func(request):
 class UserDataViewSet(ModelViewSet):
     queryset = UserData.objects.all()
     serializer_class = UserDataSerializer
+
+    def list(self, request):
+        queryset = self.get_queryset()
+        serializer = self.get_serializer(queryset, many=True)
+        u_count = queryset.count()
+
+        return Response({
+            "status": 200,
+            "message": "Fetched all user data successfully",
+            "data":{
+                "count": u_count,
+                "result": serializer.data
+            }
+        })
     
 class UserWithWishlistViewSet(ModelViewSet):
     queryset = UserData.objects.all()
@@ -268,6 +288,8 @@ class UserWithWishlistViewSet(ModelViewSet):
         return Response({
             "status": 200,
             "message": "Fetched all users with wishlist data successfully",
-            "count": user_count,
-            "users": serializer.data
+            "data": {
+                "count": user_count,
+                "result": serializer.data
+            },
         })
