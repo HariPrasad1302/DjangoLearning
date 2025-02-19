@@ -1,6 +1,6 @@
 {% load i18n %}
 <!DOCTYPE html>
-<html lang={{LANGUAGE_CODE}}>
+<html lang="{{ LANGUAGE_CODE }}">
     <head>
         <meta charset="utf-8">
         <title>{% trans "Demo Translation" %}</title>
@@ -8,12 +8,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        {{ response }}
+        <!-- Display the response data -->
         <h1>{% trans "Hello Everyone" %}</h1>
         <p>{{ message }}</p>
         <p>{% trans "Current Date: " %}{{ current_date }}</p>
-        <p>{% trans "Price: " %} {{price}}</p>
+        {% comment %} <p>{% trans "Price: " %} {{ price }}</p> {% endcomment %}
         
+        <!-- Language selection form -->
         <form action="{% url 'set_language' %}" method="post">
             {% csrf_token %}
             <select name="language">
@@ -23,5 +24,19 @@
             <button type="submit">{% trans "Switch Language" %}</button>
         </form>
         
+        <!-- Form for entering text to translate -->
+        <form method="post">
+            {% csrf_token %}
+            <br>
+            <label for="input_text">{% trans "Enter text to translate:" %}</label>
+            <input type="text" id="input_text" name="input_text" value="{{ input_text }}">
+            <button type="submit">{% trans "Translate" %}</button>
+        </form>
+
+        <!-- Display the translated text -->
+        {% if translated_text %}
+            <h2>{% trans "Translated Text:" %}</h2>
+            <p>{{ translated_text }}</p>
+        {% endif %}
     </body>
 </html>

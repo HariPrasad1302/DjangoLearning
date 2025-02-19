@@ -1,5 +1,5 @@
 from django.urls import path, include
-from .views import userDetail, UserDetailAPI, generateUserToken, UserWishlistApi, prefetch_wishlistData, select_related_wishlistData, translation, logging_example, form_validation, modelForm_val, sync_func, async_func, UserDataViewSet, UserWithWishlistViewSet
+from .views import userDetail, UserDetailAPI, generateUserToken, UserWishlistApi, prefetch_wishlistData, select_related_wishlistData, translation, logging_example, form_validation, modelForm_val, sync_func, async_func, UserDataViewSet, UserWithWishlistViewSet, inspect_userdata
 from django.conf.urls.i18n import set_language
 from rest_framework.routers import DefaultRouter
 
@@ -21,6 +21,7 @@ urlpatterns = [
     path('modelForm_user/', modelForm_val),
     path('sync/', sync_func, name='sync_func'),
     path('async/', async_func, name='async_func'),
-    path('router/', include(router.urls))
+    path('router/', include(router.urls)),
+    path('update-name/', inspect_userdata, name='inspect_userdata'),
 ]
 

@@ -6,6 +6,7 @@ from .models import UserData, UserWishlist
 from .serializers import UserDataSerializer, UserWithWishlistSerializer, GenerateTokenSerializer, UserWishlistSerializer
 from rest_framework_simplejwt.tokens import RefreshToken
 from drf_spectacular.utils import extend_schema
+from googletrans import Translator
 from django.utils.translation import gettext as _
 from datetime import datetime
 import locale
@@ -144,23 +145,50 @@ class select_related_wishlistData(APIView):
 # Example for internalization and lcoalization
 
 def translation(request):
-    locale.setlocale(locale.LC_ALL, request.LANGUAGE_CODE)
+
+    translator = Translator()
+    try:
+        locale.setlocale(locale.LC_ALL, request.LANGUAGE_CODE)
+    except Exception as e:
+        print(f"Locale setting failed: {e}")
+
     language_code = request.LANGUAGE_CODE
     timezone_str = settings.LANGUAGE_TIMEZONE_MAP.get(language_code, 'UTC')
     print(timezone_str)
-    tz = pytz.timezone(timezone_str)
-    print(tz)
-    timezone.activate(tz)
+
+    try:
+        tz = pytz.timezone(timezone_str)
+        print(tz)
+        timezone.activate(tz)
+    except Exception as e:
+        print(f"Timezone error: {e}")
+        timezone.activate(pytz.utc)
     
     today = datetime.now(tz)
     Date = today.strftime('%B %d, %Y')
     amount = 3412.23
+  
+    input_text = ""
+    translated_text = ""
+
+    if request.method == 'POST':
+        input_text = request.POST.get('input_text', '').strip()
+
+        if input_text:
+            try:
+                translated_text = translator.translate(input_text, src='en', dest=language_code).text
+            except Exception as e:
+                print(f"Translation error: {e}")
+
     response = {
         "message": _("Welcome to the Django Development"),
         "current_date": today,
         "Language_code": language_code,
-        "price": locale.currency(amount, grouping=True)
+        "price": locale.currency(amount, grouping=True),
+        "input_text": input_text,
+        "translated_text": translated_text
     }
+
     return render(request, 'translation.html', response)
 
 
@@ -293,3 +321,32 @@ class UserWithWishlistViewSet(ModelViewSet):
                 "result": serializer.data
             },
         })
+
+#refelctions
+from django.shortcuts import render, HttpResponse
+from .models import UserData
+
+def inspect_userdata(request):
+    try:
+        user = UserData.objects.get(id=1)  
+        current_name = getattr(user, 'name', None)
+        new_name = "Mark"
+        setattr(user, 'name', new_name)
+        user.save()
+
+        has_email = hasattr(user, 'email')  
+
+        user_type = type(user).__name__  
+
+        user_attributes = dir(user) 
+
+        response_text = f"Current name: {current_name}<br>"
+        response_text += f"Updated name: {getattr(user, 'name', None)}<br>"
+        response_text += f"Has 'emailID' attribute? {has_email}<br>"
+        response_text += f"Type of the object: {user_type}<br>"
+        response_text += f"List of attributes and methods: {user_attributes}"
+
+        return HttpResponse(response_text)
+
+    except UserData.DoesNotExist:
+        return HttpResponse("UserData with ID 1 does not exist.")
