@@ -1,0 +1,47 @@
+[
+    {
+        "model": "products.productdatas",
+        "pk": 1,
+        "fields": {
+            "product_name": "Wireless Mouse",
+            "product_description": "Ergonomic wireless mouse with adjustable DPI settings.",
+            "quantity": 50
+        }
+    },
+    {
+        "model": "products.productdatas",
+        "pk": 2,
+        "fields": {
+            "product_name": "Mechanical Keyboard",
+            "product_description": "RGB backlit mechanical keyboard with blue switches.",
+            "quantity": 30
+        }
+    },
+    {
+        "model": "products.productdatas",
+        "pk": 3,
+        "fields": {
+            "product_name": "Gaming Headset",
+            "product_description": "Surround sound gaming headset with noise-canceling microphone.",
+            "quantity": 25
+        }
+    },
+    {
+        "model": "products.productdatas",
+        "pk": 4,
+        "fields": {
+            "product_name": "USB-C Charger",
+            "product_description": "Fast charging USB-C power adapter with 65W output.",
+            "quantity": 40
+        }
+    },
+    {
+        "model": "products.productdatas",
+        "pk": 5,
+        "fields": {
+            "product_name": "External Hard Drive",
+            "product_description": "1TB external hard drive with USB 3.0 connectivity.",
+            "quantity": 20
+        }
+    }
+]

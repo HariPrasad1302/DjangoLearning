@@ -3221,3 +3221,14 @@ MARKDOWN: 2025-02-24 10:01:22,658 - DEBUG - Successfully imported extension modu
 MARKDOWN: 2025-02-24 10:01:22,662 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
 django.utils.autoreload: 2025-02-24 10:02:32,014 - INFO - E:\Django Training SK\Django\DjangoLearning\djangoLearning\settings.py changed, reloading.
 django.utils.autoreload: 2025-02-24 10:02:34,070 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-24 20:19:36,807 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-24 20:19:49,946 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-24 20:20:22,710 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-24 20:50:37,405 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-24 20:50:46,398 - WARNING - Not Found: /
+django.request: 2025-02-24 20:50:46,454 - WARNING - Not Found: /favicon.ico
+django.utils.autoreload: 2025-02-24 20:59:01,204 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\models.py changed, reloading.
+django.utils.autoreload: 2025-02-24 20:59:02,274 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-24 20:59:06,803 - WARNING - Not Found: /
+django.utils.autoreload: 2025-02-24 21:02:36,735 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\migrations\0001_initial.py changed, reloading.
+django.utils.autoreload: 2025-02-24 21:02:37,882 - INFO - Watching for file changes with StatReloader

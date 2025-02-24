@@ -136,9 +136,9 @@ DATABASES = {
     # },
     'productdb': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_tuto',
+        'NAME': 'django_db',
         'USER': 'root',
-        'PASSWORD': 'hari123',
+        'PASSWORD': 'root123',
         'HOST': '127.0.0.1',  # e.g., 'localhost' or an IP address
         'PORT': '3306',  # Default MySQL port
     }
