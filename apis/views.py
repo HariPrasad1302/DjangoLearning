@@ -20,18 +20,20 @@ import concurrent.futures
 from .forms import user_reg, modelUser_reg
 from asgiref.sync import sync_to_async
 import time, asyncio
-
+from .pagination import CustomPagination
 
 # Create your views here.
 class userDetail(APIView):
     def get(self, request):
         users = UserData.objects.all()
-        serializer = UserDataSerializer(users, many=True)
+        paginator = CustomPagination()
+        result_page = paginator.paginate_queryset(users, request)
+        serializer = UserDataSerializer(result_page, many=True)
 
-        return Response({
+        return paginator.get_paginated_response({
             "status":200,
             "message": "success",
-            "count": len(serializer.data),
+            "count": len(users),
             "user_Data": serializer.data,
         })
         
@@ -172,7 +174,7 @@ def translation(request):
     translated_text = ""
 
     if request.method == 'POST':
-        input_text = request.POST.get('input_text', '').strip()
+        input_text = request.POST.get('input_text')
 
         if input_text:
             try:
@@ -289,13 +291,16 @@ async def async_func(request):
 class UserDataViewSet(ModelViewSet):
     queryset = UserData.objects.all()
     serializer_class = UserDataSerializer
+    pagination_class = CustomPagination
 
     def list(self, request):
         queryset = self.get_queryset()
-        serializer = self.get_serializer(queryset, many=True)
+        paginator = self.pagination_class()
+        result_page = paginator.paginate_queryset(queryset, request)
+        serializer = self.get_serializer(result_page, many=True)
         u_count = queryset.count()
 
-        return Response({
+        return paginator.get_paginated_response({
             "status": 200,
             "message": "Fetched all user data successfully",
             "data":{
@@ -323,9 +328,6 @@ class UserWithWishlistViewSet(ModelViewSet):
         })
 
 #refelctions
-from django.shortcuts import render, HttpResponse
-from .models import UserData
-
 def inspect_userdata(request):
     try:
         user = UserData.objects.get(id=1)  

@@ -2351,3 +2351,873 @@ django.utils.autoreload: 2025-02-19 11:51:04,260 - INFO - E:\Django Training SK\
 django.utils.autoreload: 2025-02-19 11:51:06,268 - INFO - Watching for file changes with StatReloader
 oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-19 11:57:36,560 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001F0A6C104C0>.
 oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-19 11:57:46,654 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001F0A72AAEC0>.
+django.utils.autoreload: 2025-02-20 09:35:33,658 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-20 09:35:49,926 - WARNING - Not Found: /
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 09:38:25,429 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001B74A30E600>.
+MARKDOWN: 2025-02-20 09:38:25,615 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 09:38:25,616 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+hpack.hpack: 2025-02-20 09:38:33,108 - DEBUG - HPACK encoding <generator object _check_path_header.<locals>.inner at 0x000001B74A75E2D0>
+hpack.hpack: 2025-02-20 09:38:33,110 - DEBUG - Adding (b':method', b'POST') to the header table
+hpack.hpack: 2025-02-20 09:38:33,110 - DEBUG - Encoding 3 with 7 bits
+hpack.hpack: 2025-02-20 09:38:33,111 - DEBUG - Adding (b':authority', b'translate.google.com') to the header table
+hpack.hpack: 2025-02-20 09:38:33,112 - DEBUG - Encoding 1 with 6 bits
+hpack.hpack: 2025-02-20 09:38:33,113 - DEBUG - Encoding 14 with 7 bits
+hpack.hpack: 2025-02-20 09:38:33,114 - DEBUG - Adding (b':scheme', b'https') to the header table
+hpack.hpack: 2025-02-20 09:38:33,114 - DEBUG - Encoding 7 with 7 bits
+hpack.hpack: 2025-02-20 09:38:33,114 - DEBUG - Adding (b':path', b'/_/TranslateWebserverUi/data/batchexecute?rpcids=MkEWBc&bl=boq_translate-webserver_20201207.13_p0&soc-app=1&soc-platform=1&soc-device=1&rt=c') to the header table
+hpack.hpack: 2025-02-20 09:38:33,116 - DEBUG - Encoding 4 with 6 bits
+hpack.hpack: 2025-02-20 09:38:33,116 - DEBUG - Encoding 101 with 7 bits
+hpack.hpack: 2025-02-20 09:38:33,116 - DEBUG - Adding (b'accept', b'*/*') to the header table
+hpack.hpack: 2025-02-20 09:38:33,116 - DEBUG - Encoding 19 with 6 bits
+hpack.hpack: 2025-02-20 09:38:33,116 - DEBUG - Encoding 3 with 7 bits
+hpack.hpack: 2025-02-20 09:38:33,116 - DEBUG - Adding (b'accept-encoding', b'gzip, deflate') to the header table
+hpack.hpack: 2025-02-20 09:38:33,116 - DEBUG - Encoding 16 with 7 bits
+hpack.hpack: 2025-02-20 09:38:33,116 - DEBUG - Adding (b'user-agent', b'Mozilla/5.0 (Windows NT 10.0; Win64; x64)') to the header table
+hpack.hpack: 2025-02-20 09:38:33,116 - DEBUG - Encoding 58 with 6 bits
+hpack.hpack: 2025-02-20 09:38:33,126 - DEBUG - Encoding 32 with 7 bits
+hpack.hpack: 2025-02-20 09:38:33,126 - DEBUG - Adding (b'referer', b'https://translate.google.com') to the header table
+hpack.hpack: 2025-02-20 09:38:33,126 - DEBUG - Encoding 51 with 6 bits
+hpack.hpack: 2025-02-20 09:38:33,131 - DEBUG - Encoding 20 with 7 bits
+hpack.hpack: 2025-02-20 09:38:33,132 - DEBUG - Adding (b'content-length', b'160') to the header table
+hpack.hpack: 2025-02-20 09:38:33,132 - DEBUG - Encoding 28 with 6 bits
+hpack.hpack: 2025-02-20 09:38:33,132 - DEBUG - Encoding 2 with 7 bits
+hpack.hpack: 2025-02-20 09:38:33,132 - DEBUG - Adding (b'content-type', b'application/x-www-form-urlencoded') to the header table
+hpack.hpack: 2025-02-20 09:38:33,132 - DEBUG - Encoding 31 with 6 bits
+hpack.hpack: 2025-02-20 09:38:33,132 - DEBUG - Encoding 24 with 7 bits
+hpack.hpack: 2025-02-20 09:38:33,132 - DEBUG - Encoded header block to b"\x83A\x8eM\x83\xa9\x14\r%^c\x9ej\n\xb9\x0fO\x87D\xe5b&7\xd8:\x91@\xd2^E\x8d\x05\xb3\xb9l\xe0f$\x1aF\xc4cI'/\x92\x92\xd4\x97\xfc\xb2\xb2\x1aDA\xa3\xae\x0eWI\xf1\x1d\x10F~\xd1&\xc1\xd4\x8a\x06\x92\xad\xe0\xb1\xa0\xb6w-\x91\x08\x02\x00D\x07W\x0b1V\x0f\x84\x1c\x8b\x0e\xba\xe0\x0f\xc2\x0eE\xab\xa0i\x94\xf6S\x00~\x10r-!{\x98\x85\x80?\x16&\x02\x7fS\x83\xf9c\xe7\x90z\xa0\xd0\x7ff\xa2\x81\xb0\xda\xe0S\xfa\xe4j\xa4?\x84)\xa7z\x81\x02\xe0\xfbS\x91\xaaq\xaf\xb5<\xb8\xd7\xf7s\x94\x9d)\xad\x17\x18a6\x0e\xa4P4\x95y\x8ey\xa8*\xe4=?\\\x82\x0b\x80_\x98\x1du\xd0b\r&=Ly[\xc7\x8f\x0bJ{)Z\xdb(-D<\x85\x93"
+hpack.hpack: 2025-02-20 09:38:33,349 - DEBUG - Decoding b'\x88_\x96\x1du\xd0b\r&=LtA\xea\xfbP\x93\x8e\xc4\x150Z\x99V{X\xa1\xa8\xeb\x10d\x9c\xbfJTu\x90\x93\xd8_\xa5)\x1f\x95\x871`\x07\xd2\x94\xda\x84\xada{\x8e\x83H4\x97@\x85\xae\xc1\xcdH\xff\x86\xa8\xeb\x10d\x9c\xbfd\x96\xd0z\xbe\x94\x00T\xca:\x94\x0b\xef\x81@\x02\xe0\x01p\x00S\x16\x8d\xff\x0f\x12\x96\xdf=\xbfJ\x08\na,j\x08\x02m@5p\x0f\\dJb\xd1\xbfY\xb2\x1aR2OIjO\xda\x92\x9a\x82\xd4:K\x07\xf3aQY\xeaAW\x8c\xd5\x7f?jJj\x0bP\xe9/\xcc\x1c7\xe1Y\xef\xf5\xfe\xac*+=H*\xf1\x9a\xaf@\x90\xf2\xb1\x0fRKRVO\xaa\xca\xb1\xebI\x8fR?\x85\xa8\xe8\xa8\xd2\xcb@\x03p3p\xaf\xbd\xae\x0f\xe7|\xe6B\x86B\x95\x1d*\rMl\xebR\xb3\xd0bz\xfe\x14\xdcR\xa92\xe4;\x15\xb3\\\xe5\xa2\xb5%=\x8aR{\n\xa1\xaa\x94\xeb\xff?@\x8d\xac\xb6Rd \xc7\xa9\x0bVz\x0cO_\xff\x02$\xebZ5\x87a\'\x83\xe7\xe9BN\xb5\xa3Z3&\xa2\xa1\x10|\xfd(I\xd6\xb4kKm\x14-\xdc\xb6 \xc7\xaa\x0f\x9f\xa5\t:\xd6\x8dim\xa2\x85\xbb\x96\xc4\x18\xf5-A\x90\x98>~\x94$\xebZ5\xa9<\x85\xa2\x0f\x9f\xa5\t:\xd6\x8do\x07\xf0\xe3P|\xfd(I\xd6\xb4kJ{)ZQ\x91\'\xb1\x10|\xfd(I\xd6\xb4kW@\xd3)\xec\xa6\x0f\x9f\xa5\t:\xd6\x8dj\xe8\x1ae=\x94\xad\xdc\xb6 \xc7\xaa\x0f\x9f@\x90!\xeaIjJ\xc8)-\xb0\xc9\xf4\xb5g\xa0\xc4\xf5\xba\xb0\xbd\xad5\x85Y6Z\x84\x96E\x93\xea\xb2\xa1iOb\x9f\xe9\x04\xb0\xd5\xa7\xfd}\xd8Z\xcfbV\xb6\xc3(\xc4Lo\xb0u"\x81\xa4\xbc\x8b\x1a\x0bgr\xd9\xc0\xcc\x11\x15\xd8Z\xcfb\x7f@\x86\x19\x08Z\xd2\xb1\'\xff\x13\xdcR-{\x1a\xdc!Z\x1b\t?\xd2\x9b\x8aE\xafc[\x84+]2j*\x11\xf4\xa6\xe2\x91k\xd8\xd6\xe1\n\xd8m\xa2\x85\xb8\x96\xc4\x18\xf5})\xb8\xa4Z\xf65\xb8B\xb6\x1bh\xa1n%\xb1\x06=Kg2\x13\xf4\xa6\xe2\x91k\xd8\xd6\xe1\n\xda\x0f!h\xfaSqH\xb5\xeckp\x85nG\xe4\xe3_Jn)\x16\xbd\x8dn\x10\xad\x84\xf6R\xb6\x11\x91\'\xb1\x1fJn)\x16\xbd\x8dn\x10\xad\xae\x81\xa6S\xd9O\xd2\x9b\x8aE\xafc[\x84+k\xa0i\x94\xf6R\xb7\x12\xd8\x83\x1e\xaf@\x92%\x87B\x16=\x86\x98\xd5,z\xcbQlZ\xb3\xd0bz\x91@\xe9*\xc7\xb0\xd3\x1a\xa5\x87E\x07\xf0\xb5g\xae\xda\xd1@\x94%\x87B\x16=\x86\x98\xd5-aP{l!V\xac\xf4\x18\x9e\xbf\x86@\xe9*\xc82Kv\x03ESF@\x8c\xf2\xb7\x94!j\xec:JD\x98\xf5\x7f\x010@\x8b\xf2\xb4\xb6\x0e\x92\xacz\xd2c\xd4\x8f\x89\xdd\x0e\x8c\x1a\xb6\xe4\xc5\x93O\x0f(\xffS\xd3\x92\xfc\r\x880V(f\xf5\x8b\x85\xe0\xe0\xe3<\xf5\xee\x9c\x829pv\xbb\x81\x07\xc4\x7fWj\xd6\xdd\xa4m\x92x6\xce2\xee\x8f\xacg;\xdd\xb17\xa7\xdc\xfd\xa56\xb2\xd1\xbd \x0b\xb8\xe3\x994\xb7\x1f\x8fL\xbf\xaep\xdf\x11\xca\xcf\xe0:\xb3\xe6\xfc6_\xdd\xd7Z|"\x18\xb8\xe1\x8f3\x9c\xf6&.\xbe\xfdy\xf1\xe3\x1f\xb2_\xbc\xf3\x97\xd1\xa9\xcc3\xdd?\xe6.xd\x16<]{\x07\xbfQ\xe9t\xbe\xf0\n1\x93\xa7l\x97t\xf4}\x99K}5\x9en)\xbb\xc2c\xbd\xc3\xbd\xaf\xbf>g\xbb\x8b\xedB\xf9\xac\xd6\x15\x10a\xb0\xdfJ\x08KCl\xcb\x08\x02m@5p\x0f\\dJb\xd1\xbf\xedJ\xc6\x99\xe0c\xedI\x0fH\xcdT\x0b\xccs\xcdAW!\xe9\xfbS\x1aS^\xaa\xa8\xf5@\x85\x1d\tY\x1d\xc9\xa4\x9d\x98?\x9b\x8d4\xcf\xf3\xf6\xa5#\x80M\xbe \x00\x1fS\xb2\xb0\x9f\x83\xf9\xb8\xd3L\xff?jR8\x04\xdb\xe2\x00\x01R\x83\xa8\xf5\x17{\xad\xdcR-\x84\xa9$\xeb_*\x13\xf4\xa6\xe2\x91l%I\'[A\xe4/\xd2\x9b\x8aE\xb0\x95$\x9dm\xc6I~\xa1!\x0bZV\xc1Q\x0f!\xaa\x9b'
+hpack.hpack: 2025-02-20 09:38:33,352 - DEBUG - Decoded 8, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,353 - DEBUG - Decoded (b':status', b'200'), consumed 1
+hpack.hpack: 2025-02-20 09:38:33,354 - DEBUG - Decoded 31, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,354 - DEBUG - Decoded 22, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,356 - DEBUG - Decoded (b'content-type', b'application/json; charset=utf-8'), total consumed 24 bytes, indexed True
+hpack.hpack: 2025-02-20 09:38:33,357 - DEBUG - Decoded 24, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,358 - DEBUG - Decoded 33, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,359 - DEBUG - Decoded (b'cache-control', b'no-cache, no-store, max-age=0, must-revalidate'), total consumed 35 bytes, indexed True
+hpack.hpack: 2025-02-20 09:38:33,360 - DEBUG - Decoded 5, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,361 - DEBUG - Decoded 6, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,364 - DEBUG - Decoded (b'pragma', b'no-cache'), total consumed 14 bytes, indexed True
+hpack.hpack: 2025-02-20 09:38:33,365 - DEBUG - Decoded 36, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,366 - DEBUG - Decoded 22, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,367 - DEBUG - Decoded (b'expires', b'Mon, 01 Jan 1990 00:00:00 GMT'), total consumed 24 bytes, indexed True
+hpack.hpack: 2025-02-20 09:38:33,368 - DEBUG - Decoded 33, consumed 2 bytes
+hpack.hpack: 2025-02-20 09:38:33,369 - DEBUG - Decoded 22, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,370 - DEBUG - Decoded (b'date', b'Thu, 20 Feb 2025 04:08:32 GMT'), total consumed 25 bytes, indexed False
+hpack.hpack: 2025-02-20 09:38:33,372 - DEBUG - Decoded 25, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,373 - DEBUG - Decoded 50, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,375 - DEBUG - Decoded (b'content-disposition', b'attachment; filename="response.bin"; filename*=UTF-8\'\'response.bin'), total consumed 52 bytes, indexed True
+hpack.hpack: 2025-02-20 09:38:33,376 - DEBUG - Decoded 16, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,377 - DEBUG - Decoded 5, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,378 - DEBUG - Decoded (b'x-content-type-options', b'nosniff'), total consumed 24 bytes, indexed True
+hpack.hpack: 2025-02-20 09:38:33,380 - DEBUG - Decoded 3, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,381 - DEBUG - Decoded 47, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,381 - DEBUG - Decoded (<memory at 0x000001B74A7D7580>, b'CP="This is not a P3P policy! See g.co/p3phelp for more info."'), total consumed 53 bytes, indexed True
+hpack.hpack: 2025-02-20 09:38:33,384 - DEBUG - Decoded 13, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,384 - DEBUG - Decoded 129, consumed 2 bytes
+hpack.hpack: 2025-02-20 09:38:33,384 - DEBUG - Decoded (b'permissions-policy', b'ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*'), total consumed 146 bytes, indexed True
+hpack.hpack: 2025-02-20 09:38:33,384 - DEBUG - Decoded 16, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,388 - DEBUG - Decoded 58, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,389 - DEBUG - Decoded (b'content-security-policy', b"require-trusted-types-for 'script';report-uri /_/TranslateWebserverUi/cspreport"), total consumed 77 bytes, indexed True
+hpack.hpack: 2025-02-20 09:38:33,389 - DEBUG - Decoded 6, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,389 - DEBUG - Decoded 146, consumed 2 bytes
+hpack.hpack: 2025-02-20 09:38:33,389 - DEBUG - Decoded (b'accept-ch', b'Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version'), total consumed 156 bytes, indexed True
+hpack.hpack: 2025-02-20 09:38:33,389 - DEBUG - Decoded 18, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,389 - DEBUG - Decoded 17, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,389 - DEBUG - Decoded (b'cross-origin-opener-policy', b'same-origin-allow-popups'), total consumed 38 bytes, indexed True
+hpack.hpack: 2025-02-20 09:38:33,397 - DEBUG - Decoded 20, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,398 - DEBUG - Decoded 6, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,400 - DEBUG - Decoded (b'cross-origin-resource-policy', b'same-site'), total consumed 29 bytes, indexed True
+hpack.hpack: 2025-02-20 09:38:33,400 - DEBUG - Decoded 54, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,400 - DEBUG - Decoded 3, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,403 - DEBUG - Decoded (b'server', <memory at 0x000001B74A7D4400>), total consumed 5 bytes, indexed True
+hpack.hpack: 2025-02-20 09:38:33,403 - DEBUG - Decoded 12, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,403 - DEBUG - Decoded 1, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,403 - DEBUG - Decoded (b'x-xss-protection', <memory at 0x000001B74A7D7AC0>), total consumed 16 bytes, indexed True
+hpack.hpack: 2025-02-20 09:38:33,404 - DEBUG - Decoded 11, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,404 - DEBUG - Decoded 9, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,406 - DEBUG - Decoded (b'x-frame-options', b'SAMEORIGIN'), total consumed 23 bytes, indexed True
+hpack.hpack: 2025-02-20 09:38:33,406 - DEBUG - Decoded 55, consumed 2 bytes
+hpack.hpack: 2025-02-20 09:38:33,406 - DEBUG - Decoded 210, consumed 2 bytes
+hpack.hpack: 2025-02-20 09:38:33,406 - DEBUG - Decoded (b'set-cookie', b'NID=521=p2AgyGUC1EVhhpShc2oeEqBEsoGoyBnP5uc53cwiQVfSbkboo8qG5NzhqfiPelTt017Hbgtm5bwy39Ph1D2oe3X0k3xDArDSkPtwsA_VFbK6YQt_kzyxwwHzcDC86DsO6FhBoXGYFd2HGkq1vkaN7ezE2bacjqIBNj93feDtpogVtBUgo8Uvu99hK8v2; expires=Fri, 22-Aug-2025 04:08:32 GMT; path=/; domain=.google.com; HttpOnly'), total consumed 214 bytes, indexed False
+hpack.hpack: 2025-02-20 09:38:33,406 - DEBUG - Decoded 5, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,406 - DEBUG - Decoded 36, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,406 - DEBUG - Decoded (b'alt-svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), total consumed 44 bytes, indexed True
+hpack.hpack: 2025-02-20 09:38:33,406 - DEBUG - Decoded 18, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,406 - DEBUG - Decoded 3, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,406 - DEBUG - Decoded (b'accept-ranges', b'none'), total consumed 5 bytes, indexed True
+hpack.hpack: 2025-02-20 09:38:33,413 - DEBUG - Decoded 59, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,413 - DEBUG - Decoded 45, consumed 1 bytes
+hpack.hpack: 2025-02-20 09:38:33,415 - DEBUG - Decoded (b'vary', b'Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,Accept-Encoding'), total consumed 47 bytes, indexed True
+httpx._client: 2025-02-20 09:38:33,427 - DEBUG - HTTP Request: POST https://translate.google.com/_/TranslateWebserverUi/data/batchexecute?rpcids=MkEWBc&bl=boq_translate-webserver_20201207.13_p0&soc-app=1&soc-platform=1&soc-device=1&rt=c "HTTP/2 200 OK"
+django.utils.autoreload: 2025-02-20 09:41:05,749 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-20 09:41:08,318 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:04:02,829 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000002CDB1190600>.
+MARKDOWN: 2025-02-20 11:04:03,010 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:04:03,011 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+django.utils.autoreload: 2025-02-20 11:07:47,918 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:07:55,075 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:08:03,743 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x00000281D701BE00>.
+MARKDOWN: 2025-02-20 11:08:03,947 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:08:03,949 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:08:19,519 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x00000281D75D9300>.
+MARKDOWN: 2025-02-20 11:08:19,525 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:08:19,525 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:08:21,384 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x00000281D79D9540>.
+django.request: 2025-02-20 11:08:21,874 - ERROR - Internal Server Error: /api/router/users-with-wishlist/
+Traceback (most recent call last):
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\renderers.py", line 727, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\renderers.py", line 683, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\renderers.py", line 413, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Page is not JSON serializable
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:08:23,677 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x00000281D7A28600>.
+MARKDOWN: 2025-02-20 11:08:23,695 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:08:23,696 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+django.utils.autoreload: 2025-02-20 11:09:11,762 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:09:16,750 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:09:20,617 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000002401A0C2380>.
+MARKDOWN: 2025-02-20 11:09:20,728 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:09:20,728 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:09:29,244 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000002401A1C8580>.
+django.request: 2025-02-20 11:09:29,430 - ERROR - Internal Server Error: /api/router/users/
+Traceback (most recent call last):
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\renderers.py", line 727, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\renderers.py", line 683, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\renderers.py", line 413, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Page is not JSON serializable
+django.utils.autoreload: 2025-02-20 11:09:46,250 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:09:49,171 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:09:51,756 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000011E93AB6E80>.
+django.request: 2025-02-20 11:09:51,892 - ERROR - Internal Server Error: /api/router/users/
+Traceback (most recent call last):
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\renderers.py", line 727, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\renderers.py", line 683, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\renderers.py", line 413, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Page is not JSON serializable
+django.utils.autoreload: 2025-02-20 11:11:54,256 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:11:56,692 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:12:00,737 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001C700F0AF80>.
+MARKDOWN: 2025-02-20 11:12:00,842 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:12:00,844 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+django.utils.autoreload: 2025-02-20 11:14:44,012 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:14:47,554 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:14:51,469 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001EEF6C945C0>.
+django.request: 2025-02-20 11:14:51,612 - ERROR - Internal Server Error: /api/router/users/
+Traceback (most recent call last):
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Django Training SK\Django\DjangoLearning\apis\views.py", line 309, in list
+    "page_size": pagination.page_size,
+AttributeError: 'Paginator' object has no attribute 'page_size'
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:14:56,698 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001EEF6D11B40>.
+django.request: 2025-02-20 11:14:56,809 - ERROR - Internal Server Error: /api/router/users/
+Traceback (most recent call last):
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Django Training SK\Django\DjangoLearning\apis\views.py", line 309, in list
+    "page_size": pagination.page_size,
+AttributeError: 'Paginator' object has no attribute 'page_size'
+django.utils.autoreload: 2025-02-20 11:19:52,140 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:19:55,707 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:19:58,281 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x00000264CF435F80>.
+django.request: 2025-02-20 11:19:58,415 - ERROR - Internal Server Error: /api/router/users/
+Traceback (most recent call last):
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Django Training SK\Django\DjangoLearning\apis\views.py", line 306, in list
+    "current_page": page_obj.number,
+AttributeError: 'list' object has no attribute 'number'
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:20:00,723 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x00000264CF4974C0>.
+django.request: 2025-02-20 11:20:00,859 - ERROR - Internal Server Error: /api/router/users/
+Traceback (most recent call last):
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Django Training SK\Django\DjangoLearning\apis\views.py", line 306, in list
+    "current_page": page_obj.number,
+AttributeError: 'list' object has no attribute 'number'
+django.utils.autoreload: 2025-02-20 11:21:39,645 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:21:42,786 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-20 11:27:23,208 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:27:26,838 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:27:29,766 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000022699A1B040>.
+MARKDOWN: 2025-02-20 11:27:29,887 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:27:29,887 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:27:39,223 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000022697B0A840>.
+MARKDOWN: 2025-02-20 11:27:39,240 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:27:39,242 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:27:42,460 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000002269A1C9A00>.
+MARKDOWN: 2025-02-20 11:27:42,468 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:27:42,468 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:28:06,777 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000002269A209540>.
+MARKDOWN: 2025-02-20 11:28:06,853 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:28:06,853 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+django.request: 2025-02-20 11:28:06,872 - WARNING - Not Found: /api/router/users/5/
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:28:13,155 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000002269A098500>.
+MARKDOWN: 2025-02-20 11:28:13,174 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:28:13,174 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+django.request: 2025-02-20 11:28:13,208 - WARNING - Not Found: /api/router/users/10/
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:28:16,106 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000022699A3C980>.
+MARKDOWN: 2025-02-20 11:28:16,128 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:28:16,128 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:28:21,681 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000002269A208C40>.
+MARKDOWN: 2025-02-20 11:28:21,695 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:28:21,697 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:28:24,732 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000002269A158D80>.
+MARKDOWN: 2025-02-20 11:28:24,748 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:28:24,748 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:28:29,869 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000022699FFED80>.
+MARKDOWN: 2025-02-20 11:28:29,879 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:28:29,879 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:28:35,879 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000022699F79680>.
+MARKDOWN: 2025-02-20 11:28:35,909 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:28:35,912 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:29:48,702 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000022699F654C0>.
+MARKDOWN: 2025-02-20 11:29:48,722 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:29:48,727 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:29:56,744 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000022699EFC1C0>.
+MARKDOWN: 2025-02-20 11:29:56,762 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:29:56,765 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+django.utils.autoreload: 2025-02-20 11:30:45,340 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:30:48,334 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:30:53,948 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001CE8E2E6CC0>.
+MARKDOWN: 2025-02-20 11:30:54,062 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:30:54,062 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:30:58,106 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001CE8E2FB8C0>.
+MARKDOWN: 2025-02-20 11:30:58,130 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:30:58,132 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:31:06,113 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001CE8E34BAC0>.
+MARKDOWN: 2025-02-20 11:31:06,128 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:31:06,131 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+django.utils.autoreload: 2025-02-20 11:31:18,853 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:31:21,604 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-20 11:31:37,254 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:31:41,301 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-20 11:36:24,585 - INFO - E:\Django Training SK\Django\DjangoLearning\djangoLearning\settings.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:36:26,933 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:36:34,753 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000023C8CDBFD40>.
+MARKDOWN: 2025-02-20 11:36:34,837 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:36:34,839 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:36:38,204 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000023C8D5C7CC0>.
+MARKDOWN: 2025-02-20 11:36:38,216 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:36:38,218 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:36:38,478 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000023C8D2BBA00>.
+MARKDOWN: 2025-02-20 11:36:38,490 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:36:38,492 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:36:38,720 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000023C8D3B0E80>.
+MARKDOWN: 2025-02-20 11:36:38,728 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:36:38,730 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:36:38,924 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000023C8D24CA40>.
+MARKDOWN: 2025-02-20 11:36:38,930 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:36:38,932 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:36:41,011 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000023C8D2B26C0>.
+MARKDOWN: 2025-02-20 11:36:41,023 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:36:41,024 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+django.utils.autoreload: 2025-02-20 11:36:52,296 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\models.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:36:54,328 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:36:55,803 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001FF9443AE80>.
+MARKDOWN: 2025-02-20 11:36:55,868 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:36:55,870 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:37:03,484 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001FF94506280>.
+MARKDOWN: 2025-02-20 11:37:03,492 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:37:03,493 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:37:09,885 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001FF94C2D640>.
+MARKDOWN: 2025-02-20 11:37:09,895 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:37:09,896 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+hpack.hpack: 2025-02-20 11:38:21,865 - DEBUG - HPACK encoding <generator object _check_path_header.<locals>.inner at 0x000001FF94565D90>
+hpack.hpack: 2025-02-20 11:38:21,869 - DEBUG - Adding (b':method', b'POST') to the header table
+hpack.hpack: 2025-02-20 11:38:21,870 - DEBUG - Encoding 3 with 7 bits
+hpack.hpack: 2025-02-20 11:38:21,870 - DEBUG - Adding (b':authority', b'translate.google.com') to the header table
+hpack.hpack: 2025-02-20 11:38:21,870 - DEBUG - Encoding 1 with 6 bits
+hpack.hpack: 2025-02-20 11:38:21,872 - DEBUG - Encoding 14 with 7 bits
+hpack.hpack: 2025-02-20 11:38:21,872 - DEBUG - Adding (b':scheme', b'https') to the header table
+hpack.hpack: 2025-02-20 11:38:21,874 - DEBUG - Encoding 7 with 7 bits
+hpack.hpack: 2025-02-20 11:38:21,874 - DEBUG - Adding (b':path', b'/_/TranslateWebserverUi/data/batchexecute?rpcids=MkEWBc&bl=boq_translate-webserver_20201207.13_p0&soc-app=1&soc-platform=1&soc-device=1&rt=c') to the header table
+hpack.hpack: 2025-02-20 11:38:21,874 - DEBUG - Encoding 4 with 6 bits
+hpack.hpack: 2025-02-20 11:38:21,875 - DEBUG - Encoding 101 with 7 bits
+hpack.hpack: 2025-02-20 11:38:21,875 - DEBUG - Adding (b'accept', b'*/*') to the header table
+hpack.hpack: 2025-02-20 11:38:21,876 - DEBUG - Encoding 19 with 6 bits
+hpack.hpack: 2025-02-20 11:38:21,877 - DEBUG - Encoding 3 with 7 bits
+hpack.hpack: 2025-02-20 11:38:21,877 - DEBUG - Adding (b'accept-encoding', b'gzip, deflate') to the header table
+hpack.hpack: 2025-02-20 11:38:21,878 - DEBUG - Encoding 16 with 7 bits
+hpack.hpack: 2025-02-20 11:38:21,879 - DEBUG - Adding (b'user-agent', b'Mozilla/5.0 (Windows NT 10.0; Win64; x64)') to the header table
+hpack.hpack: 2025-02-20 11:38:21,879 - DEBUG - Encoding 58 with 6 bits
+hpack.hpack: 2025-02-20 11:38:21,880 - DEBUG - Encoding 32 with 7 bits
+hpack.hpack: 2025-02-20 11:38:21,880 - DEBUG - Adding (b'referer', b'https://translate.google.com') to the header table
+hpack.hpack: 2025-02-20 11:38:21,881 - DEBUG - Encoding 51 with 6 bits
+hpack.hpack: 2025-02-20 11:38:21,881 - DEBUG - Encoding 20 with 7 bits
+hpack.hpack: 2025-02-20 11:38:21,882 - DEBUG - Adding (b'content-length', b'160') to the header table
+hpack.hpack: 2025-02-20 11:38:21,882 - DEBUG - Encoding 28 with 6 bits
+hpack.hpack: 2025-02-20 11:38:21,883 - DEBUG - Encoding 2 with 7 bits
+hpack.hpack: 2025-02-20 11:38:21,884 - DEBUG - Adding (b'content-type', b'application/x-www-form-urlencoded') to the header table
+hpack.hpack: 2025-02-20 11:38:21,884 - DEBUG - Encoding 31 with 6 bits
+hpack.hpack: 2025-02-20 11:38:21,884 - DEBUG - Encoding 24 with 7 bits
+hpack.hpack: 2025-02-20 11:38:21,885 - DEBUG - Encoded header block to b"\x83A\x8eM\x83\xa9\x14\r%^c\x9ej\n\xb9\x0fO\x87D\xe5b&7\xd8:\x91@\xd2^E\x8d\x05\xb3\xb9l\xe0f$\x1aF\xc4cI'/\x92\x92\xd4\x97\xfc\xb2\xb2\x1aDA\xa3\xae\x0eWI\xf1\x1d\x10F~\xd1&\xc1\xd4\x8a\x06\x92\xad\xe0\xb1\xa0\xb6w-\x91\x08\x02\x00D\x07W\x0b1V\x0f\x84\x1c\x8b\x0e\xba\xe0\x0f\xc2\x0eE\xab\xa0i\x94\xf6S\x00~\x10r-!{\x98\x85\x80?\x16&\x02\x7fS\x83\xf9c\xe7\x90z\xa0\xd0\x7ff\xa2\x81\xb0\xda\xe0S\xfa\xe4j\xa4?\x84)\xa7z\x81\x02\xe0\xfbS\x91\xaaq\xaf\xb5<\xb8\xd7\xf7s\x94\x9d)\xad\x17\x18a6\x0e\xa4P4\x95y\x8ey\xa8*\xe4=?\\\x82\x0b\x80_\x98\x1du\xd0b\r&=Ly[\xc7\x8f\x0bJ{)Z\xdb(-D<\x85\x93"
+hpack.hpack: 2025-02-20 11:38:22,005 - DEBUG - Decoding b'\x88_\x96\x1du\xd0b\r&=LtA\xea\xfbP\x93\x8e\xc4\x150Z\x99V{X\xa1\xa8\xeb\x10d\x9c\xbfJTu\x90\x93\xd8_\xa5)\x1f\x95\x871`\x07\xd2\x94\xda\x84\xada{\x8e\x83H4\x97@\x85\xae\xc1\xcdH\xff\x86\xa8\xeb\x10d\x9c\xbfd\x96\xd0z\xbe\x94\x00T\xca:\x94\x0b\xef\x81@\x02\xe0\x01p\x00S\x16\x8d\xff\x0f\x12\x96\xdf=\xbfJ\x08\na,j\x08\x02m@9p\x0f\\\x10\x14\xc5\xa3\x7fY\xb2\x1aR2OIjO\xda\x92\x9a\x82\xd4:K\x07\xf3aQY\xeaAW\x8c\xd5\x7f?jJj\x0bP\xe9/\xcc\x1c7\xe1Y\xef\xf5\xfe\xac*+=H*\xf1\x9a\xaf@\x90\xf2\xb1\x0fRKRVO\xaa\xca\xb1\xebI\x8fR?\x85\xa8\xe8\xa8\xd2\xcb@\x03p3p\xaf\xbd\xae\x0f\xe7|\xe6B\x86B\x95\x1d*\rMl\xebR\xb3\xd0bz\xfe\x14\xdcR\xa92\xe4;\x15\xb3\\\xe5\xa2\xb5%=\x8aR{\n\xa1\xaa\x94\xeb\xff?@\x8d\xac\xb6Rd \xc7\xa9\x0bVz\x0cO_\xff\x02$\xebZ5\x87a\'\x83\xe7\xe9BN\xb5\xa3Z3&\xa2\xa1\x10|\xfd(I\xd6\xb4kKm\x14-\xdc\xb6 \xc7\xaa\x0f\x9f\xa5\t:\xd6\x8dim\xa2\x85\xbb\x96\xc4\x18\xf5-A\x90\x98>~\x94$\xebZ5\xa9<\x85\xa2\x0f\x9f\xa5\t:\xd6\x8do\x07\xf0\xe3P|\xfd(I\xd6\xb4kJ{)ZQ\x91\'\xb1\x10|\xfd(I\xd6\xb4kW@\xd3)\xec\xa6\x0f\x9f\xa5\t:\xd6\x8dj\xe8\x1ae=\x94\xad\xdc\xb6 \xc7\xaa\x0f\x9f@\x90!\xeaIjJ\xc8)-\xb0\xc9\xf4\xb5g\xa0\xc4\xf5\xba\xb0\xbd\xad5\x85Y6Z\x84\x96E\x93\xea\xb2\xa1iOb\x9f\xe9\x04\xb0\xd5\xa7\xfd}\xd8Z\xcfbV\xb6\xc3(\xc4Lo\xb0u"\x81\xa4\xbc\x8b\x1a\x0bgr\xd9\xc0\xcc\x11\x15\xd8Z\xcfb\x7f@\x86\x19\x08Z\xd2\xb1\'\xff\x13\xdcR-{\x1a\xdc!Z\x1b\t?\xd2\x9b\x8aE\xafc[\x84+]2j*\x11\xf4\xa6\xe2\x91k\xd8\xd6\xe1\n\xd8m\xa2\x85\xb8\x96\xc4\x18\xf5})\xb8\xa4Z\xf65\xb8B\xb6\x1bh\xa1n%\xb1\x06=Kg2\x13\xf4\xa6\xe2\x91k\xd8\xd6\xe1\n\xda\x0f!h\xfaSqH\xb5\xeckp\x85nG\xe4\xe3_Jn)\x16\xbd\x8dn\x10\xad\x84\xf6R\xb6\x11\x91\'\xb1\x1fJn)\x16\xbd\x8dn\x10\xad\xae\x81\xa6S\xd9O\xd2\x9b\x8aE\xafc[\x84+k\xa0i\x94\xf6R\xb7\x12\xd8\x83\x1e\xaf@\x94%\x87B\x16=\x86\x98\xd5-aP{l!V\xac\xf4\x18\x9e\xbf\x86@\xe9*\xc82K@\x92%\x87B\x16=\x86\x98\xd5,z\xcbQlZ\xb3\xd0bz\x91@\xe9*\xc7\xb0\xd3\x1a\xa5\x87E\x07\xf0\xb5g\xae\xda\xd1v\x03ESF@\x8c\xf2\xb7\x94!j\xec:JD\x98\xf5\x7f\x010@\x8b\xf2\xb4\xb6\x0e\x92\xacz\xd2c\xd4\x8f\x89\xdd\x0e\x8c\x1a\xb6\xe4\xc5\x93O\x0f(\xffX\xd3\x92\xfc\r\x880g\x8f4\xda\x9d\x9b:3\xc4\xcf7\xb6\xf8\xe7\x8c^|\x92\x9c~\xe4\xe6Kt=\xd3bu\x03\xa3\xc6\xd9\xb7\xbb;\x81\x8e\x9e\x81\xf3\xf9\xda\xf8\xa4"\xc6z_\x17\xad\xfc\xbb\x17\x07\xba\xe5\xdb`,[>\x0f+il+c.m~\xec\xe3n<\x1c\xb9\xe1\xf5w\xccta\xbd\xca\xf7M\xbc1q\x92B[\xdd\xbb\xef`\xab\xf7\x9ew\xfc"\xd7n\xe4\xf4\xe7\xac\xc0\x93k\x9b(\xa0\xfeC\xcb\xdf\x08\xa3\xbb\xbf<\xde=\xf0\xe3\xe9>\xfc\x13\xb22\xe7\xdb\xe1m\xf8uu\xbb\x835\x9c\xfc";\xf1\xf3\x94\xf4\xd7\xf6\xa1|\xd6k\n\x880\xd8o\xa5\x04%\xa1\xb6e\x84\x016\xa0\x1c\xb8\x07\xae\x08\nb\xd1\xbf\xedJ\xc6\x99\xe0c\xedI\x0fH\xcdT\x0b\xccs\xcdAW!\xe9\xfbS\x1aS^\xaa\xa8\xf5@\x85\x1d\tY\x1d\xc9\xa4\x9d\x98?\x9b\x8d4\xcf\xf3\xf6\xa5#\x80M\xbe \x00\x1fS\xb2\xb0\x9f\x83\xf9\xb8\xd3L\xff?jR8\x04\xdb\xe2\x00\x01R\x83\xa8\xf5\x17{\xad\xdcR-\x84\xa9$\xeb_*\x13\xf4\xa6\xe2\x91l%I\'[A\xe4/\xd2\x9b\x8aE\xb0\x95$\x9dm\xc6I~\xa1!\x0bZV\xc1Q\x0f!\xaa\x9b'
+hpack.hpack: 2025-02-20 11:38:22,007 - DEBUG - Decoded 8, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,008 - DEBUG - Decoded (b':status', b'200'), consumed 1
+hpack.hpack: 2025-02-20 11:38:22,008 - DEBUG - Decoded 31, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,008 - DEBUG - Decoded 22, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,009 - DEBUG - Decoded (b'content-type', b'application/json; charset=utf-8'), total consumed 24 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:22,009 - DEBUG - Decoded 24, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,010 - DEBUG - Decoded 33, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,010 - DEBUG - Decoded (b'cache-control', b'no-cache, no-store, max-age=0, must-revalidate'), total consumed 35 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:22,010 - DEBUG - Decoded 5, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,010 - DEBUG - Decoded 6, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,012 - DEBUG - Decoded (b'pragma', b'no-cache'), total consumed 14 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:22,012 - DEBUG - Decoded 36, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,012 - DEBUG - Decoded 22, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,013 - DEBUG - Decoded (b'expires', b'Mon, 01 Jan 1990 00:00:00 GMT'), total consumed 24 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:22,013 - DEBUG - Decoded 33, consumed 2 bytes
+hpack.hpack: 2025-02-20 11:38:22,015 - DEBUG - Decoded 22, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,015 - DEBUG - Decoded (b'date', b'Thu, 20 Feb 2025 06:08:20 GMT'), total consumed 25 bytes, indexed False
+hpack.hpack: 2025-02-20 11:38:22,015 - DEBUG - Decoded 25, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,016 - DEBUG - Decoded 50, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,016 - DEBUG - Decoded (b'content-disposition', b'attachment; filename="response.bin"; filename*=UTF-8\'\'response.bin'), total consumed 52 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:22,017 - DEBUG - Decoded 16, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,017 - DEBUG - Decoded 5, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,018 - DEBUG - Decoded (b'x-content-type-options', b'nosniff'), total consumed 24 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:22,019 - DEBUG - Decoded 3, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,019 - DEBUG - Decoded 47, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,020 - DEBUG - Decoded (<memory at 0x000001FF9498A380>, b'CP="This is not a P3P policy! See g.co/p3phelp for more info."'), total consumed 53 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:22,022 - DEBUG - Decoded 13, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,023 - DEBUG - Decoded 129, consumed 2 bytes
+hpack.hpack: 2025-02-20 11:38:22,023 - DEBUG - Decoded (b'permissions-policy', b'ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*'), total consumed 146 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:22,024 - DEBUG - Decoded 16, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,024 - DEBUG - Decoded 58, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,024 - DEBUG - Decoded (b'content-security-policy', b"require-trusted-types-for 'script';report-uri /_/TranslateWebserverUi/cspreport"), total consumed 77 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:22,026 - DEBUG - Decoded 6, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,026 - DEBUG - Decoded 146, consumed 2 bytes
+hpack.hpack: 2025-02-20 11:38:22,027 - DEBUG - Decoded (b'accept-ch', b'Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version'), total consumed 156 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:22,027 - DEBUG - Decoded 20, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,027 - DEBUG - Decoded 6, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,027 - DEBUG - Decoded (b'cross-origin-resource-policy', b'same-site'), total consumed 29 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:22,029 - DEBUG - Decoded 18, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,029 - DEBUG - Decoded 17, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,029 - DEBUG - Decoded (b'cross-origin-opener-policy', b'same-origin-allow-popups'), total consumed 38 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:22,029 - DEBUG - Decoded 54, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,029 - DEBUG - Decoded 3, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,031 - DEBUG - Decoded (b'server', <memory at 0x000001FF9498A5C0>), total consumed 5 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:22,031 - DEBUG - Decoded 12, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,031 - DEBUG - Decoded 1, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,031 - DEBUG - Decoded (b'x-xss-protection', <memory at 0x000001FF9498B100>), total consumed 16 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:22,033 - DEBUG - Decoded 11, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,033 - DEBUG - Decoded 9, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,033 - DEBUG - Decoded (b'x-frame-options', b'SAMEORIGIN'), total consumed 23 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:22,033 - DEBUG - Decoded 55, consumed 2 bytes
+hpack.hpack: 2025-02-20 11:38:22,033 - DEBUG - Decoded 215, consumed 2 bytes
+hpack.hpack: 2025-02-20 11:38:22,035 - DEBUG - Decoded (b'set-cookie', b'NID=521=LbKgO7gLsL_3Y8RwYH2xxcmHzdYcuM8jQtO0j8iQRv3S0Hmj1xXqD2dc-i8fwCuXB_U8kJRr0r-LEx-N51-HeKPzrVuHEWYFyBxblFCWCjRUGVddcuv5D8EnZYL9wsu7BIy6yK0dR6Qllox1WzU_bBTLgwzUVytzwcqsJLRw-TFOkBEKrYwsbDbYfomp; expires=Fri, 22-Aug-2025 06:08:20 GMT; path=/; domain=.google.com; HttpOnly'), total consumed 219 bytes, indexed False
+hpack.hpack: 2025-02-20 11:38:22,036 - DEBUG - Decoded 5, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,038 - DEBUG - Decoded 36, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,038 - DEBUG - Decoded (b'alt-svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), total consumed 44 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:22,040 - DEBUG - Decoded 18, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,040 - DEBUG - Decoded 3, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,041 - DEBUG - Decoded (b'accept-ranges', b'none'), total consumed 5 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:22,041 - DEBUG - Decoded 59, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,042 - DEBUG - Decoded 45, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:22,042 - DEBUG - Decoded (b'vary', b'Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,Accept-Encoding'), total consumed 47 bytes, indexed True
+httpx._client: 2025-02-20 11:38:22,044 - DEBUG - HTTP Request: POST https://translate.google.com/_/TranslateWebserverUi/data/batchexecute?rpcids=MkEWBc&bl=boq_translate-webserver_20201207.13_p0&soc-app=1&soc-platform=1&soc-device=1&rt=c "HTTP/2 200 OK"
+hpack.hpack: 2025-02-20 11:38:29,177 - DEBUG - HPACK encoding <generator object _check_path_header.<locals>.inner at 0x000001FF945669D0>
+hpack.hpack: 2025-02-20 11:38:29,181 - DEBUG - Adding (b':method', b'POST') to the header table
+hpack.hpack: 2025-02-20 11:38:29,181 - DEBUG - Encoding 3 with 7 bits
+hpack.hpack: 2025-02-20 11:38:29,181 - DEBUG - Adding (b':authority', b'translate.google.com') to the header table
+hpack.hpack: 2025-02-20 11:38:29,181 - DEBUG - Encoding 1 with 6 bits
+hpack.hpack: 2025-02-20 11:38:29,181 - DEBUG - Encoding 14 with 7 bits
+hpack.hpack: 2025-02-20 11:38:29,181 - DEBUG - Adding (b':scheme', b'https') to the header table
+hpack.hpack: 2025-02-20 11:38:29,183 - DEBUG - Encoding 7 with 7 bits
+hpack.hpack: 2025-02-20 11:38:29,183 - DEBUG - Adding (b':path', b'/_/TranslateWebserverUi/data/batchexecute?rpcids=MkEWBc&bl=boq_translate-webserver_20201207.13_p0&soc-app=1&soc-platform=1&soc-device=1&rt=c') to the header table
+hpack.hpack: 2025-02-20 11:38:29,183 - DEBUG - Encoding 4 with 6 bits
+hpack.hpack: 2025-02-20 11:38:29,183 - DEBUG - Encoding 101 with 7 bits
+hpack.hpack: 2025-02-20 11:38:29,183 - DEBUG - Adding (b'accept', b'*/*') to the header table
+hpack.hpack: 2025-02-20 11:38:29,183 - DEBUG - Encoding 19 with 6 bits
+hpack.hpack: 2025-02-20 11:38:29,183 - DEBUG - Encoding 3 with 7 bits
+hpack.hpack: 2025-02-20 11:38:29,183 - DEBUG - Adding (b'accept-encoding', b'gzip, deflate') to the header table
+hpack.hpack: 2025-02-20 11:38:29,183 - DEBUG - Encoding 16 with 7 bits
+hpack.hpack: 2025-02-20 11:38:29,185 - DEBUG - Adding (b'user-agent', b'Mozilla/5.0 (Windows NT 10.0; Win64; x64)') to the header table
+hpack.hpack: 2025-02-20 11:38:29,185 - DEBUG - Encoding 58 with 6 bits
+hpack.hpack: 2025-02-20 11:38:29,185 - DEBUG - Encoding 32 with 7 bits
+hpack.hpack: 2025-02-20 11:38:29,193 - DEBUG - Adding (b'referer', b'https://translate.google.com') to the header table
+hpack.hpack: 2025-02-20 11:38:29,195 - DEBUG - Encoding 51 with 6 bits
+hpack.hpack: 2025-02-20 11:38:29,195 - DEBUG - Encoding 20 with 7 bits
+hpack.hpack: 2025-02-20 11:38:29,196 - DEBUG - Adding (b'content-length', b'160') to the header table
+hpack.hpack: 2025-02-20 11:38:29,196 - DEBUG - Encoding 28 with 6 bits
+hpack.hpack: 2025-02-20 11:38:29,196 - DEBUG - Encoding 2 with 7 bits
+hpack.hpack: 2025-02-20 11:38:29,197 - DEBUG - Adding (b'content-type', b'application/x-www-form-urlencoded') to the header table
+hpack.hpack: 2025-02-20 11:38:29,197 - DEBUG - Encoding 31 with 6 bits
+hpack.hpack: 2025-02-20 11:38:29,197 - DEBUG - Encoding 24 with 7 bits
+hpack.hpack: 2025-02-20 11:38:29,197 - DEBUG - Encoded header block to b"\x83A\x8eM\x83\xa9\x14\r%^c\x9ej\n\xb9\x0fO\x87D\xe5b&7\xd8:\x91@\xd2^E\x8d\x05\xb3\xb9l\xe0f$\x1aF\xc4cI'/\x92\x92\xd4\x97\xfc\xb2\xb2\x1aDA\xa3\xae\x0eWI\xf1\x1d\x10F~\xd1&\xc1\xd4\x8a\x06\x92\xad\xe0\xb1\xa0\xb6w-\x91\x08\x02\x00D\x07W\x0b1V\x0f\x84\x1c\x8b\x0e\xba\xe0\x0f\xc2\x0eE\xab\xa0i\x94\xf6S\x00~\x10r-!{\x98\x85\x80?\x16&\x02\x7fS\x83\xf9c\xe7\x90z\xa0\xd0\x7ff\xa2\x81\xb0\xda\xe0S\xfa\xe4j\xa4?\x84)\xa7z\x81\x02\xe0\xfbS\x91\xaaq\xaf\xb5<\xb8\xd7\xf7s\x94\x9d)\xad\x17\x18a6\x0e\xa4P4\x95y\x8ey\xa8*\xe4=?\\\x82\x0b\x80_\x98\x1du\xd0b\r&=Ly[\xc7\x8f\x0bJ{)Z\xdb(-D<\x85\x93"
+hpack.hpack: 2025-02-20 11:38:29,357 - DEBUG - Decoding b'\x88_\x96\x1du\xd0b\r&=LtA\xea\xfbP\x93\x8e\xc4\x150Z\x99V{X\xa1\xa8\xeb\x10d\x9c\xbfJTu\x90\x93\xd8_\xa5)\x1f\x95\x871`\x07\xd2\x94\xda\x84\xada{\x8e\x83H4\x97@\x85\xae\xc1\xcdH\xff\x86\xa8\xeb\x10d\x9c\xbfd\x96\xd0z\xbe\x94\x00T\xca:\x94\x0b\xef\x81@\x02\xe0\x01p\x00S\x16\x8d\xff\x0f\x12\x96\xdf=\xbfJ\x08\na,j\x08\x02m@9p\x0f\\\x13\xcab\xd1\xbfY\xb2\x1aR2OIjO\xda\x92\x9a\x82\xd4:K\x07\xf3aQY\xeaAW\x8c\xd5\x7f?jJj\x0bP\xe9/\xcc\x1c7\xe1Y\xef\xf5\xfe\xac*+=H*\xf1\x9a\xaf@\x90\xf2\xb1\x0fRKRVO\xaa\xca\xb1\xebI\x8fR?\x85\xa8\xe8\xa8\xd2\xcb@\x03p3p\xaf\xbd\xae\x0f\xe7|\xe6B\x86B\x95\x1d*\rMl\xebR\xb3\xd0bz\xfe\x14\xdcR\xa92\xe4;\x15\xb3\\\xe5\xa2\xb5%=\x8aR{\n\xa1\xaa\x94\xeb\xff?@\x94%\x87B\x16=\x86\x98\xd5-aP{l!V\xac\xf4\x18\x9e\xbf\x86@\xe9*\xc82K@\x8d\xac\xb6Rd \xc7\xa9\x0bVz\x0cO_\xff\x02$\xebZ5\x87a\'\x83\xe7\xe9BN\xb5\xa3Z3&\xa2\xa1\x10|\xfd(I\xd6\xb4kKm\x14-\xdc\xb6 \xc7\xaa\x0f\x9f\xa5\t:\xd6\x8dim\xa2\x85\xbb\x96\xc4\x18\xf5-A\x90\x98>~\x94$\xebZ5\xa9<\x85\xa2\x0f\x9f\xa5\t:\xd6\x8do\x07\xf0\xe3P|\xfd(I\xd6\xb4kJ{)ZQ\x91\'\xb1\x10|\xfd(I\xd6\xb4kW@\xd3)\xec\xa6\x0f\x9f\xa5\t:\xd6\x8dj\xe8\x1ae=\x94\xad\xdc\xb6 \xc7\xaa\x0f\x9f@\x90!\xeaIjJ\xc8)-\xb0\xc9\xf4\xb5g\xa0\xc4\xf5\xba\xb0\xbd\xad5\x85Y6Z\x84\x96E\x93\xea\xb2\xa1iOb\x9f\xe9\x04\xb0\xd5\xa7\xfd}\xd8Z\xcfbV\xb6\xc3(\xc4Lo\xb0u"\x81\xa4\xbc\x8b\x1a\x0bgr\xd9\xc0\xcc\x11\x15\xd8Z\xcfb\x7f@\x92%\x87B\x16=\x86\x98\xd5,z\xcbQlZ\xb3\xd0bz\x91@\xe9*\xc7\xb0\xd3\x1a\xa5\x87E\x07\xf0\xb5g\xae\xda\xd1@\x86\x19\x08Z\xd2\xb1\'\xff\x13\xdcR-{\x1a\xdc!Z\x1b\t?\xd2\x9b\x8aE\xafc[\x84+]2j*\x11\xf4\xa6\xe2\x91k\xd8\xd6\xe1\n\xd8m\xa2\x85\xb8\x96\xc4\x18\xf5})\xb8\xa4Z\xf65\xb8B\xb6\x1bh\xa1n%\xb1\x06=Kg2\x13\xf4\xa6\xe2\x91k\xd8\xd6\xe1\n\xda\x0f!h\xfaSqH\xb5\xeckp\x85nG\xe4\xe3_Jn)\x16\xbd\x8dn\x10\xad\x84\xf6R\xb6\x11\x91\'\xb1\x1fJn)\x16\xbd\x8dn\x10\xad\xae\x81\xa6S\xd9O\xd2\x9b\x8aE\xafc[\x84+k\xa0i\x94\xf6R\xb7\x12\xd8\x83\x1e\xafv\x03ESF@\x8c\xf2\xb7\x94!j\xec:JD\x98\xf5\x7f\x010@\x8b\xf2\xb4\xb6\x0e\x92\xacz\xd2c\xd4\x8f\x89\xdd\x0e\x8c\x1a\xb6\xe4\xc5\x93O\x0f(\xffT\xd3\x92\xfc\r\x880q\xc9\x9b\xc6Xs\xf6\xe5f=?\xae\xe0{\xf6\x9c\xd8*\x8a\x1f\xc9\xf9\xce\x8b\xbd)\x9a\'2\x130k\xe1\x1eW\xac\xda~[\x8a\x87\x99\x0e\xc2\xe9:e\xbd\x7fF\xc6\xb2?\x81\xad9\x9fNL.\xd8>\r\xacd\xf3\xd8=\xdc\xbd\xb4E\x8em1M \xb9\x0bg\xac\x06\xd7\xdb\xac\x9d\xc2\xd6\xa786\x8ev7\xbd\xbd\xbeNn\xd3\xb2O}\xabY\xed\xc4OE\xb9\x1e\xda!\xd2P\x01\xac\xfe{Ow\x9e\x10i\xbfw\xd1\x0e+\xd2~\xfe\xe8\x9b\x88}\x8f\xa8\xf0\xed\xf2\xdd\r=Ol{O\xf6\xa1|\xd6k\n\x880\xd8o\xa5\x04%\xa1\xb6e\x84\x016\xa0\x1c\xb8\x07\xae\t\xe51h\xdf\xf6\xa5cL\xf01\xf6\xa4\x87\xa4f\xaa\x05\xe69\xe6\xa0\xab\x90\xf4\xfd\xa9\x8d)\xafUTz@\x85\x1d\tY\x1d\xc9\xa4\x9d\x98?\x9b\x8d4\xcf\xf3\xf6\xa5#\x80M\xbe \x00\x1fS\xb2\xb0\x9f\x83\xf9\xb8\xd3L\xff?jR8\x04\xdb\xe2\x00\x01R\x83\xa8\xf5\x17{\xad\xdcR-\x84\xa9$\xeb_*\x13\xf4\xa6\xe2\x91l%I\'[A\xe4/\xd2\x9b\x8aE\xb0\x95$\x9dm\xc6I~\xa1!\x0bZV\xc1Q\x0f!\xaa\x9b'
+hpack.hpack: 2025-02-20 11:38:29,357 - DEBUG - Decoded 8, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,357 - DEBUG - Decoded (b':status', b'200'), consumed 1
+hpack.hpack: 2025-02-20 11:38:29,357 - DEBUG - Decoded 31, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,357 - DEBUG - Decoded 22, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,357 - DEBUG - Decoded (b'content-type', b'application/json; charset=utf-8'), total consumed 24 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:29,357 - DEBUG - Decoded 24, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,357 - DEBUG - Decoded 33, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,357 - DEBUG - Decoded (b'cache-control', b'no-cache, no-store, max-age=0, must-revalidate'), total consumed 35 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:29,357 - DEBUG - Decoded 5, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,357 - DEBUG - Decoded 6, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,357 - DEBUG - Decoded (b'pragma', b'no-cache'), total consumed 14 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:29,369 - DEBUG - Decoded 36, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,370 - DEBUG - Decoded 22, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,370 - DEBUG - Decoded (b'expires', b'Mon, 01 Jan 1990 00:00:00 GMT'), total consumed 24 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:29,372 - DEBUG - Decoded 33, consumed 2 bytes
+hpack.hpack: 2025-02-20 11:38:29,373 - DEBUG - Decoded 22, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,374 - DEBUG - Decoded (b'date', b'Thu, 20 Feb 2025 06:08:28 GMT'), total consumed 25 bytes, indexed False
+hpack.hpack: 2025-02-20 11:38:29,375 - DEBUG - Decoded 25, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,375 - DEBUG - Decoded 50, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,376 - DEBUG - Decoded (b'content-disposition', b'attachment; filename="response.bin"; filename*=UTF-8\'\'response.bin'), total consumed 52 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:29,376 - DEBUG - Decoded 16, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,376 - DEBUG - Decoded 5, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,378 - DEBUG - Decoded (b'x-content-type-options', b'nosniff'), total consumed 24 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:29,378 - DEBUG - Decoded 3, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,378 - DEBUG - Decoded 47, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,378 - DEBUG - Decoded (<memory at 0x000001FF94C2AB00>, b'CP="This is not a P3P policy! See g.co/p3phelp for more info."'), total consumed 53 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:29,379 - DEBUG - Decoded 20, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,379 - DEBUG - Decoded 6, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,379 - DEBUG - Decoded (b'cross-origin-resource-policy', b'same-site'), total consumed 29 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:29,379 - DEBUG - Decoded 13, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,379 - DEBUG - Decoded 129, consumed 2 bytes
+hpack.hpack: 2025-02-20 11:38:29,379 - DEBUG - Decoded (b'permissions-policy', b'ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*'), total consumed 146 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:29,379 - DEBUG - Decoded 16, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,381 - DEBUG - Decoded 58, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,382 - DEBUG - Decoded (b'content-security-policy', b"require-trusted-types-for 'script';report-uri /_/TranslateWebserverUi/cspreport"), total consumed 77 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:29,382 - DEBUG - Decoded 18, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,382 - DEBUG - Decoded 17, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,382 - DEBUG - Decoded (b'cross-origin-opener-policy', b'same-origin-allow-popups'), total consumed 38 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:29,382 - DEBUG - Decoded 6, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,383 - DEBUG - Decoded 146, consumed 2 bytes
+hpack.hpack: 2025-02-20 11:38:29,383 - DEBUG - Decoded (b'accept-ch', b'Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version'), total consumed 156 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:29,383 - DEBUG - Decoded 54, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,383 - DEBUG - Decoded 3, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,384 - DEBUG - Decoded (b'server', <memory at 0x000001FF94C2B040>), total consumed 5 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:29,384 - DEBUG - Decoded 12, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,384 - DEBUG - Decoded 1, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,384 - DEBUG - Decoded (b'x-xss-protection', <memory at 0x000001FF94C2AD40>), total consumed 16 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:29,384 - DEBUG - Decoded 11, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,385 - DEBUG - Decoded 9, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,385 - DEBUG - Decoded (b'x-frame-options', b'SAMEORIGIN'), total consumed 23 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:29,385 - DEBUG - Decoded 55, consumed 2 bytes
+hpack.hpack: 2025-02-20 11:38:29,385 - DEBUG - Decoded 211, consumed 2 bytes
+hpack.hpack: 2025-02-20 11:38:29,385 - DEBUG - Decoded (b'set-cookie', b'NID=521=VIKwJALqWrHNZ7E8ZmKEn_AXhYhsBjmg_6IcK1pUbJ8rRoWSes831QeNotfCDMQ4I9E4NK9tIF7raU5-itYQaSWz4c-oiN_gd2W2QyEiPqkdv14O6U5sYr5T5Rxoiqh3czqp-8Sctj-WoulANe004LxqhBYF0NDByco2CdZZMgV1zakaFRx5l48mqHRo; expires=Fri, 22-Aug-2025 06:08:28 GMT; path=/; domain=.google.com; HttpOnly'), total consumed 215 bytes, indexed False
+hpack.hpack: 2025-02-20 11:38:29,386 - DEBUG - Decoded 5, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,386 - DEBUG - Decoded 36, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,387 - DEBUG - Decoded (b'alt-svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), total consumed 44 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:29,387 - DEBUG - Decoded 18, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,388 - DEBUG - Decoded 3, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,388 - DEBUG - Decoded (b'accept-ranges', b'none'), total consumed 5 bytes, indexed True
+hpack.hpack: 2025-02-20 11:38:29,388 - DEBUG - Decoded 59, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,388 - DEBUG - Decoded 45, consumed 1 bytes
+hpack.hpack: 2025-02-20 11:38:29,388 - DEBUG - Decoded (b'vary', b'Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,Accept-Encoding'), total consumed 47 bytes, indexed True
+httpx._client: 2025-02-20 11:38:29,391 - DEBUG - HTTP Request: POST https://translate.google.com/_/TranslateWebserverUi/data/batchexecute?rpcids=MkEWBc&bl=boq_translate-webserver_20201207.13_p0&soc-app=1&soc-platform=1&soc-device=1&rt=c "HTTP/2 200 OK"
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:39:27,962 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001FF94B0EAC0>.
+MARKDOWN: 2025-02-20 11:39:27,975 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:39:27,979 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+django.utils.autoreload: 2025-02-20 11:43:49,621 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-20 11:43:55,388 - WARNING - Not Found: /
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:44:00,113 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000002CED8605A00>.
+MARKDOWN: 2025-02-20 11:44:00,194 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:44:00,194 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+django.request: 2025-02-20 11:44:11,366 - WARNING - Not Found: /api/
+django.utils.autoreload: 2025-02-20 11:47:17,918 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:47:20,347 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:47:29,509 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000002A6301AB240>.
+django.request: 2025-02-20 11:47:29,587 - ERROR - Internal Server Error: /api/user-details/
+Traceback (most recent call last):
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Hari Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\Django Training SK\Django\DjangoLearning\apis\views.py", line 30, in get
+    result_page = paginator.paginate_queryset(users, request)
+TypeError: PageNumberPagination.paginate_queryset() missing 1 required positional argument: 'request'
+django.utils.autoreload: 2025-02-20 11:47:50,764 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:47:53,098 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:47:54,890 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001BC30E24040>.
+MARKDOWN: 2025-02-20 11:47:54,977 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:47:54,979 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:48:12,801 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001BC31236740>.
+MARKDOWN: 2025-02-20 11:48:12,811 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:48:12,811 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:48:16,245 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001BC31A04CC0>.
+MARKDOWN: 2025-02-20 11:48:16,252 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:48:16,252 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:48:19,363 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001BC31A17B00>.
+MARKDOWN: 2025-02-20 11:48:19,375 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:48:19,378 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:48:21,009 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001BC319A8380>.
+MARKDOWN: 2025-02-20 11:48:21,016 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:48:21,017 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:48:22,521 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001BC31A0BD00>.
+MARKDOWN: 2025-02-20 11:48:22,531 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:48:22,531 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:48:24,120 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001BC31A173C0>.
+MARKDOWN: 2025-02-20 11:48:24,132 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:48:24,134 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+django.utils.autoreload: 2025-02-20 11:52:49,019 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\pagination.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:52:51,249 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-20 11:53:12,833 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:53:15,199 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 11:53:33,066 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000022C550D2740>.
+MARKDOWN: 2025-02-20 11:53:33,138 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 11:53:33,140 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+django.utils.autoreload: 2025-02-20 11:55:47,720 - INFO - E:\Django Training SK\Django\DjangoLearning\djangoLearning\settings.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:55:50,187 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-20 11:56:09,567 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\models.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:56:12,414 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-20 11:57:02,803 - INFO - E:\Django Training SK\Django\DjangoLearning\djangoLearning\settings.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:57:05,070 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-20 11:57:09,334 - INFO - E:\Django Training SK\Django\DjangoLearning\djangoLearning\settings.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:57:11,512 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-20 11:57:22,252 - INFO - E:\Django Training SK\Django\DjangoLearning\djangoLearning\settings.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:57:24,649 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-20 11:57:34,031 - INFO - E:\Django Training SK\Django\DjangoLearning\djangoLearning\settings.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:57:36,283 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-20 11:58:34,784 - INFO - E:\Django Training SK\Django\DjangoLearning\djangoLearning\settings.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:58:37,294 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-20 11:59:00,140 - INFO - E:\Django Training SK\Django\DjangoLearning\djangoLearning\settings.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:59:02,477 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-20 11:59:51,866 - INFO - E:\Django Training SK\Django\DjangoLearning\djangoLearning\settings.py changed, reloading.
+django.utils.autoreload: 2025-02-20 11:59:54,115 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-20 12:00:18,579 - INFO - E:\Django Training SK\Django\DjangoLearning\djangoLearning\settings.py changed, reloading.
+django.utils.autoreload: 2025-02-20 12:00:20,680 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-20 12:00:30,344 - INFO - E:\Django Training SK\Django\DjangoLearning\djangoLearning\settings.py changed, reloading.
+django.utils.autoreload: 2025-02-20 12:00:32,821 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 12:02:03,203 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001CA897ACE00>.
+MARKDOWN: 2025-02-20 12:02:03,280 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 12:02:03,282 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 12:05:36,614 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001CA89EC5A00>.
+MARKDOWN: 2025-02-20 12:05:36,636 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 12:05:36,636 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 12:05:43,194 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001CA8A06B6C0>.
+MARKDOWN: 2025-02-20 12:05:43,204 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 12:05:43,204 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 12:05:45,132 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001CA89F6B700>.
+MARKDOWN: 2025-02-20 12:05:45,143 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 12:05:45,145 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 12:05:47,924 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001CA89F638C0>.
+MARKDOWN: 2025-02-20 12:05:47,934 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 12:05:47,934 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 12:05:49,186 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001CA89FAB800>.
+MARKDOWN: 2025-02-20 12:05:49,196 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 12:05:49,196 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 12:05:50,033 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001CA89F34D80>.
+MARKDOWN: 2025-02-20 12:05:50,050 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 12:05:50,050 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 12:05:51,029 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001CA89F35E80>.
+MARKDOWN: 2025-02-20 12:05:51,035 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 12:05:51,036 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 12:05:55,084 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001CA8A1E6940>.
+MARKDOWN: 2025-02-20 12:05:55,084 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-20 12:05:55,084 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+django.utils.autoreload: 2025-02-20 13:02:40,324 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\pagination.py changed, reloading.
+django.utils.autoreload: 2025-02-20 13:02:42,460 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 13:14:00,844 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000024D88629E80>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 13:14:26,685 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000024D8860B780>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 13:14:33,366 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000024D8833D540>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 13:14:46,821 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000024D88367500>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 15:25:36,659 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000024D88418580>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-20 15:25:59,033 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000024D883C9240>.
+django.utils.autoreload: 2025-02-20 16:55:12,345 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-24 09:48:43,742 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-24 09:49:21,064 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000017A547575C0>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-24 09:50:41,020 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000017A54FCFFC0>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-24 09:51:12,069 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000017A54944840>.
+MARKDOWN: 2025-02-24 09:51:12,265 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-24 09:51:12,266 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+django.request: 2025-02-24 09:51:12,808 - WARNING - Not Found: /favicon.ico
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-24 09:51:14,389 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000017A5504B3C0>.
+MARKDOWN: 2025-02-24 09:51:14,419 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-24 09:51:14,419 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+hpack.hpack: 2025-02-24 09:51:20,497 - DEBUG - HPACK encoding <generator object _check_path_header.<locals>.inner at 0x0000017A55044B30>
+hpack.hpack: 2025-02-24 09:51:20,498 - DEBUG - Adding (b':method', b'POST') to the header table
+hpack.hpack: 2025-02-24 09:51:20,499 - DEBUG - Encoding 3 with 7 bits
+hpack.hpack: 2025-02-24 09:51:20,500 - DEBUG - Adding (b':authority', b'translate.google.com') to the header table
+hpack.hpack: 2025-02-24 09:51:20,501 - DEBUG - Encoding 1 with 6 bits
+hpack.hpack: 2025-02-24 09:51:20,502 - DEBUG - Encoding 14 with 7 bits
+hpack.hpack: 2025-02-24 09:51:20,504 - DEBUG - Adding (b':scheme', b'https') to the header table
+hpack.hpack: 2025-02-24 09:51:20,504 - DEBUG - Encoding 7 with 7 bits
+hpack.hpack: 2025-02-24 09:51:20,506 - DEBUG - Adding (b':path', b'/_/TranslateWebserverUi/data/batchexecute?rpcids=MkEWBc&bl=boq_translate-webserver_20201207.13_p0&soc-app=1&soc-platform=1&soc-device=1&rt=c') to the header table
+hpack.hpack: 2025-02-24 09:51:20,507 - DEBUG - Encoding 4 with 6 bits
+hpack.hpack: 2025-02-24 09:51:20,508 - DEBUG - Encoding 101 with 7 bits
+hpack.hpack: 2025-02-24 09:51:20,509 - DEBUG - Adding (b'accept', b'*/*') to the header table
+hpack.hpack: 2025-02-24 09:51:20,509 - DEBUG - Encoding 19 with 6 bits
+hpack.hpack: 2025-02-24 09:51:20,510 - DEBUG - Encoding 3 with 7 bits
+hpack.hpack: 2025-02-24 09:51:20,511 - DEBUG - Adding (b'accept-encoding', b'gzip, deflate') to the header table
+hpack.hpack: 2025-02-24 09:51:20,512 - DEBUG - Encoding 16 with 7 bits
+hpack.hpack: 2025-02-24 09:51:20,514 - DEBUG - Adding (b'user-agent', b'Mozilla/5.0 (Windows NT 10.0; Win64; x64)') to the header table
+hpack.hpack: 2025-02-24 09:51:20,515 - DEBUG - Encoding 58 with 6 bits
+hpack.hpack: 2025-02-24 09:51:20,516 - DEBUG - Encoding 32 with 7 bits
+hpack.hpack: 2025-02-24 09:51:20,517 - DEBUG - Adding (b'referer', b'https://translate.google.com') to the header table
+hpack.hpack: 2025-02-24 09:51:20,518 - DEBUG - Encoding 51 with 6 bits
+hpack.hpack: 2025-02-24 09:51:20,519 - DEBUG - Encoding 20 with 7 bits
+hpack.hpack: 2025-02-24 09:51:20,520 - DEBUG - Adding (b'content-length', b'160') to the header table
+hpack.hpack: 2025-02-24 09:51:20,521 - DEBUG - Encoding 28 with 6 bits
+hpack.hpack: 2025-02-24 09:51:20,522 - DEBUG - Encoding 2 with 7 bits
+hpack.hpack: 2025-02-24 09:51:20,524 - DEBUG - Adding (b'content-type', b'application/x-www-form-urlencoded') to the header table
+hpack.hpack: 2025-02-24 09:51:20,525 - DEBUG - Encoding 31 with 6 bits
+hpack.hpack: 2025-02-24 09:51:20,526 - DEBUG - Encoding 24 with 7 bits
+hpack.hpack: 2025-02-24 09:51:20,526 - DEBUG - Encoded header block to b"\x83A\x8eM\x83\xa9\x14\r%^c\x9ej\n\xb9\x0fO\x87D\xe5b&7\xd8:\x91@\xd2^E\x8d\x05\xb3\xb9l\xe0f$\x1aF\xc4cI'/\x92\x92\xd4\x97\xfc\xb2\xb2\x1aDA\xa3\xae\x0eWI\xf1\x1d\x10F~\xd1&\xc1\xd4\x8a\x06\x92\xad\xe0\xb1\xa0\xb6w-\x91\x08\x02\x00D\x07W\x0b1V\x0f\x84\x1c\x8b\x0e\xba\xe0\x0f\xc2\x0eE\xab\xa0i\x94\xf6S\x00~\x10r-!{\x98\x85\x80?\x16&\x02\x7fS\x83\xf9c\xe7\x90z\xa0\xd0\x7ff\xa2\x81\xb0\xda\xe0S\xfa\xe4j\xa4?\x84)\xa7z\x81\x02\xe0\xfbS\x91\xaaq\xaf\xb5<\xb8\xd7\xf7s\x94\x9d)\xad\x17\x18a6\x0e\xa4P4\x95y\x8ey\xa8*\xe4=?\\\x82\x0b\x80_\x98\x1du\xd0b\r&=Ly[\xc7\x8f\x0bJ{)Z\xdb(-D<\x85\x93"
+hpack.hpack: 2025-02-24 09:51:20,627 - DEBUG - Decoding b'\x88_\x96\x1du\xd0b\r&=LtA\xea\xfbP\x93\x8e\xc4\x150Z\x99V{X\xa1\xa8\xeb\x10d\x9c\xbfJTu\x90\x93\xd8_\xa5)\x1f\x95\x871`\x07\xd2\x94\xda\x84\xada{\x8e\x83H4\x97@\x85\xae\xc1\xcdH\xff\x86\xa8\xeb\x10d\x9c\xbfd\x96\xd0z\xbe\x94\x00T\xca:\x94\x0b\xef\x81@\x02\xe0\x01p\x00S\x16\x8d\xff\x0f\x12\x96\xd0z\xbe\x94\x13Ja,j\x08\x02m@5pA\xb8 )\x8bF\xffY\xb2\x1aR2OIjO\xda\x92\x9a\x82\xd4:K\x07\xf3aQY\xeaAW\x8c\xd5\x7f?jJj\x0bP\xe9/\xcc\x1c7\xe1Y\xef\xf5\xfe\xac*+=H*\xf1\x9a\xaf@\x90\xf2\xb1\x0fRKRVO\xaa\xca\xb1\xebI\x8fR?\x85\xa8\xe8\xa8\xd2\xcb@\x03p3p\xaf\xbd\xae\x0f\xe7|\xe6B\x86B\x95\x1d*\rMl\xebR\xb3\xd0bz\xfe\x14\xdcR\xa92\xe4;\x15\xb3\\\xe5\xa2\xb5%=\x8aR{\n\xa1\xaa\x94\xeb\xff?@\x86\x19\x08Z\xd2\xb1\'\xff\x13\xdcR-{\x1a\xdc!Z\x1b\t?\xd2\x9b\x8aE\xafc[\x84+]2j*\x11\xf4\xa6\xe2\x91k\xd8\xd6\xe1\n\xd8m\xa2\x85\xb8\x96\xc4\x18\xf5})\xb8\xa4Z\xf65\xb8B\xb6\x1bh\xa1n%\xb1\x06=Kg2\x13\xf4\xa6\xe2\x91k\xd8\xd6\xe1\n\xda\x0f!h\xfaSqH\xb5\xeckp\x85nG\xe4\xe3_Jn)\x16\xbd\x8dn\x10\xad\x84\xf6R\xb6\x11\x91\'\xb1\x1fJn)\x16\xbd\x8dn\x10\xad\xae\x81\xa6S\xd9O\xd2\x9b\x8aE\xafc[\x84+k\xa0i\x94\xf6R\xb7\x12\xd8\x83\x1e\xaf@\x94%\x87B\x16=\x86\x98\xd5-aP{l!V\xac\xf4\x18\x9e\xbf\x86@\xe9*\xc82K@\x92%\x87B\x16=\x86\x98\xd5,z\xcbQlZ\xb3\xd0bz\x91@\xe9*\xc7\xb0\xd3\x1a\xa5\x87E\x07\xf0\xb5g\xae\xda\xd1@\x90!\xeaIjJ\xc8)-\xb0\xc9\xf4\xb5g\xa0\xc4\xf5\xba\xb0\xbd\xad5\x85Y6Z\x84\x96E\x93\xea\xb2\xa1iOb\x9f\xe9\x04\xb0\xd5\xa7\xfd}\xd8Z\xcfbV\xb6\xc3(\xc4Lo\xb0u"\x81\xa4\xbc\x8b\x1a\x0bgr\xd9\xc0\xcc\x11\x15\xd8Z\xcfb\x7f@\x8d\xac\xb6Rd \xc7\xa9\x0bVz\x0cO_\xff\x02$\xebZ5\x87a\'\x83\xe7\xe9BN\xb5\xa3Z3&\xa2\xa1\x10|\xfd(I\xd6\xb4kKm\x14-\xdc\xb6 \xc7\xaa\x0f\x9f\xa5\t:\xd6\x8dim\xa2\x85\xbb\x96\xc4\x18\xf5-A\x90\x98>~\x94$\xebZ5\xa9<\x85\xa2\x0f\x9f\xa5\t:\xd6\x8do\x07\xf0\xe3P|\xfd(I\xd6\xb4kJ{)ZQ\x91\'\xb1\x10|\xfd(I\xd6\xb4kW@\xd3)\xec\xa6\x0f\x9f\xa5\t:\xd6\x8dj\xe8\x1ae=\x94\xad\xdc\xb6 \xc7\xaa\x0f\x9fv\x03ESF@\x8c\xf2\xb7\x94!j\xec:JD\x98\xf5\x7f\x010@\x8b\xf2\xb4\xb6\x0e\x92\xacz\xd2c\xd4\x8f\x89\xdd\x0e\x8c\x1a\xb6\xe4\xc5\x93O\x0f(\xffX\xd3\x92\xfc\r\x880^\xef\xfb\xd1\x1d(\xed\x9f\x03\xff\xba$Z?\xc4\x12\xf1\xb9\x8a\xcbvx\xc9\xebt\xdcfO\x19\xef\xee\x07\x1c\x02\xf0\xdf\xebn\x0eI\x9a\xe7\xfb\xdf\xa9\xe6\xa7_\x0c\x0fV\xcf\xb1\xe7JfM\x9ap\xad\x94\xd5\xf6o\xd6\x0c\xfb\xe1\xdf\xdbf\x0c\x19\xa8\xafg\xbc\xfb{z-I\xb3\xf7\xbfe\xb8\xf4Fk\xda\x9b\xb6\x8f\xde\xae\xfb\xc1\x93\xb0z\xe1\x8f\xc5SI\x83\x0e\xda\xb5y+V{s\x94\x82\xde\xd7\x0f\x1ei\xe9\xd3\x07fkw\x03h\xdb\xbfS\xbb\x05\xcf*Z\xd1\x1c|\xbd\xfa{\xc4Y\x8f\xa1\xfe\xa5-\x7fj\x17\xcdf\xb0\xa8\x83}\xa5\xfaPN-\r\xb3, \t\xb5\x00\xd5\xc1\x06\xe0\x80\xa6-\x1b\xfe\xd4\xaci\x9e\x06>\xd4\x90\xf4\x8c\xd5@\xbc\xc7<\xd4\x15r\x1e\x9f\xb51\xa55\xea\xaa\x8f_@\x85\x1d\tY\x1d\xc9\xa4\x9d\x98?\x9b\x8d4\xcf\xf3\xf6\xa5#\x80M\xbe \x00\x1fS\xb2\xb0\x9f\x83\xf9\xb8\xd3L\xff?jR8\x04\xdb\xe2\x00\x01R\x83\xa8\xf5\x17{\xad\xdcR-\x84\xa9$\xeb_*\x13\xf4\xa6\xe2\x91l%I\'[A\xe4/\xd2\x9b\x8aE\xb0\x95$\x9dm\xc6I~\xa1!\x0bZV\xc1Q\x0f!\xaa\x9b'
+hpack.hpack: 2025-02-24 09:51:20,629 - DEBUG - Decoded 8, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,630 - DEBUG - Decoded (b':status', b'200'), consumed 1
+hpack.hpack: 2025-02-24 09:51:20,631 - DEBUG - Decoded 31, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,632 - DEBUG - Decoded 22, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,634 - DEBUG - Decoded (b'content-type', b'application/json; charset=utf-8'), total consumed 24 bytes, indexed True
+hpack.hpack: 2025-02-24 09:51:20,635 - DEBUG - Decoded 24, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,636 - DEBUG - Decoded 33, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,637 - DEBUG - Decoded (b'cache-control', b'no-cache, no-store, max-age=0, must-revalidate'), total consumed 35 bytes, indexed True
+hpack.hpack: 2025-02-24 09:51:20,638 - DEBUG - Decoded 5, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,639 - DEBUG - Decoded 6, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,639 - DEBUG - Decoded (b'pragma', b'no-cache'), total consumed 14 bytes, indexed True
+hpack.hpack: 2025-02-24 09:51:20,639 - DEBUG - Decoded 36, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,639 - DEBUG - Decoded 22, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,639 - DEBUG - Decoded (b'expires', b'Mon, 01 Jan 1990 00:00:00 GMT'), total consumed 24 bytes, indexed True
+hpack.hpack: 2025-02-24 09:51:20,639 - DEBUG - Decoded 33, consumed 2 bytes
+hpack.hpack: 2025-02-24 09:51:20,639 - DEBUG - Decoded 22, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,646 - DEBUG - Decoded (b'date', b'Mon, 24 Feb 2025 04:21:20 GMT'), total consumed 25 bytes, indexed False
+hpack.hpack: 2025-02-24 09:51:20,647 - DEBUG - Decoded 25, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,648 - DEBUG - Decoded 50, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,649 - DEBUG - Decoded (b'content-disposition', b'attachment; filename="response.bin"; filename*=UTF-8\'\'response.bin'), total consumed 52 bytes, indexed True
+hpack.hpack: 2025-02-24 09:51:20,651 - DEBUG - Decoded 16, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,653 - DEBUG - Decoded 5, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,653 - DEBUG - Decoded (b'x-content-type-options', b'nosniff'), total consumed 24 bytes, indexed True
+hpack.hpack: 2025-02-24 09:51:20,655 - DEBUG - Decoded 3, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,655 - DEBUG - Decoded 47, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,657 - DEBUG - Decoded (<memory at 0x0000017A54D0B700>, b'CP="This is not a P3P policy! See g.co/p3phelp for more info."'), total consumed 53 bytes, indexed True
+hpack.hpack: 2025-02-24 09:51:20,659 - DEBUG - Decoded 6, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,661 - DEBUG - Decoded 146, consumed 2 bytes
+hpack.hpack: 2025-02-24 09:51:20,661 - DEBUG - Decoded (b'accept-ch', b'Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version'), total consumed 156 bytes, indexed True
+hpack.hpack: 2025-02-24 09:51:20,663 - DEBUG - Decoded 20, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,665 - DEBUG - Decoded 6, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,666 - DEBUG - Decoded (b'cross-origin-resource-policy', b'same-site'), total consumed 29 bytes, indexed True
+hpack.hpack: 2025-02-24 09:51:20,667 - DEBUG - Decoded 18, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,668 - DEBUG - Decoded 17, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,669 - DEBUG - Decoded (b'cross-origin-opener-policy', b'same-origin-allow-popups'), total consumed 38 bytes, indexed True
+hpack.hpack: 2025-02-24 09:51:20,671 - DEBUG - Decoded 16, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,672 - DEBUG - Decoded 58, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,673 - DEBUG - Decoded (b'content-security-policy', b"require-trusted-types-for 'script';report-uri /_/TranslateWebserverUi/cspreport"), total consumed 77 bytes, indexed True
+hpack.hpack: 2025-02-24 09:51:20,674 - DEBUG - Decoded 13, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,675 - DEBUG - Decoded 129, consumed 2 bytes
+hpack.hpack: 2025-02-24 09:51:20,677 - DEBUG - Decoded (b'permissions-policy', b'ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*'), total consumed 146 bytes, indexed True
+hpack.hpack: 2025-02-24 09:51:20,678 - DEBUG - Decoded 54, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,680 - DEBUG - Decoded 3, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,680 - DEBUG - Decoded (b'server', <memory at 0x0000017A54D09D80>), total consumed 5 bytes, indexed True
+hpack.hpack: 2025-02-24 09:51:20,681 - DEBUG - Decoded 12, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,683 - DEBUG - Decoded 1, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,684 - DEBUG - Decoded (b'x-xss-protection', <memory at 0x0000017A54D0BD00>), total consumed 16 bytes, indexed True
+hpack.hpack: 2025-02-24 09:51:20,685 - DEBUG - Decoded 11, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,687 - DEBUG - Decoded 9, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,689 - DEBUG - Decoded (b'x-frame-options', b'SAMEORIGIN'), total consumed 23 bytes, indexed True
+hpack.hpack: 2025-02-24 09:51:20,689 - DEBUG - Decoded 55, consumed 2 bytes
+hpack.hpack: 2025-02-24 09:51:20,691 - DEBUG - Decoded 215, consumed 2 bytes
+hpack.hpack: 2025-02-24 09:51:20,692 - DEBUG - Decoded (b'set-cookie', b'NID=521=CvZjsjlqLE9ZMd-bXscCiY2ruQwIySgVgtVhDS0VE2w5Z56adg4YZvkogmPUE8p3zaLttgtrNF-Jipq5yELTATqQEEKlpQzLRqyentrZvq-VjsKCO5ulZk7zEIq1kFbwngdEFRnOxe4rz6Wd2T4UwxmjjEq3p7E5sRTO7Q2YJt4MbbWzy8w_KoM9keep; expires=Tue, 26-Aug-2025 04:21:20 GMT; path=/; domain=.google.com; HttpOnly'), total consumed 219 bytes, indexed False
+hpack.hpack: 2025-02-24 09:51:20,694 - DEBUG - Decoded 5, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,695 - DEBUG - Decoded 36, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,696 - DEBUG - Decoded (b'alt-svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), total consumed 44 bytes, indexed True
+hpack.hpack: 2025-02-24 09:51:20,698 - DEBUG - Decoded 18, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,700 - DEBUG - Decoded 3, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,700 - DEBUG - Decoded (b'accept-ranges', b'none'), total consumed 5 bytes, indexed True
+hpack.hpack: 2025-02-24 09:51:20,703 - DEBUG - Decoded 59, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,703 - DEBUG - Decoded 45, consumed 1 bytes
+hpack.hpack: 2025-02-24 09:51:20,705 - DEBUG - Decoded (b'vary', b'Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,Accept-Encoding'), total consumed 47 bytes, indexed True
+httpx._client: 2025-02-24 09:51:20,709 - DEBUG - HTTP Request: POST https://translate.google.com/_/TranslateWebserverUi/data/batchexecute?rpcids=MkEWBc&bl=boq_translate-webserver_20201207.13_p0&soc-app=1&soc-platform=1&soc-device=1&rt=c "HTTP/2 200 OK"
+django.request: 2025-02-24 09:51:22,189 - WARNING - Not Found: /
+django.utils.autoreload: 2025-02-24 09:51:50,469 - INFO - E:\Django Training SK\Django\DjangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-24 09:51:52,454 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-24 09:52:29,678 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000018B794A72C0>.
+MARKDOWN: 2025-02-24 09:52:29,732 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-24 09:52:29,732 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-24 09:52:32,942 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000018B7964E600>.
+MARKDOWN: 2025-02-24 09:52:32,951 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-24 09:52:32,952 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+django.utils.autoreload: 2025-02-24 10:01:03,247 - INFO - E:\Django Training SK\Django\DjangoLearning\djangoLearning\settings.py changed, reloading.
+django.utils.autoreload: 2025-02-24 10:01:04,747 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-24 10:01:13,037 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x00000249126F8EC0>.
+MARKDOWN: 2025-02-24 10:01:13,131 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-24 10:01:13,131 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-24 10:01:18,405 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x00000249108D3F40>.
+MARKDOWN: 2025-02-24 10:01:18,405 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-24 10:01:18,405 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-24 10:01:19,619 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000024912D18180>.
+MARKDOWN: 2025-02-24 10:01:19,627 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-24 10:01:19,627 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-24 10:01:19,896 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000024912FA01C0>.
+MARKDOWN: 2025-02-24 10:01:19,901 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-24 10:01:19,901 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-24 10:01:20,127 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000024912D8B600>.
+MARKDOWN: 2025-02-24 10:01:20,135 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-24 10:01:20,137 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-24 10:01:20,333 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000024912D8ABC0>.
+MARKDOWN: 2025-02-24 10:01:20,336 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-24 10:01:20,337 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-24 10:01:20,541 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000024912D8BC80>.
+MARKDOWN: 2025-02-24 10:01:20,549 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-24 10:01:20,550 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-24 10:01:21,409 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000024912DD1840>.
+MARKDOWN: 2025-02-24 10:01:21,418 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-24 10:01:21,419 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-24 10:01:22,653 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000024912C20E40>.
+MARKDOWN: 2025-02-24 10:01:22,658 - DEBUG - Successfully imported extension module "markdown.extensions.toc".
+MARKDOWN: 2025-02-24 10:01:22,662 - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+django.utils.autoreload: 2025-02-24 10:02:32,014 - INFO - E:\Django Training SK\Django\DjangoLearning\djangoLearning\settings.py changed, reloading.
+django.utils.autoreload: 2025-02-24 10:02:34,070 - INFO - Watching for file changes with StatReloader

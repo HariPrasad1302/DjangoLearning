@@ -6,8 +6,8 @@ class UserData(models.Model):
     email = models.EmailField(max_length=254, unique=True)
     mobile_number = models.CharField(max_length=15, unique=True)
 
-    class Meta:
-        ordering = ['email']
+    # class Meta:
+    #     ordering = ['email']
 
 
 class UserWishlist(models.Model):
