@@ -16,3 +16,9 @@ class UserWishlist(models.Model):
     product_description = models.CharField(max_length=200)
     product_price = models.DecimalField(max_digits=10, decimal_places=2)
     
+    
+class ProductData(models.Model):
+    product_name = models.CharField(max_length=50)
+    product_price = models.DecimalField(max_digits=10, decimal_places=2)
+    image = models.ImageField(upload_to='products/')
+    

@@ -1,6 +1,6 @@
 from django import forms
 from django.core import validators
-from .models import UserData
+from .models import UserData, ProductData
 import phonenumbers
 from django_countries import countries
 import re
@@ -61,3 +61,9 @@ class modelUser_reg(forms.ModelForm):
             raise forms.ValidationError("Invalid country code.", e)
         
         return cleaned_data
+
+
+class ProductForm(forms.ModelForm):
+    class Meta:
+        model = ProductData
+        fields = ['product_name', 'product_price', 'image']

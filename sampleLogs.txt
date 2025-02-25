@@ -3232,3 +3232,499 @@ django.utils.autoreload: 2025-02-24 20:59:02,274 - INFO - Watching for file chan
 django.request: 2025-02-24 20:59:06,803 - WARNING - Not Found: /
 django.utils.autoreload: 2025-02-24 21:02:36,735 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\migrations\0001_initial.py changed, reloading.
 django.utils.autoreload: 2025-02-24 21:02:37,882 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-25 20:31:29,241 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-25 20:32:02,196 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-25 20:32:16,501 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\models.py changed, reloading.
+django.utils.autoreload: 2025-02-25 20:32:17,762 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-25 20:32:23,458 - WARNING - Not Found: /
+django.request: 2025-02-25 20:32:23,523 - WARNING - Not Found: /favicon.ico
+django.utils.autoreload: 2025-02-25 20:34:10,806 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-25 20:34:12,239 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-25 20:37:02,337 - ERROR - Internal Server Error: /api/add_Product
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+    ...<9 lines>...
+    )
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/add_Product/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+django.security.csrf: 2025-02-25 20:38:08,102 - WARNING - Forbidden (CSRF cookie not set.): /api/add_Product/
+django.utils.autoreload: 2025-02-25 20:41:36,365 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-25 20:41:37,578 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-25 20:41:52,092 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-25 20:41:53,455 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-25 20:42:06,891 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-25 20:42:08,102 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-25 20:42:17,234 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001EC5EFE68C0>.
+django.request: 2025-02-25 20:42:17,236 - WARNING - Bad Request: /api/add_Product/
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-25 20:42:25,965 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001EC5EF1EFC0>.
+django.request: 2025-02-25 20:42:25,966 - WARNING - Bad Request: /api/add_Product/
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-25 20:46:27,440 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001EC5EF06E80>.
+django.request: 2025-02-25 20:46:27,441 - WARNING - Bad Request: /api/add_Product/
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-25 20:50:27,072 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001EC5EF06780>.
+django.request: 2025-02-25 20:50:27,074 - WARNING - Bad Request: /api/add_Product/
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-25 20:53:52,256 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001EC5EEEB4C0>.
+PIL.Image: 2025-02-25 20:53:52,326 - DEBUG - Importing BlpImagePlugin
+PIL.Image: 2025-02-25 20:53:52,328 - DEBUG - Importing BmpImagePlugin
+PIL.Image: 2025-02-25 20:53:52,328 - DEBUG - Importing BufrStubImagePlugin
+PIL.Image: 2025-02-25 20:53:52,330 - DEBUG - Importing CurImagePlugin
+PIL.Image: 2025-02-25 20:53:52,332 - DEBUG - Importing DcxImagePlugin
+PIL.Image: 2025-02-25 20:53:52,335 - DEBUG - Importing DdsImagePlugin
+PIL.Image: 2025-02-25 20:53:52,340 - DEBUG - Importing EpsImagePlugin
+PIL.Image: 2025-02-25 20:53:52,342 - DEBUG - Importing FitsImagePlugin
+PIL.Image: 2025-02-25 20:53:52,344 - DEBUG - Importing FliImagePlugin
+PIL.Image: 2025-02-25 20:53:52,346 - DEBUG - Importing FpxImagePlugin
+PIL.Image: 2025-02-25 20:53:52,349 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+PIL.Image: 2025-02-25 20:53:52,349 - DEBUG - Importing FtexImagePlugin
+PIL.Image: 2025-02-25 20:53:52,351 - DEBUG - Importing GbrImagePlugin
+PIL.Image: 2025-02-25 20:53:52,353 - DEBUG - Importing GifImagePlugin
+PIL.Image: 2025-02-25 20:53:52,354 - DEBUG - Importing GribStubImagePlugin
+PIL.Image: 2025-02-25 20:53:52,355 - DEBUG - Importing Hdf5StubImagePlugin
+PIL.Image: 2025-02-25 20:53:52,357 - DEBUG - Importing IcnsImagePlugin
+PIL.Image: 2025-02-25 20:53:52,363 - DEBUG - Importing IcoImagePlugin
+PIL.Image: 2025-02-25 20:53:52,366 - DEBUG - Importing ImImagePlugin
+PIL.Image: 2025-02-25 20:53:52,368 - DEBUG - Importing ImtImagePlugin
+PIL.Image: 2025-02-25 20:53:52,370 - DEBUG - Importing IptcImagePlugin
+PIL.Image: 2025-02-25 20:53:52,373 - DEBUG - Importing JpegImagePlugin
+PIL.Image: 2025-02-25 20:53:52,373 - DEBUG - Importing Jpeg2KImagePlugin
+PIL.Image: 2025-02-25 20:53:52,373 - DEBUG - Importing McIdasImagePlugin
+PIL.Image: 2025-02-25 20:53:52,375 - DEBUG - Importing MicImagePlugin
+PIL.Image: 2025-02-25 20:53:52,378 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+PIL.Image: 2025-02-25 20:53:52,378 - DEBUG - Importing MpegImagePlugin
+PIL.Image: 2025-02-25 20:53:52,380 - DEBUG - Importing MpoImagePlugin
+PIL.Image: 2025-02-25 20:53:52,384 - DEBUG - Importing MspImagePlugin
+PIL.Image: 2025-02-25 20:53:52,386 - DEBUG - Importing PalmImagePlugin
+PIL.Image: 2025-02-25 20:53:52,389 - DEBUG - Importing PcdImagePlugin
+PIL.Image: 2025-02-25 20:53:52,390 - DEBUG - Importing PcxImagePlugin
+PIL.Image: 2025-02-25 20:53:52,390 - DEBUG - Importing PdfImagePlugin
+PIL.Image: 2025-02-25 20:53:52,399 - DEBUG - Importing PixarImagePlugin
+PIL.Image: 2025-02-25 20:53:52,401 - DEBUG - Importing PngImagePlugin
+PIL.Image: 2025-02-25 20:53:52,401 - DEBUG - Importing PpmImagePlugin
+PIL.Image: 2025-02-25 20:53:52,402 - DEBUG - Importing PsdImagePlugin
+PIL.Image: 2025-02-25 20:53:52,403 - DEBUG - Importing QoiImagePlugin
+PIL.Image: 2025-02-25 20:53:52,409 - DEBUG - Importing SgiImagePlugin
+PIL.Image: 2025-02-25 20:53:52,411 - DEBUG - Importing SpiderImagePlugin
+PIL.Image: 2025-02-25 20:53:52,413 - DEBUG - Importing SunImagePlugin
+PIL.Image: 2025-02-25 20:53:52,416 - DEBUG - Importing TgaImagePlugin
+PIL.Image: 2025-02-25 20:53:52,418 - DEBUG - Importing TiffImagePlugin
+PIL.Image: 2025-02-25 20:53:52,418 - DEBUG - Importing WebPImagePlugin
+PIL.Image: 2025-02-25 20:53:52,459 - DEBUG - Importing WmfImagePlugin
+PIL.Image: 2025-02-25 20:53:52,461 - DEBUG - Importing XbmImagePlugin
+PIL.Image: 2025-02-25 20:53:52,464 - DEBUG - Importing XpmImagePlugin
+PIL.Image: 2025-02-25 20:53:52,466 - DEBUG - Importing XVThumbImagePlugin
+django.request: 2025-02-25 20:53:52,700 - ERROR - Internal Server Error: /api/add_Product/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: apis_productdata
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py", line 362, in post
+    form.save()
+    ~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\forms\models.py", line 554, in save
+    self.instance.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\base.py", line 892, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\base.py", line 998, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\base.py", line 1161, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\base.py", line 1202, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: apis_productdata
+django.utils.autoreload: 2025-02-25 20:54:41,390 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-25 20:54:53,630 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000023B46B619C0>.
+PIL.Image: 2025-02-25 20:54:53,654 - DEBUG - Importing BlpImagePlugin
+PIL.Image: 2025-02-25 20:54:53,657 - DEBUG - Importing BmpImagePlugin
+PIL.Image: 2025-02-25 20:54:53,657 - DEBUG - Importing BufrStubImagePlugin
+PIL.Image: 2025-02-25 20:54:53,659 - DEBUG - Importing CurImagePlugin
+PIL.Image: 2025-02-25 20:54:53,661 - DEBUG - Importing DcxImagePlugin
+PIL.Image: 2025-02-25 20:54:53,663 - DEBUG - Importing DdsImagePlugin
+PIL.Image: 2025-02-25 20:54:53,669 - DEBUG - Importing EpsImagePlugin
+PIL.Image: 2025-02-25 20:54:53,671 - DEBUG - Importing FitsImagePlugin
+PIL.Image: 2025-02-25 20:54:53,673 - DEBUG - Importing FliImagePlugin
+PIL.Image: 2025-02-25 20:54:53,675 - DEBUG - Importing FpxImagePlugin
+PIL.Image: 2025-02-25 20:54:53,679 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+PIL.Image: 2025-02-25 20:54:53,680 - DEBUG - Importing FtexImagePlugin
+PIL.Image: 2025-02-25 20:54:53,682 - DEBUG - Importing GbrImagePlugin
+PIL.Image: 2025-02-25 20:54:53,684 - DEBUG - Importing GifImagePlugin
+PIL.Image: 2025-02-25 20:54:53,685 - DEBUG - Importing GribStubImagePlugin
+PIL.Image: 2025-02-25 20:54:53,687 - DEBUG - Importing Hdf5StubImagePlugin
+PIL.Image: 2025-02-25 20:54:53,690 - DEBUG - Importing IcnsImagePlugin
+PIL.Image: 2025-02-25 20:54:53,694 - DEBUG - Importing IcoImagePlugin
+PIL.Image: 2025-02-25 20:54:53,697 - DEBUG - Importing ImImagePlugin
+PIL.Image: 2025-02-25 20:54:53,700 - DEBUG - Importing ImtImagePlugin
+PIL.Image: 2025-02-25 20:54:53,702 - DEBUG - Importing IptcImagePlugin
+PIL.Image: 2025-02-25 20:54:53,704 - DEBUG - Importing JpegImagePlugin
+PIL.Image: 2025-02-25 20:54:53,705 - DEBUG - Importing Jpeg2KImagePlugin
+PIL.Image: 2025-02-25 20:54:53,705 - DEBUG - Importing McIdasImagePlugin
+PIL.Image: 2025-02-25 20:54:53,706 - DEBUG - Importing MicImagePlugin
+PIL.Image: 2025-02-25 20:54:53,709 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+PIL.Image: 2025-02-25 20:54:53,709 - DEBUG - Importing MpegImagePlugin
+PIL.Image: 2025-02-25 20:54:53,712 - DEBUG - Importing MpoImagePlugin
+PIL.Image: 2025-02-25 20:54:53,716 - DEBUG - Importing MspImagePlugin
+PIL.Image: 2025-02-25 20:54:53,718 - DEBUG - Importing PalmImagePlugin
+PIL.Image: 2025-02-25 20:54:53,720 - DEBUG - Importing PcdImagePlugin
+PIL.Image: 2025-02-25 20:54:53,721 - DEBUG - Importing PcxImagePlugin
+PIL.Image: 2025-02-25 20:54:53,722 - DEBUG - Importing PdfImagePlugin
+PIL.Image: 2025-02-25 20:54:53,730 - DEBUG - Importing PixarImagePlugin
+PIL.Image: 2025-02-25 20:54:53,732 - DEBUG - Importing PngImagePlugin
+PIL.Image: 2025-02-25 20:54:53,733 - DEBUG - Importing PpmImagePlugin
+PIL.Image: 2025-02-25 20:54:53,733 - DEBUG - Importing PsdImagePlugin
+PIL.Image: 2025-02-25 20:54:53,735 - DEBUG - Importing QoiImagePlugin
+PIL.Image: 2025-02-25 20:54:53,736 - DEBUG - Importing SgiImagePlugin
+PIL.Image: 2025-02-25 20:54:53,739 - DEBUG - Importing SpiderImagePlugin
+PIL.Image: 2025-02-25 20:54:53,741 - DEBUG - Importing SunImagePlugin
+PIL.Image: 2025-02-25 20:54:53,742 - DEBUG - Importing TgaImagePlugin
+PIL.Image: 2025-02-25 20:54:53,745 - DEBUG - Importing TiffImagePlugin
+PIL.Image: 2025-02-25 20:54:53,745 - DEBUG - Importing WebPImagePlugin
+PIL.Image: 2025-02-25 20:54:53,749 - DEBUG - Importing WmfImagePlugin
+PIL.Image: 2025-02-25 20:54:53,751 - DEBUG - Importing XbmImagePlugin
+PIL.Image: 2025-02-25 20:54:53,754 - DEBUG - Importing XpmImagePlugin
+PIL.Image: 2025-02-25 20:54:53,756 - DEBUG - Importing XVThumbImagePlugin
+django.request: 2025-02-25 20:55:29,059 - ERROR - Internal Server Error: /admin/products/productdatas/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\mysql\base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+    ~~~~~~~~~~^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+    ~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'django_db.product_data' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\contrib\admin\options.py", line 2001, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\contrib\admin\options.py", line 866, in get_changelist_instance
+    return ChangeList(
+        request,
+    ...<12 lines>...
+        self.search_help_text,
+    )
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\contrib\admin\views\main.py", line 146, in __init__
+    self.get_results(request)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\contrib\admin\views\main.py", line 313, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\paginator.py", line 110, in count
+    return c()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 620, in count
+    return self.query.get_count(using=self.db)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 630, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 616, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\backends\mysql\base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+    ~~~~~~~~~~^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+    ~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'django_db.product_data' doesn't exist")
+django.utils.autoreload: 2025-02-25 20:56:15,480 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\products\models.py changed, reloading.
+django.utils.autoreload: 2025-02-25 20:56:16,738 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-25 20:59:40,182 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-25 21:00:01,045 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\models.py changed, reloading.
+django.utils.autoreload: 2025-02-25 21:00:02,646 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-25 21:00:51,383 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\migrations\0004_productdata.py changed, reloading.
+django.utils.autoreload: 2025-02-25 21:00:52,649 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-25 21:01:48,075 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\migrations\0001_initial.py changed, reloading.
+django.utils.autoreload: 2025-02-25 21:01:49,321 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-25 21:02:36,691 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000029E5947CA80>.
+django.request: 2025-02-25 21:02:37,094 - WARNING - Not Found: /favicon.ico
+django.request: 2025-02-25 21:02:46,390 - WARNING - Not Found: /api/
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-25 21:02:51,799 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000029E5A07B280>.
+django.request: 2025-02-25 21:03:03,647 - WARNING - Not Found: /api/
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-25 21:03:13,413 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000029E59FC0D80>.
+django.request: 2025-02-25 21:03:13,484 - WARNING - Method Not Allowed: /api/add_Product/
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-25 21:03:22,288 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000029E59CBBD40>.
+PIL.Image: 2025-02-25 21:03:22,312 - DEBUG - Importing BlpImagePlugin
+PIL.Image: 2025-02-25 21:03:22,314 - DEBUG - Importing BmpImagePlugin
+PIL.Image: 2025-02-25 21:03:22,315 - DEBUG - Importing BufrStubImagePlugin
+PIL.Image: 2025-02-25 21:03:22,316 - DEBUG - Importing CurImagePlugin
+PIL.Image: 2025-02-25 21:03:22,318 - DEBUG - Importing DcxImagePlugin
+PIL.Image: 2025-02-25 21:03:22,321 - DEBUG - Importing DdsImagePlugin
+PIL.Image: 2025-02-25 21:03:22,325 - DEBUG - Importing EpsImagePlugin
+PIL.Image: 2025-02-25 21:03:22,328 - DEBUG - Importing FitsImagePlugin
+PIL.Image: 2025-02-25 21:03:22,330 - DEBUG - Importing FliImagePlugin
+PIL.Image: 2025-02-25 21:03:22,332 - DEBUG - Importing FpxImagePlugin
+PIL.Image: 2025-02-25 21:03:22,335 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+PIL.Image: 2025-02-25 21:03:22,336 - DEBUG - Importing FtexImagePlugin
+PIL.Image: 2025-02-25 21:03:22,337 - DEBUG - Importing GbrImagePlugin
+PIL.Image: 2025-02-25 21:03:22,339 - DEBUG - Importing GifImagePlugin
+PIL.Image: 2025-02-25 21:03:22,339 - DEBUG - Importing GribStubImagePlugin
+PIL.Image: 2025-02-25 21:03:22,342 - DEBUG - Importing Hdf5StubImagePlugin
+PIL.Image: 2025-02-25 21:03:22,343 - DEBUG - Importing IcnsImagePlugin
+PIL.Image: 2025-02-25 21:03:22,350 - DEBUG - Importing IcoImagePlugin
+PIL.Image: 2025-02-25 21:03:22,354 - DEBUG - Importing ImImagePlugin
+PIL.Image: 2025-02-25 21:03:22,356 - DEBUG - Importing ImtImagePlugin
+PIL.Image: 2025-02-25 21:03:22,358 - DEBUG - Importing IptcImagePlugin
+PIL.Image: 2025-02-25 21:03:22,360 - DEBUG - Importing JpegImagePlugin
+PIL.Image: 2025-02-25 21:03:22,361 - DEBUG - Importing Jpeg2KImagePlugin
+PIL.Image: 2025-02-25 21:03:22,361 - DEBUG - Importing McIdasImagePlugin
+PIL.Image: 2025-02-25 21:03:22,363 - DEBUG - Importing MicImagePlugin
+PIL.Image: 2025-02-25 21:03:22,365 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+PIL.Image: 2025-02-25 21:03:22,365 - DEBUG - Importing MpegImagePlugin
+PIL.Image: 2025-02-25 21:03:22,368 - DEBUG - Importing MpoImagePlugin
+PIL.Image: 2025-02-25 21:03:22,372 - DEBUG - Importing MspImagePlugin
+PIL.Image: 2025-02-25 21:03:22,374 - DEBUG - Importing PalmImagePlugin
+PIL.Image: 2025-02-25 21:03:22,377 - DEBUG - Importing PcdImagePlugin
+PIL.Image: 2025-02-25 21:03:22,378 - DEBUG - Importing PcxImagePlugin
+PIL.Image: 2025-02-25 21:03:22,379 - DEBUG - Importing PdfImagePlugin
+PIL.Image: 2025-02-25 21:03:22,388 - DEBUG - Importing PixarImagePlugin
+PIL.Image: 2025-02-25 21:03:22,390 - DEBUG - Importing PngImagePlugin
+PIL.Image: 2025-02-25 21:03:22,390 - DEBUG - Importing PpmImagePlugin
+PIL.Image: 2025-02-25 21:03:22,391 - DEBUG - Importing PsdImagePlugin
+PIL.Image: 2025-02-25 21:03:22,392 - DEBUG - Importing QoiImagePlugin
+PIL.Image: 2025-02-25 21:03:22,394 - DEBUG - Importing SgiImagePlugin
+PIL.Image: 2025-02-25 21:03:22,396 - DEBUG - Importing SpiderImagePlugin
+PIL.Image: 2025-02-25 21:03:22,398 - DEBUG - Importing SunImagePlugin
+PIL.Image: 2025-02-25 21:03:22,400 - DEBUG - Importing TgaImagePlugin
+PIL.Image: 2025-02-25 21:03:22,402 - DEBUG - Importing TiffImagePlugin
+PIL.Image: 2025-02-25 21:03:22,402 - DEBUG - Importing WebPImagePlugin
+PIL.Image: 2025-02-25 21:03:22,406 - DEBUG - Importing WmfImagePlugin
+PIL.Image: 2025-02-25 21:03:22,408 - DEBUG - Importing XbmImagePlugin
+PIL.Image: 2025-02-25 21:03:22,411 - DEBUG - Importing XpmImagePlugin
+PIL.Image: 2025-02-25 21:03:22,413 - DEBUG - Importing XVThumbImagePlugin
+django.utils.autoreload: 2025-02-25 21:05:41,078 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\admin.py changed, reloading.
+django.utils.autoreload: 2025-02-25 21:05:42,387 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-25 21:06:05,010 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\admin.py changed, reloading.
+django.utils.autoreload: 2025-02-25 21:06:06,147 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-25 21:06:43,593 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001D3959D8200>.
+PIL.Image: 2025-02-25 21:06:43,620 - DEBUG - Importing BlpImagePlugin
+PIL.Image: 2025-02-25 21:06:43,622 - DEBUG - Importing BmpImagePlugin
+PIL.Image: 2025-02-25 21:06:43,623 - DEBUG - Importing BufrStubImagePlugin
+PIL.Image: 2025-02-25 21:06:43,625 - DEBUG - Importing CurImagePlugin
+PIL.Image: 2025-02-25 21:06:43,626 - DEBUG - Importing DcxImagePlugin
+PIL.Image: 2025-02-25 21:06:43,628 - DEBUG - Importing DdsImagePlugin
+PIL.Image: 2025-02-25 21:06:43,633 - DEBUG - Importing EpsImagePlugin
+PIL.Image: 2025-02-25 21:06:43,635 - DEBUG - Importing FitsImagePlugin
+PIL.Image: 2025-02-25 21:06:43,637 - DEBUG - Importing FliImagePlugin
+PIL.Image: 2025-02-25 21:06:43,639 - DEBUG - Importing FpxImagePlugin
+PIL.Image: 2025-02-25 21:06:43,642 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+PIL.Image: 2025-02-25 21:06:43,642 - DEBUG - Importing FtexImagePlugin
+PIL.Image: 2025-02-25 21:06:43,644 - DEBUG - Importing GbrImagePlugin
+PIL.Image: 2025-02-25 21:06:43,646 - DEBUG - Importing GifImagePlugin
+PIL.Image: 2025-02-25 21:06:43,646 - DEBUG - Importing GribStubImagePlugin
+PIL.Image: 2025-02-25 21:06:43,649 - DEBUG - Importing Hdf5StubImagePlugin
+PIL.Image: 2025-02-25 21:06:43,650 - DEBUG - Importing IcnsImagePlugin
+PIL.Image: 2025-02-25 21:06:43,655 - DEBUG - Importing IcoImagePlugin
+PIL.Image: 2025-02-25 21:06:43,657 - DEBUG - Importing ImImagePlugin
+PIL.Image: 2025-02-25 21:06:43,659 - DEBUG - Importing ImtImagePlugin
+PIL.Image: 2025-02-25 21:06:43,661 - DEBUG - Importing IptcImagePlugin
+PIL.Image: 2025-02-25 21:06:43,663 - DEBUG - Importing JpegImagePlugin
+PIL.Image: 2025-02-25 21:06:43,663 - DEBUG - Importing Jpeg2KImagePlugin
+PIL.Image: 2025-02-25 21:06:43,663 - DEBUG - Importing McIdasImagePlugin
+PIL.Image: 2025-02-25 21:06:43,665 - DEBUG - Importing MicImagePlugin
+PIL.Image: 2025-02-25 21:06:43,668 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+PIL.Image: 2025-02-25 21:06:43,669 - DEBUG - Importing MpegImagePlugin
+PIL.Image: 2025-02-25 21:06:43,670 - DEBUG - Importing MpoImagePlugin
+PIL.Image: 2025-02-25 21:06:43,680 - DEBUG - Importing MspImagePlugin
+PIL.Image: 2025-02-25 21:06:43,683 - DEBUG - Importing PalmImagePlugin
+PIL.Image: 2025-02-25 21:06:43,685 - DEBUG - Importing PcdImagePlugin
+PIL.Image: 2025-02-25 21:06:43,687 - DEBUG - Importing PcxImagePlugin
+PIL.Image: 2025-02-25 21:06:43,687 - DEBUG - Importing PdfImagePlugin
+PIL.Image: 2025-02-25 21:06:43,694 - DEBUG - Importing PixarImagePlugin
+PIL.Image: 2025-02-25 21:06:43,700 - DEBUG - Importing PngImagePlugin
+PIL.Image: 2025-02-25 21:06:43,700 - DEBUG - Importing PpmImagePlugin
+PIL.Image: 2025-02-25 21:06:43,701 - DEBUG - Importing PsdImagePlugin
+PIL.Image: 2025-02-25 21:06:43,703 - DEBUG - Importing QoiImagePlugin
+PIL.Image: 2025-02-25 21:06:43,705 - DEBUG - Importing SgiImagePlugin
+PIL.Image: 2025-02-25 21:06:43,707 - DEBUG - Importing SpiderImagePlugin
+PIL.Image: 2025-02-25 21:06:43,710 - DEBUG - Importing SunImagePlugin
+PIL.Image: 2025-02-25 21:06:43,712 - DEBUG - Importing TgaImagePlugin
+PIL.Image: 2025-02-25 21:06:43,714 - DEBUG - Importing TiffImagePlugin
+PIL.Image: 2025-02-25 21:06:43,714 - DEBUG - Importing WebPImagePlugin
+PIL.Image: 2025-02-25 21:06:43,719 - DEBUG - Importing WmfImagePlugin
+PIL.Image: 2025-02-25 21:06:43,721 - DEBUG - Importing XbmImagePlugin
+PIL.Image: 2025-02-25 21:06:43,723 - DEBUG - Importing XpmImagePlugin
+PIL.Image: 2025-02-25 21:06:43,726 - DEBUG - Importing XVThumbImagePlugin
+django.utils.autoreload: 2025-02-25 21:08:57,437 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\serializers.py changed, reloading.
+django.utils.autoreload: 2025-02-25 21:08:58,935 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-25 21:10:10,629 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-25 21:10:12,142 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-25 21:11:09,296 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001F9BB8C7500>.
+django.utils.autoreload: 2025-02-25 21:11:35,647 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-25 21:11:37,104 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-25 21:12:00,400 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-25 21:12:01,386 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-25 21:12:12,842 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001B18CCD3300>.
+django.utils.autoreload: 2025-02-25 21:13:11,423 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-25 21:13:12,482 - INFO - Watching for file changes with StatReloader

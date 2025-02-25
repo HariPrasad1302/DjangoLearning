@@ -1,5 +1,10 @@
 from rest_framework import serializers
-from .models import UserData, UserWishlist
+from .models import UserData, UserWishlist, ProductData
+
+class ProductSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ProductData
+        fields = ['id', 'product_name', 'product_price', 'image']
 
 class UserDataSerializer(serializers.ModelSerializer):
     class Meta:

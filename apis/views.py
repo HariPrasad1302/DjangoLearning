@@ -2,8 +2,8 @@ from django.shortcuts import render, HttpResponse
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
-from .models import UserData, UserWishlist
-from .serializers import UserDataSerializer, UserWithWishlistSerializer, GenerateTokenSerializer, UserWishlistSerializer
+from .models import UserData, UserWishlist, ProductData
+from .serializers import UserDataSerializer, UserWithWishlistSerializer, GenerateTokenSerializer, UserWishlistSerializer, ProductSerializer
 from rest_framework_simplejwt.tokens import RefreshToken
 from drf_spectacular.utils import extend_schema
 from googletrans import Translator
@@ -17,7 +17,7 @@ from rest_framework.viewsets import ModelViewSet
 import pytz
 import logging
 import concurrent.futures
-from .forms import user_reg, modelUser_reg
+from .forms import user_reg, modelUser_reg, ProductForm
 from asgiref.sync import sync_to_async
 import time, asyncio
 from .pagination import CustomPagination
@@ -352,3 +352,25 @@ def inspect_userdata(request):
 
     except UserData.DoesNotExist:
         return HttpResponse("UserData with ID 1 does not exist.")
+    
+#File Upload
+
+class ProductView(APIView):
+    def post(self, request):
+        form = ProductForm(request.data, request.FILES)
+        if form.is_valid():
+            form.save()
+            return Response({"message": "Product added successfully"}, status=status.HTTP_201_CREATED)
+        return Response({"errors": form.errors}, status=status.HTTP_400_BAD_REQUEST)
+    
+    def get(self, request):
+        products = ProductData.objects.all()
+        serializer = ProductSerializer(products, many=True)
+        return Response({
+            "status": 200,
+            "message": "All products fetched successfully",
+            "count": products.count(),
+            "data": serializer.data
+        })
+        
+        
