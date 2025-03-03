@@ -3728,3 +3728,562 @@ django.utils.autoreload: 2025-02-25 21:12:01,386 - INFO - Watching for file chan
 oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-25 21:12:12,842 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001B18CCD3300>.
 django.utils.autoreload: 2025-02-25 21:13:11,423 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\urls.py changed, reloading.
 django.utils.autoreload: 2025-02-25 21:13:12,482 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-28 09:48:20,454 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-28 09:48:27,767 - WARNING - Not Found: /
+django.request: 2025-02-28 09:48:27,821 - WARNING - Not Found: /favicon.ico
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-28 09:48:41,824 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001F73E2E74C0>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-28 09:48:42,926 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001F73E5F7C00>.
+django.request: 2025-02-28 09:48:42,932 - WARNING - Not Found: /api/add_Product/
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-28 09:48:44,123 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001F73E5F8A40>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-28 09:48:44,125 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001F73E4A9B00>.
+django.request: 2025-02-28 09:48:44,130 - WARNING - Not Found: /api/add_Product/
+django.utils.autoreload: 2025-02-28 09:49:21,975 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\djangoLearning\settings.py changed, reloading.
+django.utils.autoreload: 2025-02-28 09:49:23,230 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-28 09:50:16,599 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000015E1F868940>.
+PIL.Image: 2025-02-28 09:50:16,633 - DEBUG - Importing BlpImagePlugin
+PIL.Image: 2025-02-28 09:50:16,637 - DEBUG - Importing BmpImagePlugin
+PIL.Image: 2025-02-28 09:50:16,637 - DEBUG - Importing BufrStubImagePlugin
+PIL.Image: 2025-02-28 09:50:16,639 - DEBUG - Importing CurImagePlugin
+PIL.Image: 2025-02-28 09:50:16,640 - DEBUG - Importing DcxImagePlugin
+PIL.Image: 2025-02-28 09:50:16,644 - DEBUG - Importing DdsImagePlugin
+PIL.Image: 2025-02-28 09:50:16,649 - DEBUG - Importing EpsImagePlugin
+PIL.Image: 2025-02-28 09:50:16,652 - DEBUG - Importing FitsImagePlugin
+PIL.Image: 2025-02-28 09:50:16,654 - DEBUG - Importing FliImagePlugin
+PIL.Image: 2025-02-28 09:50:16,656 - DEBUG - Importing FpxImagePlugin
+PIL.Image: 2025-02-28 09:50:16,658 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+PIL.Image: 2025-02-28 09:50:16,658 - DEBUG - Importing FtexImagePlugin
+PIL.Image: 2025-02-28 09:50:16,660 - DEBUG - Importing GbrImagePlugin
+PIL.Image: 2025-02-28 09:50:16,662 - DEBUG - Importing GifImagePlugin
+PIL.Image: 2025-02-28 09:50:16,662 - DEBUG - Importing GribStubImagePlugin
+PIL.Image: 2025-02-28 09:50:16,664 - DEBUG - Importing Hdf5StubImagePlugin
+PIL.Image: 2025-02-28 09:50:16,666 - DEBUG - Importing IcnsImagePlugin
+PIL.Image: 2025-02-28 09:50:16,670 - DEBUG - Importing IcoImagePlugin
+PIL.Image: 2025-02-28 09:50:16,674 - DEBUG - Importing ImImagePlugin
+PIL.Image: 2025-02-28 09:50:16,676 - DEBUG - Importing ImtImagePlugin
+PIL.Image: 2025-02-28 09:50:16,677 - DEBUG - Importing IptcImagePlugin
+PIL.Image: 2025-02-28 09:50:16,680 - DEBUG - Importing JpegImagePlugin
+PIL.Image: 2025-02-28 09:50:16,680 - DEBUG - Importing Jpeg2KImagePlugin
+PIL.Image: 2025-02-28 09:50:16,680 - DEBUG - Importing McIdasImagePlugin
+PIL.Image: 2025-02-28 09:50:16,682 - DEBUG - Importing MicImagePlugin
+PIL.Image: 2025-02-28 09:50:16,684 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+PIL.Image: 2025-02-28 09:50:16,684 - DEBUG - Importing MpegImagePlugin
+PIL.Image: 2025-02-28 09:50:16,686 - DEBUG - Importing MpoImagePlugin
+PIL.Image: 2025-02-28 09:50:16,690 - DEBUG - Importing MspImagePlugin
+PIL.Image: 2025-02-28 09:50:16,693 - DEBUG - Importing PalmImagePlugin
+PIL.Image: 2025-02-28 09:50:16,696 - DEBUG - Importing PcdImagePlugin
+PIL.Image: 2025-02-28 09:50:16,697 - DEBUG - Importing PcxImagePlugin
+PIL.Image: 2025-02-28 09:50:16,697 - DEBUG - Importing PdfImagePlugin
+PIL.Image: 2025-02-28 09:50:16,705 - DEBUG - Importing PixarImagePlugin
+PIL.Image: 2025-02-28 09:50:16,707 - DEBUG - Importing PngImagePlugin
+PIL.Image: 2025-02-28 09:50:16,708 - DEBUG - Importing PpmImagePlugin
+PIL.Image: 2025-02-28 09:50:16,708 - DEBUG - Importing PsdImagePlugin
+PIL.Image: 2025-02-28 09:50:16,710 - DEBUG - Importing QoiImagePlugin
+PIL.Image: 2025-02-28 09:50:16,711 - DEBUG - Importing SgiImagePlugin
+PIL.Image: 2025-02-28 09:50:16,713 - DEBUG - Importing SpiderImagePlugin
+PIL.Image: 2025-02-28 09:50:16,716 - DEBUG - Importing SunImagePlugin
+PIL.Image: 2025-02-28 09:50:16,717 - DEBUG - Importing TgaImagePlugin
+PIL.Image: 2025-02-28 09:50:16,719 - DEBUG - Importing TiffImagePlugin
+PIL.Image: 2025-02-28 09:50:16,720 - DEBUG - Importing WebPImagePlugin
+PIL.Image: 2025-02-28 09:50:16,725 - DEBUG - Importing WmfImagePlugin
+PIL.Image: 2025-02-28 09:50:16,728 - DEBUG - Importing XbmImagePlugin
+PIL.Image: 2025-02-28 09:50:16,730 - DEBUG - Importing XpmImagePlugin
+PIL.Image: 2025-02-28 09:50:16,732 - DEBUG - Importing XVThumbImagePlugin
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-28 09:50:51,516 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000015E1F8BA600>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-28 09:53:42,661 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000015E1FADAEC0>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-02-28 09:53:52,118 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000015E1FD80440>.
+django.utils.autoreload: 2025-02-28 10:19:11,316 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\djangoLearning\settings.py changed, reloading.
+django.utils.autoreload: 2025-02-28 10:19:13,037 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-28 10:21:07,153 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-28 10:21:08,228 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-28 10:21:20,979 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-28 10:21:22,285 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-28 10:21:48,093 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-02-28 10:21:49,381 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-28 10:21:59,630 - WARNING - Not Found: /api
+django.request: 2025-02-28 10:22:04,466 - WARNING - Not Found: /api/
+django.request: 2025-02-28 10:22:09,913 - ERROR - Internal Server Error: /api/index/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: static_files() missing 1 required positional argument: 'request'
+django.utils.autoreload: 2025-02-28 10:23:10,785 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-28 10:23:12,009 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-28 10:23:13,587 - ERROR - Internal Server Error: /api/index/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: static_files() missing 1 required positional argument: 'request'
+django.utils.autoreload: 2025-02-28 10:23:17,101 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-28 10:23:18,285 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-02-28 10:23:22,312 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-28 10:23:23,456 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-28 10:23:24,824 - ERROR - Internal Server Error: /api/index/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py", line 378, in static_files
+    return render('index.html')
+TypeError: render() missing 1 required positional argument: 'template_name'
+django.utils.autoreload: 2025-02-28 10:23:30,592 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-28 10:23:31,766 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-28 10:23:33,650 - ERROR - Internal Server Error: /api/index/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: static_files() missing 1 required positional argument: 'request'
+django.request: 2025-02-28 10:23:57,381 - ERROR - Internal Server Error: /api/index/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: static_files() missing 1 required positional argument: 'request'
+django.request: 2025-02-28 10:23:58,284 - ERROR - Internal Server Error: /api/index/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: static_files() missing 1 required positional argument: 'request'
+django.request: 2025-02-28 10:23:58,522 - ERROR - Internal Server Error: /api/index/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: static_files() missing 1 required positional argument: 'request'
+django.request: 2025-02-28 10:23:58,729 - ERROR - Internal Server Error: /api/index/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: static_files() missing 1 required positional argument: 'request'
+django.request: 2025-02-28 10:23:58,983 - ERROR - Internal Server Error: /api/index/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: static_files() missing 1 required positional argument: 'request'
+django.request: 2025-02-28 10:23:59,216 - ERROR - Internal Server Error: /api/index/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: static_files() missing 1 required positional argument: 'request'
+django.request: 2025-02-28 10:23:59,439 - ERROR - Internal Server Error: /api/index/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: static_files() missing 1 required positional argument: 'request'
+django.request: 2025-02-28 10:23:59,666 - ERROR - Internal Server Error: /api/index/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: static_files() missing 1 required positional argument: 'request'
+django.request: 2025-02-28 10:24:03,377 - ERROR - Internal Server Error: /api/index/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: static_files() missing 1 required positional argument: 'request'
+django.utils.autoreload: 2025-02-28 10:25:41,559 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-02-28 10:25:42,890 - INFO - Watching for file changes with StatReloader
+django.request: 2025-02-28 17:23:21,359 - WARNING - Not Found: /favicon.ico
+django.request: 2025-02-28 17:23:21,819 - WARNING - Not Found: /favicon.ico
+django.utils.autoreload: 2025-03-02 21:39:16,694 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-03-02 21:40:52,604 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-03-02 21:40:53,566 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-03-02 21:41:31,163 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-03-02 21:41:32,343 - INFO - Watching for file changes with StatReloader
+django.security.csrf: 2025-03-02 21:42:15,721 - WARNING - Forbidden (CSRF cookie not set.): /api/login/
+django.utils.autoreload: 2025-03-02 21:44:10,994 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-03-02 21:44:12,318 - INFO - Watching for file changes with StatReloader
+django.request: 2025-03-02 21:44:18,541 - ERROR - Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'username'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py", line 383, in login
+    user = UserData.objects.get(username=request.POST["username"])
+                                         ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'username'
+django.utils.autoreload: 2025-03-02 21:44:32,880 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-03-02 21:44:34,108 - INFO - Watching for file changes with StatReloader
+django.request: 2025-03-02 21:44:39,965 - ERROR - Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py", line 383, in login
+    user = UserData.objects.get(username=request.POST["name"])
+                                         ~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'name'
+django.utils.autoreload: 2025-03-02 21:45:12,044 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-03-02 21:45:13,311 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-03-02 21:45:16,115 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-03-02 21:45:17,225 - INFO - Watching for file changes with StatReloader
+django.request: 2025-03-02 21:45:19,438 - ERROR - Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py", line 383, in login
+    user = UserData.objects.get(name=request.POST["name"])
+                                     ~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'name'
+django.request: 2025-03-02 21:45:20,627 - ERROR - Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py", line 383, in login
+    user = UserData.objects.get(name=request.POST["name"])
+                                     ~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'name'
+django.utils.autoreload: 2025-03-02 21:45:37,321 - INFO - Watching for file changes with StatReloader
+django.request: 2025-03-02 21:46:11,630 - ERROR - Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py", line 383, in login
+    user = UserData.objects.get(name=request.POST["name"])
+                                     ~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'name'
+django.utils.autoreload: 2025-03-02 21:47:32,496 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-03-02 21:47:33,616 - INFO - Watching for file changes with StatReloader
+django.request: 2025-03-02 21:47:37,058 - ERROR - Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py", line 383, in login
+    user = UserData.objects.get(name=request.POST.get["name"])
+                                     ~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: 'method' object is not subscriptable
+django.request: 2025-03-02 21:47:38,723 - ERROR - Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py", line 383, in login
+    user = UserData.objects.get(name=request.POST.get["name"])
+                                     ~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: 'method' object is not subscriptable
+django.request: 2025-03-02 21:47:39,769 - ERROR - Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py", line 383, in login
+    user = UserData.objects.get(name=request.POST.get["name"])
+                                     ~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: 'method' object is not subscriptable
+django.utils.autoreload: 2025-03-02 21:49:13,658 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-03-02 21:49:14,815 - INFO - Watching for file changes with StatReloader
+django.request: 2025-03-02 21:49:19,583 - ERROR - Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py", line 383, in login
+    user = UserData.objects.get(name=request.data)
+                                     ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+django.utils.autoreload: 2025-03-02 21:51:03,225 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-03-02 21:51:04,623 - INFO - Watching for file changes with StatReloader
+django.request: 2025-03-02 21:51:29,647 - ERROR - Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py", line 387, in login
+    user = UserData.objects.get(name=name)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+apis.models.UserData.DoesNotExist: UserData matching query does not exist.
+django.request: 2025-03-02 21:51:46,664 - ERROR - Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py", line 387, in login
+    user = UserData.objects.get(name=name)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+apis.models.UserData.DoesNotExist: UserData matching query does not exist.
+django.request: 2025-03-02 21:51:59,084 - WARNING - Not Found: /favicon.ico
+django.utils.autoreload: 2025-03-02 21:54:51,090 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-03-02 21:54:52,422 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-03-02 21:55:03,133 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-03-02 21:55:04,220 - INFO - Watching for file changes with StatReloader
+django.request: 2025-03-02 21:55:12,586 - ERROR - Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py", line 384, in login
+    name = request.data
+           ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+django.request: 2025-03-02 21:55:24,017 - ERROR - Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py", line 384, in login
+    name = request.data
+           ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+django.utils.autoreload: 2025-03-02 21:55:49,088 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-03-02 21:55:50,370 - INFO - Watching for file changes with StatReloader
+django.request: 2025-03-02 21:55:52,062 - ERROR - Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py", line 384, in login
+    name = request.data
+           ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+django.utils.autoreload: 2025-03-02 21:58:19,102 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-03-02 21:58:20,465 - INFO - Watching for file changes with StatReloader
+django.request: 2025-03-02 21:58:36,973 - ERROR - Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py", line 384, in login
+    serializer = GenerateTokenSerializer(data=request.data)
+                                              ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+django.request: 2025-03-02 21:58:43,273 - ERROR - Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py", line 384, in login
+    serializer = GenerateTokenSerializer(data=request.data)
+                                              ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+django.request: 2025-03-02 21:58:53,798 - ERROR - Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py", line 384, in login
+    serializer = GenerateTokenSerializer(data=request.data)
+                                              ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+django.request: 2025-03-02 21:59:01,662 - ERROR - Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py", line 384, in login
+    serializer = GenerateTokenSerializer(data=request.data)
+                                              ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+django.utils.autoreload: 2025-03-02 21:59:31,697 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-03-02 21:59:32,774 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-03-02 22:02:08,154 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-03-02 22:02:09,187 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-03-02 22:02:49,547 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-03-02 22:02:50,668 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-03-02 22:03:00,035 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-03-02 22:03:01,222 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-03-02 22:03:04,457 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000027B7AB3A100>.
+django.utils.autoreload: 2025-03-02 22:04:01,652 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-03-02 22:04:02,871 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-03-02 22:04:06,172 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001BAF51ADD80>.
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-03-02 22:04:09,253 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001BAF50AA9C0>.
+django.utils.autoreload: 2025-03-02 22:05:00,087 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-03-02 22:05:01,577 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-03-02 22:05:30,381 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-03-02 22:05:31,593 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-03-02 22:06:23,669 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\urls.py changed, reloading.
+django.utils.autoreload: 2025-03-02 22:06:24,952 - INFO - Watching for file changes with StatReloader
+django.security.csrf: 2025-03-02 22:06:27,715 - WARNING - Forbidden (CSRF cookie not set.): /api/logout/
+django.utils.autoreload: 2025-03-02 22:06:44,278 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-03-02 22:06:45,493 - INFO - Watching for file changes with StatReloader
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-03-02 22:07:56,814 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000026B1DB21D00>.
+django.request: 2025-03-02 22:08:18,693 - WARNING - Bad Request: /api/login/
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-03-02 22:08:27,801 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x0000026B1E1B6940>.
+django.utils.autoreload: 2025-03-02 22:09:02,257 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-03-02 22:09:03,499 - INFO - Watching for file changes with StatReloader
+django.utils.autoreload: 2025-03-02 22:09:28,321 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-03-02 22:09:29,570 - INFO - Watching for file changes with StatReloader
+django.request: 2025-03-02 22:09:31,631 - ERROR - Internal Server Error: /api/logout/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py", line 401, in logout
+    print("sadjagskjdbas",request.session["user_name"])
+                          ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+           ~~~~~~~~~~~~~^^^^^
+KeyError: 'user_name'
+django.request: 2025-03-02 22:09:41,282 - ERROR - Internal Server Error: /api/logout/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py", line 401, in logout
+    print("sadjagskjdbas",request.session["user_name"])
+                          ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+           ~~~~~~~~~~~~~^^^^^
+KeyError: 'user_name'
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-03-02 22:09:54,306 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001D9D2CE2E40>.
+django.request: 2025-03-02 22:10:06,060 - ERROR - Internal Server Error: /api/logout/
+Traceback (most recent call last):
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py", line 401, in logout
+    print("sadjagskjdbas",request.session["user_name"])
+                          ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hario\AppData\Roaming\Python\Python313\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+           ~~~~~~~~~~~~~^^^^^
+KeyError: 'user_name'
+oauthlib.oauth2.rfc6749.endpoints.resource: 2025-03-02 22:10:31,232 - DEBUG - Dispatching token_type Bearer request to <oauthlib.oauth2.rfc6749.tokens.BearerToken object at 0x000001D9D319AF80>.
+django.utils.autoreload: 2025-03-02 22:11:25,019 - INFO - H:\Learnings\Securekloud Learnings\Django\djangoLearning\apis\views.py changed, reloading.
+django.utils.autoreload: 2025-03-02 22:11:26,230 - INFO - Watching for file changes with StatReloader

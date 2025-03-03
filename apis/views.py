@@ -21,6 +21,7 @@ from .forms import user_reg, modelUser_reg, ProductForm
 from asgiref.sync import sync_to_async
 import time, asyncio
 from .pagination import CustomPagination
+from django.views.decorators.csrf import csrf_exempt
 
 # Create your views here.
 class userDetail(APIView):
@@ -374,3 +375,29 @@ class ProductView(APIView):
         })
         
         
+def static_files(request):
+    return render(request, 'index.html')
+
+
+
+class login(APIView):
+    def post(self, request):
+        email = request.data.get('email')
+        if email:
+            try:
+                user = UserData.objects.get(email=email)
+                request.session["user_name"] = user.name
+                return Response({"message": "You're logged in."}, status=status.HTTP_200_OK)
+            except UserData.DoesNotExist:
+                return Response({"message": "User not found."}, status=status.HTTP_404_NOT_FOUND)
+        else:
+            return Response({"message": "Please enter your name."}, status=status.HTTP_400_BAD_REQUEST)
+
+@csrf_exempt
+def logout(request):
+    print("sadjagskjdbas",request.session["user_name"])
+    try:
+        del request.session["user_name"]
+    except KeyError:
+        pass
+    return HttpResponse("You're logged out.")

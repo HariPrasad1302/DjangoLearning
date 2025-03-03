@@ -1,5 +1,5 @@
 from django.urls import path, include
-from .views import userDetail, UserDetailAPI, generateUserToken, UserWishlistApi, prefetch_wishlistData, select_related_wishlistData, translation, logging_example, form_validation, modelForm_val, sync_func, async_func, UserDataViewSet, UserWithWishlistViewSet, inspect_userdata, ProductView
+from .views import userDetail, UserDetailAPI, generateUserToken, UserWishlistApi, prefetch_wishlistData, select_related_wishlistData, translation, logging_example, form_validation, modelForm_val, sync_func, async_func, UserDataViewSet, UserWithWishlistViewSet, inspect_userdata, ProductView, static_files, login, logout
 from django.conf.urls.i18n import set_language
 from rest_framework.routers import DefaultRouter
 
@@ -8,6 +8,9 @@ router.register('users', UserDataViewSet, basename='user')
 router.register('users-with-wishlist', UserWithWishlistViewSet, basename='users-with-wishlist')
 
 urlpatterns = [
+    path('index/', static_files, name='static_files'),
+    path('login/', login.as_view(), name='login'),
+    path('logout/', logout, name='logout'),
     path('user-details/', userDetail.as_view(), name='user-details'),
     path('userData/', UserDetailAPI.as_view(), name='userData'),
     path('validateUser/', generateUserToken.as_view(), name='validateUser'),
